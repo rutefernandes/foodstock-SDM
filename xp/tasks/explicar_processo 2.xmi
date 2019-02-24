@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VH91BzPl5YCHRfHldVmCkw" name="explain_process,{1FA31F30-1F90-4BD3-9F0D-57DF66FC6727}" guid="-VH91BzPl5YCHRfHldVmCkw" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VH91BzPl5YCHRfHldVmCkw" name="explain_process,{1FA31F30-1F90-4BD3-9F0D-57DF66FC6727}" guid="-VH91BzPl5YCHRfHldVmCkw" changeDate="2019-02-24T18:34:06.543-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Essa tarefa tem o objetivo de que todos os integrantes do projeto tenham uma visão única do que será o sistema,&#xD;
+    evitando que nenhum membro fique confuso sobre as funcionalidades e sobre o que é o sistema.&#xD;
+&lt;/p></mainDescription>
   <sections xmi:id="_ogtDwTfgEemUQtxHzDLDiA" name="Geral" guid="_ogtDwTfgEemUQtxHzDLDiA">
     <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
 &lt;p>Assim que uma equipe começa a usar as &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Práticas XP&lt;/a>, o treinador deverá prepará-la para usar as práticas de forma eficaz.&lt;/p>&#xD;

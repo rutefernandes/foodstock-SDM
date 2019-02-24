@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-DD4kfvrxk4wkMtFCIlDwpw" name=",_se6n8DfvEemUQtxHzDLDiA" guid="-DD4kfvrxk4wkMtFCIlDwpw" changeDate="2019-02-24T01:51:17.607-0300">
+  <mainDescription>Esta tarefa tem como objetivo de proporcionar segurança e confiabilidade ao sistema, realizando testes em todo o sistema,&#xD;
+para que o produto final não apresente falhas.</mainDescription>
   <purpose>&lt;p>&#xD;
     Garantir que o software funciona corretamente com os novos elementos do sistema&#xD;
 &lt;/p></purpose>

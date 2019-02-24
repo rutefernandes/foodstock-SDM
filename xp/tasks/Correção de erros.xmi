@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-AbyRYJaoa8JtLOFKATffQQ" name=",_y91ooDfuEemUQtxHzDLDiA" guid="-AbyRYJaoa8JtLOFKATffQQ" changeDate="2019-02-24T01:47:34.538-0300">
+  <mainDescription>Esta tarefa tem&amp;nbsp;a função de corrigir erros existentes os quais podem, por exempo,&amp;nbsp;indicar&amp;nbsp;que o projeto&#xD;
+não&amp;nbsp;está se enquadrando como um sistema corporativo, ou que algum caso de uso novo continue apresentando&#xD;
+falhas.&amp;nbsp;Tais exemplos são provenientes da Fase de Elaboração e da&amp;nbsp;Fase de Planejamento.</mainDescription>
   <purpose>&lt;p>&#xD;
-    Corrigir possíveis erros após os resultados dos testes de unidade da 2ª e 3ª a fim de garantir conbiabilidade ao&#xD;
+    Corrigir possíveis erros após os resultados dos testes de unidade da 2ª e 3ª a fim de garantir confiabilidade ao&#xD;
     sistema.&#xD;
 &lt;/p></purpose>
 </org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Jw4xAQOMhHgpzxfZPzRMgQ" name="implementar_requisitos_planejados,_qUiQgDfuEemUQtxHzDLDiA" guid="-Jw4xAQOMhHgpzxfZPzRMgQ" changeDate="2019-02-24T13:26:01.181-0300">
+  <mainDescription>Esta tarefa visa a Implementação dos&amp;nbsp;recursos que&amp;nbsp;faltam para o sistema, planejados na Fase de Planejamento e na&#xD;
+Fase de Elaboração.</mainDescription>
+  <purpose>Colocar em prática os requisitos planejados anteriormente, implementando-os no sistema.</purpose>
+</org.eclipse.epf.uma:TaskDescription>
