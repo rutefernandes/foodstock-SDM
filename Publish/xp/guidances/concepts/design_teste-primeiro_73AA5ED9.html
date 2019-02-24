@@ -57,9 +57,6 @@
 <li>
 <a href="./../../../xp/roles/programador_xp_D005E927.html" guid="{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}">Programador XP</a>
 </li>
-<li>
-<a href="./../../../xp/workproducts/teste_de_unidade_xp_5497C933.html" guid="{D156652E-7C52-4EBD-8F23-F38169877A57}">Teste de Unidade XP</a>
-</li>
 </ul>
 </td>
 </tr>
@@ -118,7 +115,7 @@
     <img height="253" alt="" src="./../../../xp/guidances/concepts/resources/tstfrsdsg-img3.gif" width="567" />
 </p>
 <p class="picturetext">Fig3: Gráfico de estados HVAC</p>
-<p>Um conjunto de testes poderia percorrer todos os arcos no gráfico de estados. Um teste poderia iniciar com um sistema inativo, injetar um evento Muito Quente(Too Hot), fazer o sistema falhar durante o estado de Resfriamento/Execução(Cooling/Running), resolver a falha, injetar outro evento Muito Quente(Too Hot) e então colocar o sistema de volta no estado inativo. Visto que isto não exercita todos os arcos, mais testes são necessários. Esses tipos de testes procuram por vários tipos de problemas de implementação. Por exemplo, ao percorrer cada arco, eles verificam se a implementação deixou algum de fora. Usando seqüências de eventos que têm caminhos de erro seguidos por caminhos que devem concluir com sucesso, eles verificam se o código de tratamento de erro deixou de limpar resultados parciais que possam afetar a computação posterior. (para obter mais informações sobre testes de gráficos de estados, veja <a class="elementLinkWithUserText" href="./../../../xp/guidances/guidelines/ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo_AD59D4ED.html" guid="1.0347051690476123E-305">Diretriz: Ideias de Teste para Gráficos de Estados e Diagramas de Atividade</a>).</p>
+<p>Um conjunto de testes poderia percorrer todos os arcos no gráfico de estados. Um teste poderia iniciar com um sistema inativo, injetar um evento Muito Quente(Too Hot), fazer o sistema falhar durante o estado de Resfriamento/Execução(Cooling/Running), resolver a falha, injetar outro evento Muito Quente(Too Hot) e então colocar o sistema de volta no estado inativo. Visto que isto não exercita todos os arcos, mais testes são necessários. Esses tipos de testes procuram por vários tipos de problemas de implementação. Por exemplo, ao percorrer cada arco, eles verificam se a implementação deixou algum de fora. Usando seqüências de eventos que têm caminhos de erro seguidos por caminhos que devem concluir com sucesso, eles verificam se o código de tratamento de erro deixou de limpar resultados parciais que possam afetar a computação posterior. (para obter mais informações sobre testes de gráficos de estados, veja Diretriz: Ideias de Teste para Gráficos de Estados e Diagramas de Atividade).</p>
 <p>O último exemplo usa parte de um modelo de design. Existe uma associação entre um credor e uma fatura, onde um determinado credor pode ter mais de uma fatura pendente.</p>
 <p align="center">
     <img height="45" alt="" src="./../../../xp/guidances/concepts/resources/tstfrsdsg-img4.gif" width="186" />
