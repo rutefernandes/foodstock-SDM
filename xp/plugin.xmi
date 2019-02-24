@@ -116,8 +116,11 @@
     <resourceDescriptors xmi:id="_aetK0DfvEemUQtxHzDLDiA" id="-AbyRYJaoa8JtLOFKATffQQ" uri="tasks/Correção%20de%20erros.xmi"/>
     <resourceDescriptors xmi:id="_-rLkEDfvEemUQtxHzDLDiA" id="-DD4kfvrxk4wkMtFCIlDwpw" uri="tasks/realizar_testes_de_sistema.xmi"/>
     <resourceDescriptors xmi:id="_ES1wIDfwEemUQtxHzDLDiA" id="-S3toOTSu7ML8gtcqnAeZAQ" uri="tasks/Teste%20de%20aceitação.xmi"/>
+    <resourceDescriptors xmi:id="_Utf4MDhSEem99Ok3IXHQYg" id="-Jw4xAQOMhHgpzxfZPzRMgQ" uri="tasks/implementar_requisitos_planejados.xmi"/>
+    <resourceDescriptors xmi:id="_UuCqwDhSEem99Ok3IXHQYg" id="-OrUIWkTX9Fr9GHsm2xuA1Q" uri="tasks/realizar_testes_de_aceitao_das_novas_funcionalidades_.xmi"/>
+    <resourceDescriptors xmi:id="_fYdpcDh7EemflZUgfzwjrA" id="-VJQSWJYanUMBhHeINO6vXw" uri="tasks/realizar_testes_de_integrao_das_novas_funcionalidades.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" name="xp" guid="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" changeDate="2006-11-08T19:45:47.271-0300" copyrightStatement="_XI5PQHEPEdug-a-RuUM3Hg">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" name="xp" guid="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" changeDate="2006-11-08T20:45:47.271-0200" copyrightStatement="_XI5PQHEPEdug-a-RuUM3Hg">
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QGE-EdqnIZeW8YpHcA" name="Content" guid="_mhU6QGE-EdqnIZeW8YpHcA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QWE-EdqnIZeW8YpHcA" name="Categories" guid="_mhU6QWE-EdqnIZeW8YpHcA">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QmE-EdqnIZeW8YpHcA" name="Domains" guid="_mhU6QmE-EdqnIZeW8YpHcA"/>
@@ -476,9 +479,11 @@
             <presentation xmi:id="-Qr2yB18LysKdOvyoQQiD1A" href="uma://-Qr2yB18LysKdOvyoQQiD1A#-Qr2yB18LysKdOvyoQQiD1A"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dneQYDfgEemUQtxHzDLDiA" name="adaptar_e_melhorar_o_processo" guid="_dneQYDfgEemUQtxHzDLDiA" presentationName="Adaptar e Melhorar o Processo" performedBy="{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}">
+            <methodElementProperty xmi:id="_Nd66ADh8EemflZUgfzwjrA" name="me_edited" value="true"/>
             <presentation xmi:id="-hNsjRdhueJh8Wz9TCeXD0g" href="uma://-hNsjRdhueJh8Wz9TCeXD0g#-hNsjRdhueJh8Wz9TCeXD0g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ogtDwDfgEemUQtxHzDLDiA" name="explicar_processo" guid="_ogtDwDfgEemUQtxHzDLDiA" presentationName="Explicar o Processo" performedBy="{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}">
+            <methodElementProperty xmi:id="_6hVUMDh7EemflZUgfzwjrA" name="me_edited" value="true"/>
             <presentation xmi:id="-VH91BzPl5YCHRfHldVmCkw" href="uma://-VH91BzPl5YCHRfHldVmCkw#-VH91BzPl5YCHRfHldVmCkw"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_10aqoDfiEemUQtxHzDLDiA" name="melhorar_habilidades_da_equipe" guid="_10aqoDfiEemUQtxHzDLDiA" presentationName="Melhorar as Habilidades da Equipe" performedBy="{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}">
@@ -510,22 +515,25 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_TQJ_oDfSEemwn90hXFEE7g" name="Fase de implementação" guid="_TQJ_oDfSEemwn90hXFEE7g" presentationName="Fase de implementação">
           <methodElementProperty xmi:id="_TQJ_oTfSEemwn90hXFEE7g" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_ZmnycDfSEemwn90hXFEE7g" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qUiQgDfuEemUQtxHzDLDiA" name="implementar_requisitos_planejados" guid="_qUiQgDfuEemUQtxHzDLDiA" presentationName="Implementar requisitos planejados">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_qUiQgDfuEemUQtxHzDLDiA" name="implementar_requisitos_planejados" guid="_qUiQgDfuEemUQtxHzDLDiA" presentationName="Implementar requisitos planejados" performedBy="{C587F94C-90FD-4943-A4DE-68E9B6875071}">
             <methodElementProperty xmi:id="_rGkKYDfuEemUQtxHzDLDiA" name="me_edited" value="true"/>
+            <presentation xmi:id="-Jw4xAQOMhHgpzxfZPzRMgQ" href="uma://-Jw4xAQOMhHgpzxfZPzRMgQ#-Jw4xAQOMhHgpzxfZPzRMgQ"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vyj_cDfuEemUQtxHzDLDiA" name="Realizar testes de unidade no sistema" guid="_vyj_cDfuEemUQtxHzDLDiA" presentationName="Realizar testes de unidade no sistema" performedBy="{2F4BC5DA-F706-4C38-9D38-6911C7856B10}" output="{FE89AB1C-E0FE-4E7F-92B4-3FA2A0ED6222}" optionalInput="{3EDA30A8-932C-4EC2-B9AB-A840304C5BC1}">
             <methodElementProperty xmi:id="_vzcJMDfuEemUQtxHzDLDiA" name="me_edited" value="true"/>
             <presentation xmi:id="-dqpdeD44SPiStx2Wtwv7SA" href="uma://-dqpdeD44SPiStx2Wtwv7SA#-dqpdeD44SPiStx2Wtwv7SA"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y91ooDfuEemUQtxHzDLDiA" name="Correção de erros" guid="_y91ooDfuEemUQtxHzDLDiA" presentationName="Correção de erros ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y91ooDfuEemUQtxHzDLDiA" name="Correção de erros" guid="_y91ooDfuEemUQtxHzDLDiA" presentationName="Correção de erros " performedBy="{FB65D00B-8304-4CF7-9969-52CE82F503DC}">
             <methodElementProperty xmi:id="_1J2NMDfuEemUQtxHzDLDiA" name="me_edited" value="true"/>
             <presentation xmi:id="-AbyRYJaoa8JtLOFKATffQQ" href="uma://-AbyRYJaoa8JtLOFKATffQQ#-AbyRYJaoa8JtLOFKATffQQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2hzeoDfuEemUQtxHzDLDiA" name="realizar_testes_de_integrao_das_novas_funcionalidades" guid="_2hzeoDfuEemUQtxHzDLDiA" presentationName="Realizar testes de integração das novas funcionalidades">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2hzeoDfuEemUQtxHzDLDiA" name="realizar_testes_de_integrao_das_novas_funcionalidades" guid="_2hzeoDfuEemUQtxHzDLDiA" presentationName="Realizar testes de integração das novas funcionalidades" performedBy="{567EE050-7E62-4B63-8761-4883FF2FFF23} {FB65D00B-8304-4CF7-9969-52CE82F503DC}">
             <methodElementProperty xmi:id="_JKU48DfvEemUQtxHzDLDiA" name="me_edited" value="true"/>
+            <presentation xmi:id="-VJQSWJYanUMBhHeINO6vXw" href="uma://-VJQSWJYanUMBhHeINO6vXw#-VJQSWJYanUMBhHeINO6vXw"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KrZqIDfvEemUQtxHzDLDiA" name="realizar_testes_de_aceitao_das_novas_funcionalidades_" guid="_KrZqIDfvEemUQtxHzDLDiA" presentationName="Realizar testes de aceitação das novas funcionalidades ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_KrZqIDfvEemUQtxHzDLDiA" name="realizar_testes_de_aceitao_das_novas_funcionalidades_" guid="_KrZqIDfvEemUQtxHzDLDiA" presentationName="Realizar testes de aceitação das novas funcionalidades " performedBy="{567EE050-7E62-4B63-8761-4883FF2FFF23} {FB65D00B-8304-4CF7-9969-52CE82F503DC}">
             <methodElementProperty xmi:id="_L37HoDfvEemUQtxHzDLDiA" name="me_edited" value="true"/>
+            <presentation xmi:id="-OrUIWkTX9Fr9GHsm2xuA1Q" href="uma://-OrUIWkTX9Fr9GHsm2xuA1Q#-OrUIWkTX9Fr9GHsm2xuA1Q"/>
           </contentElements>
         </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_XLmhgDfSEemwn90hXFEE7g" name="Fase de Testes" guid="_XLmhgDfSEemwn90hXFEE7g" presentationName="Fase de Testes">
@@ -535,7 +543,7 @@
             <methodElementProperty xmi:id="_dDBZIDfYEemwn90hXFEE7g" name="me_edited" value="true"/>
             <presentation xmi:id="-S3toOTSu7ML8gtcqnAeZAQ" href="uma://-S3toOTSu7ML8gtcqnAeZAQ#-S3toOTSu7ML8gtcqnAeZAQ"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_se6n8DfvEemUQtxHzDLDiA" name="realizar_testes_de_sistema" guid="_se6n8DfvEemUQtxHzDLDiA" presentationName="Realizar testes de sistema">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_se6n8DfvEemUQtxHzDLDiA" name="realizar_testes_de_sistema" guid="_se6n8DfvEemUQtxHzDLDiA" presentationName="Realizar testes de sistema" performedBy="{FB65D00B-8304-4CF7-9969-52CE82F503DC}">
             <methodElementProperty xmi:id="_-rEPUDfvEemUQtxHzDLDiA" name="me_edited" value="true"/>
             <presentation xmi:id="-DD4kfvrxk4wkMtFCIlDwpw" href="uma://-DD4kfvrxk4wkMtFCIlDwpw#-DD4kfvrxk4wkMtFCIlDwpw"/>
           </contentElements>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kOa9wQJcHt-9hNtV8LTetw" name="improve_team_skills,{1C4325AC-17DE-4CD0-8AA0-4B210570579F}" guid="-kOa9wQJcHt-9hNtV8LTetw" version="1.0.0">
+  <mainDescription>Essa tarefa tem como objetivo de que os membros aprendam novos conhecimentos e habilidades, consequentemente melhorando a&#xD;
+qualidade do sistema a ser feito.</mainDescription>
   <sections xmi:id="_10aqoTfiEemUQtxHzDLDiA" name="Geral" guid="_10aqoTfiEemUQtxHzDLDiA">
     <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
 &lt;p>As equipes são compostas por indivíduos com diferentes competências técnicas, conhecimento do domínio ou do cliente e habilidades pessoais. A equipe deve identificar e melhorar continuamente as áreas onde as habilidade são escassas. O treinador XP ajuda a garantir que isso aconteça.&lt;/p>&#xD;

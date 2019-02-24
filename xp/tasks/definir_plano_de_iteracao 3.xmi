@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Qr2yB18LysKdOvyoQQiD1A" name="define_iteration_plan,{849E3635-6FCD-4FAD-A007-CA34B9998622}" guid="-Qr2yB18LysKdOvyoQQiD1A" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Qr2yB18LysKdOvyoQQiD1A" name="define_iteration_plan,{849E3635-6FCD-4FAD-A007-CA34B9998622}" guid="-Qr2yB18LysKdOvyoQQiD1A" changeDate="2019-02-24T18:38:04.366-0300" version="1.0.0">
+  <mainDescription>Essa tarefa consiste em que a equipe defina o que será feito e&amp;nbsp;apresentado até a próxima iteração. Isso garante melhor&#xD;
+organização para equipe, como todos os membros possuindo tarefas para serem feitas até o prazo combinado.</mainDescription>
   <sections xmi:id="_60Ns0zffEemUQtxHzDLDiA" name="Precondições" guid="_60Ns0zffEemUQtxHzDLDiA">
     <sectionDescription>&lt;a id=&quot;PreCond&quot; name=&quot;PreCond&quot;>&lt;/a> &#xD;
 &lt;p>Os passos para esta atividade fazem parte do planejamento de iteração XP. Para que essa atividade seja bem sucedida, as seguintes precondições devem ser cumpridas:&lt;/p>&#xD;

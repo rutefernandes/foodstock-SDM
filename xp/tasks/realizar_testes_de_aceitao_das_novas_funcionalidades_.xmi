@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OrUIWkTX9Fr9GHsm2xuA1Q" name="realizar_testes_de_aceitao_das_novas_funcionalidades_,_KrZqIDfvEemUQtxHzDLDiA" guid="-OrUIWkTX9Fr9GHsm2xuA1Q" changeDate="2019-02-24T13:16:31.306-0300">
+  <mainDescription>Nessa tarefa, será realizado testes de aceitação, o qual tem por função verificar o recursos já implementados em relação ao&#xD;
+seus requisitos originais, e às necessidades atuais do usuário.</mainDescription>
+  <purpose>• Tem por função verificar o sistema em relação aos seus requisitos originais, e às necessidades atuais do usuário.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hNsjRdhueJh8Wz9TCeXD0g" name="adapt_and_improve_process,{F0D4C205-4A38-42AF-BE87-9A6C0C173E65}" guid="-hNsjRdhueJh8Wz9TCeXD0g" version="1.0.0">
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hNsjRdhueJh8Wz9TCeXD0g" name="adapt_and_improve_process,{F0D4C205-4A38-42AF-BE87-9A6C0C173E65}" guid="-hNsjRdhueJh8Wz9TCeXD0g" changeDate="2019-02-24T18:36:13.902-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Essa tarefa tem como o objetivo da equipe melhorar o processo que irão utilizar, adaptando-o para suas necessidades.&#xD;
+&lt;/p></mainDescription>
   <sections xmi:id="_dneQYTfgEemUQtxHzDLDiA" name="Geral" guid="_dneQYTfgEemUQtxHzDLDiA">
     <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
 &lt;p>As equipes que usam XP são guiadas pelos &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_values_72DBC1C.html&quot; guid=&quot;1.076140803519123E-306&quot;>Valores XP&lt;/a> no uso das &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Práticas XP&lt;/a>. As práticas XP são melhores práticas, mas elas também alavancam as vantagens das outras práticas para formar um conjunto mínimo e eficiente de práticas necessárias para entregar software de alta qualidade alinhado às necessidades dos clientes.&lt;/p>&#xD;
