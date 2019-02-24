@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Qr2yB18LysKdOvyoQQiD1A" name="define_iteration_plan,{849E3635-6FCD-4FAD-A007-CA34B9998622}" guid="-Qr2yB18LysKdOvyoQQiD1A" version="1.0.0">
+  <sections xmi:id="_60Ns0zffEemUQtxHzDLDiA" name="Precondições" guid="_60Ns0zffEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;PreCond&quot; name=&quot;PreCond&quot;>&lt;/a> &#xD;
+&lt;p>Os passos para esta atividade fazem parte do planejamento de iteração XP. Para que essa atividade seja bem sucedida, as seguintes precondições devem ser cumpridas:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div align=&quot;left&quot;>O cliente compreende muito bem as histórias de usuário.&lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>O cliente definiu os critérios de aceitação das histórias.&lt;/li>&#xD;
+    &lt;li>Todos os membros da equipe que estarão envolvidos no desenvolvimento das histórias devem estar presentes.&lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_60Ns1DffEemUQtxHzDLDiA" name="O Cliente Apresenta as Histórias de Usuário" guid="_60Ns1DffEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>O cliente seleciona uma lista de histórias de usuário que ele gostaria que fossem incluídas na próxima iteração. As histórias normalmente vêm do plano de liberação, mas também podem ser incluídas novas histórias que não estavam planejadas originalmente. O cliente explica as histórias e os critérios dos testes de aceitação aos desenvolvedores.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_60Ns0DffEemUQtxHzDLDiA" name="Os Desenvolvedores Decompõem as Histórias" guid="_60Ns0DffEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Os desenvolvedores discutem como implementar a história e decompõem-na em tarefas de engenharia. As tarefas deverão incluir todos os elementos necessários para que a história passe nos testes de aceitação do cliente.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_60Ns0TffEemUQtxHzDLDiA" name="Os Desenvolvedores Selecionam e Estimam" guid="_60Ns0TffEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Os desenvolvedores selecionam todas as tarefas. Cada desenvolvedor coloca a estimativa apenas nas tarefas que tenha selecionado para si.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_60Ns0jffEemUQtxHzDLDiA" name="O Cliente Ajusta o Plano de Iteração" guid="_60Ns0jffEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step4&quot; name=&quot;Step4&quot;>&lt;/a> &#xD;
+&lt;p>Se a soma das estimativas das tarefas for maior do que a soma da execução das tarefas feitas pela equipe na última iteração, o cliente deve remover algum trabalho, a fim de respeitar a velocidade da equipe.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_define_iteration__activity_definition&quot; name=&quot;XE_define_iteration__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Estabelecer o que pode ser construído durante a iteração, dadas as limitações da equipe.&lt;/li>&#xD;
+    &lt;li>Permitir a equipe gerenciar a si própria no nível de tarefa.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

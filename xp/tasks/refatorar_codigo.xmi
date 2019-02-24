@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IoT5LZUu3vnNFp-pwPUMHA" name="refactor_code,{3DD335BB-45F6-49C7-B17A-90652C73A485}" guid="-IoT5LZUu3vnNFp-pwPUMHA" version="1.0.0">
+  <sections xmi:id="_oCr_UGE-EdqnIZeW8YpHcA" name="Identificar Design Pobre" guid="_oCr_UGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Durante o desenvolvimento, os requisitos mudam e as decisões tomadas sobre o design podem ser canceladas. Uma nova funcionalidade é adicionada, você a põe pra funcionar, mas a estrutura e a clareza do código podem degradar. Você poderá deixar como está, e o design irá lentamente degradar, ou você poderá melhorar o design imediatamente. A refatoração serve para melhorar o design.&lt;/p>&#xD;
+&lt;p>Um design simples tem as quatro características abaixo, listadas em ordem de prioridade:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>O sistema passa em todos os testes.&lt;/li>&#xD;
+    &lt;li>Não contém código duplicado.&lt;/li>&#xD;
+    &lt;li>O código explicita claramente a intenção dos programadores.&lt;/li>&#xD;
+    &lt;li>Contém a menor quantidade possível de classes e métodos.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Um bom recurso para obter conhecimento sobre refatoração é o livro de Martin Fowler: &lt;i>Refactoring - Improving the Design of Existing Code&lt;/i> [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/supportingmaterials/xp_and_agile_process_references_BA6A741C.html#FOW99&quot; guid=&quot;6.191633934532389E-306&quot;>FOW99&lt;/a>]. Martin discute a ideia de &quot;cheiros de código ruim&quot;, como detectá-los, qual prejuízo eles causarão no software e como corrigi-los.&lt;/p>&#xD;
+&lt;p>Durante o desenvolvimento, você deve olhar para a refatoração de código com a mente aberta e encontrar as suas fraquezas. Torne o código claro; corrija o que precisa ser corrigido. À medida que for descobrindo esses cheiros, você deve trabalhar para eliminá-los antes de prosseguir para o próximo caso de teste. Economize algum tempo antes de fazer check-in do seu código para depois ter que voltar atrás e revê-lo. Identifique seções de código duplicado e locais onde a intenção do design não esteja clara.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oCr_UWE-EdqnIZeW8YpHcA" name="Refatorar" guid="_oCr_UWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>A refatoração envolve a execução de alterações no código que melhorem a sua estrutura sem modificar o seu comportamento. O livro sobre refatoração de Martin Fowler listas mais de sessenta refatorações para tratar situações especiais no código. A meta de cada uma delas é a redução da duplicação de código e o aumento da clareza. Mantenha o seu código limpo, simples e livre de duplicação.&lt;/p>&#xD;
+&lt;p>À medida que a estrutura do código evolui você escolhe nomes que lhe ajudam no entendimento das funcionalidades especificadas pelo código. Este sistema de nomes torna-se o vocabulário usado para a discussão de design da sua equipe.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_refactor_code__activity_definition&quot; name=&quot;XE_refactor_code__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Manter o design do sistema claro e pronto para mudanças.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

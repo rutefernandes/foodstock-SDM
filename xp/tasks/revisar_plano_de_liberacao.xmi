@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YO16TebjP7U0gkcYg7OY_A" name="update_release_plan,{18BF87E6-5849-4091-AFE2-FC4F0C3887B1}" guid="-YO16TebjP7U0gkcYg7OY_A" version="1.0.0">
+  <sections xmi:id="_oO6dcGE-EdqnIZeW8YpHcA" name="Obter Informações" guid="_oO6dcGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>A contagem mais recente dos pontos de história concluídos em uma iteração representa a velocidade da equipe. A quantidade de pontos história concluídos em uma iteração irá mudar ao longo do tempo. Consequentemente, a velocidade da equipe também mudará. Se a velocidade da equipe aumentar, mais trabalho poderá ser feito em cada iteração. Se a velocidade da equipe diminuir, menos trabalho poderá ser feito em cada iteração.&lt;/p>&#xD;
+&lt;p>À medida que a equipe avança no projeto, a sua compreensão a respeito do problema aumenta. Os clientes irão adicionar novas histórias e remover outras. Os programadores podem ter necessidade de alterar as estimativas das histórias. Consequentemente, o plano de liberação deverá ser revisado periodicamente (em cada iteração ou conforme o necessário).&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oO6dcWE-EdqnIZeW8YpHcA" name="Atualizar o Plano" guid="_oO6dcWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Usando a velocidade mais recente, as últimas estimativas das histórias e a mais recente visão de prioridade do cliente, uma nova versão do plano de liberação será estabelecida.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oO6dcmE-EdqnIZeW8YpHcA" name="Comunicar o Plano" guid="_oO6dcmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Uma vez que o plano esteja atualizado, é fundamental que toda a equipe esteja consciente disso. Isto é geralmente muito fácil, visto que toda a equipe está envolvida na revisão do plano de liberação. O plano irá mostrar para a equipe o progresso que eles estão fazendo (moral), e eles terão uma compreensão clara das novas metas que eles têm que alcançar (coesão da equipe). O plano deve ser realista e atual.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_revise_release_plan__activity_definition&quot; name=&quot;XE_revise_release_plan__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Assegurar que o plano de liberação reflita a melhor compreensão das próximas liberações.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

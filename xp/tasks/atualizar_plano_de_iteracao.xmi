@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-cU3MzukpGPAtw0wSS23R-g" name="update_iteration_plan,{653F1EF4-2BE5-4CCB-80E7-17CE02B081DC}" guid="-cU3MzukpGPAtw0wSS23R-g" version="1.0.0">
+  <sections xmi:id="_oOzvwmE-EdqnIZeW8YpHcA" name="Obter Informações" guid="_oOzvwmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>A equipe é responsável por monitorar o seu projeto. As tarefas concluídas são marcadas no plano de iteração. Se alguém na equipe perceber que ela está atrasada, a qualquer momento, o cliente deverá ser informado o mais rápido possível. O cliente poderá então decidir como alterar o plano. O rastreador pode ser o primeiro a perceber que a iteração está em perigo. Uma equipe XP estará em atraso se metade do trabalho não for terminado até a metade da iteração. Idealmente, isto pode ser medido pela observação de que metade dos testes de cliente passam quando a iteração estiver na metade.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOzvw2E-EdqnIZeW8YpHcA" name="Atualizar o Plano" guid="_oOzvw2E-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Quando for notado que nem todas as histórias da liberação serão terminadas, o cliente deverá reduzir o escopo. Aumentar o prazo da iteração não é uma opção. O cliente pode remover qualquer história ou dividir as histórias e diminuir o escopo.&lt;/p>&#xD;
+&lt;p>Quando a equipe tiver excesso de capacidade na iteração, o cliente é informado. O cliente acrescenta histórias adicionais para preencher a iteração. Os clientes adoram quando isso acontece.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOzvxGE-EdqnIZeW8YpHcA" name="Comunicar o Plano" guid="_oOzvxGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Toda a equipe deve estar ciente de quaisquer alterações no plano de iteração de modo que possam focar nas tarefas certas.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_adjust_iteration_scope__activity_definition&quot; name=&quot;XE_adjust_iteration_scope__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Permitir ao cliente reagir à subestimação ou superestimação feita pela equipe da quantidade de trabalho que pode ser realizado na iteração atual.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WOPGmKUuYbvVeVHp0sgEgw" name="report_project_status,{ED94150E-EE14-47BF-97F5-F1EC7130EEEC}" guid="-WOPGmKUuYbvVeVHp0sgEgw" version="1.0.0">
+  <sections xmi:id="_oOzvwGE-EdqnIZeW8YpHcA" name="Obter Informações" guid="_oOzvwGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>A fonte de informação mais importante sobre o status do projeto é o plano de liberação atualizado. O plano de liberação define a visão atual da disponibilidade e do conteúdo da liberação. Métricas, tais como a velocidade da equipe, também podem ser fornecidas. Normalmente, as métricas são monitoradas com a finalidade de ajudar a equipe a melhorar alguns aspectos de desenvolvimento que eles estão tendo problemas. Essas métricas podem ser apresentadas como parte do status do projeto.&lt;/p>&#xD;
+&lt;p>A métrica de velocidade pode ser usada abusivamente. Tenha em mente que não existe qualquer comparação válida entre as velocidades das equipes. A coisa mais importante sobre a velocidade de uma equipe é a estabilidade da velocidade. Isto permite que a equipe possa prever o que pode ser realizado.&lt;/p>&#xD;
+&lt;p>Outras métricas significativas:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Histórias definida ao longo do tempo, comparadas com as histórias completadas&lt;/li>&#xD;
+    &lt;li>Testes de cliente definidos, comparados com os testes de cliente em execução&lt;/li>&#xD;
+    &lt;li>Quantidade de testes de unidade acompanhados ao longo do tempo&lt;/li>&#xD;
+    &lt;li>Cobertura de testes de unidade&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>As métricas significantes para a equipe são registradas em folhas de flip chart e penduradas no espaço de trabalho aberto da equipe.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOzvwWE-EdqnIZeW8YpHcA" name="Comunicar o Status" guid="_oOzvwWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Visto que os Stakeholders externos não participam das atividades diárias da equipe, é importante que o status do projeto seja comunicado a eles com a maior frequência possível. Isto reduz significativamente o risco de desconexão entre a equipe de desenvolvimento e os Stakeholders. Também fornece dados que a equipe poderá usar para melhorar seu processo de desenvolvimento. Os Stakeholders poderão entrar no espaço de trabalho aberto e ver o status do projeto que está registrado nas paredes. Eles poderão verificar o progresso realizado pela equipe em primeira mão.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_report_project_status__activity_definition&quot; name=&quot;XE_report_project_status__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Comunicar o status do projeto aos Stakeholders.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

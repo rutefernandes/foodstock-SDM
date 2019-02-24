@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-qIbMRqe8wqKN2-HLtNUcLw" name="define_coding_standard,{C88D5B0A-1A59-4575-ADDF-8ECBBAB83410}" guid="-qIbMRqe8wqKN2-HLtNUcLw" version="1.0.0">
+  <sections xmi:id="_oCfyEGE-EdqnIZeW8YpHcA" name="Escreva Classes Prototípicas" guid="_oCfyEGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Ao decidir sobre um padrão de codificação, reserve um tempo para escrever algumas classes que usem um determinado estilo. As chaves podem ser niveladas com a indentação da linha acima? Usaremos tabulação ou espaços? As abreviações são permitidas? Se forem, temos uma pequena lista?&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oCfyEWE-EdqnIZeW8YpHcA" name="Discuta os Padrões" guid="_oCfyEWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>O padrão de codificação para um projeto deve ser o mais simples possível. A meta não é proibir construções propensas a erro, mas sim tornar o código o mais comunicativo e uniforme possível, para que possa ser facilmente compreendido e mantido. Se a equipe não puder chegar a um consenso, use a regra da maioria. Ter um padrão é mais importante do que os detalhes específicos.&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+     &#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_define_coding_standard__activity_definition&quot; name=&quot;XE_define_coding_standard__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Ajuda na clareza, tornando o estilo de codificação o mais familiar possível.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

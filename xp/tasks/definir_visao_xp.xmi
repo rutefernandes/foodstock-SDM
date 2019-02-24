@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-W67fNE0rT1c2PM-20yXbrw" name="develop_xp_vision,{A8708FFB-BB20-40AF-BEF2-7A8A814FF74D}" guid="-W67fNE0rT1c2PM-20yXbrw" changeDate="2005-12-02T13:56:23.177-0300" version="1.0.0">
+  <sections xmi:id="_oB58MGE-EdqnIZeW8YpHcA" name="Obter Consenso Sobre o Problema a Ser Resolvido" guid="_oB58MGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Gain&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Uma das formas mais simples de obter consenso sobre a definição do problema é escrevê-lo e ver se todos concordam.&lt;/p>&#xD;
+&lt;p>Pergunte ao grupo: Qual é o problema?&lt;/p>&#xD;
+&lt;p>É muito comum correr para a definição da solução sem investir tempo primeiro na compreensão do problema. Escreva o problema e veja se você pode obter acordo de todas as pessoas sobre a definição.&lt;/p>&#xD;
+&lt;p>Em seguida, pergunte novamente ao grupo: Qual é o problema, realmente?&lt;/p>&#xD;
+&lt;p>Procure pelas principais causas ou o &quot;problema por trás do problema&quot;. O verdadeiro problema muitas vezes se esconde por trás do que é percebido como problema. Não aceite a primeira declaração de um problema. Continue perguntando &quot;por quê?&quot; para descobrir o que é &quot;realmente&quot; o problema. Algumas vezes o grupo pode estar tão focado em uma possível solução que fica difícil para eles formularem o problema. Nestes casos, pode ser benéfico explorar os benefícios da solução e, depois, tentar encontrar os problemas a serem resolvidos por esses benefícios. Você pode, então, explorar se esses problemas são, ou não, &quot;verdadeiros&quot; problemas na organização.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oB58MWE-EdqnIZeW8YpHcA" name="Identificar os Stakeholders" guid="_oB58MWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Identify&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Que são os usuários do sistema?&lt;/li>&#xD;
+    &lt;li>Quem é o comprador econômico do sistema?&lt;/li>&#xD;
+    &lt;li>Que mais será afetado pela saída que o sistema irá produzir?&lt;/li>&#xD;
+    &lt;li>Quem irá avaliar e abençoar o sistema, quando for entregue e implantado?&lt;/li>&#xD;
+    &lt;li>Existem outros usuários do sistema, internos ou externos, cujas necessidades devem ser abordadas?&lt;/li>&#xD;
+    &lt;li>Que irá manter o novo sistema?&lt;/li>&#xD;
+    &lt;li>Existe mais alguém?&lt;/li>&#xD;
+    &lt;li>Ok, existe mais alguém?&lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_oB58MmE-EdqnIZeW8YpHcA" name="Definir as Funcionalidades Primárias do Sistema" guid="_oB58MmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Define&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Quais as principais funcionalidades do sistema que permitem aos Stakeholders resolverem seus problemas? Esta deve ser uma lista de funcionalidades de muito alto nível.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oB58M2E-EdqnIZeW8YpHcA" name="Comunicar a Visão" guid="_oB58M2E-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Com&quot; name=&quot;Step4&quot;>&lt;/a> &#xD;
+&lt;p>Uma vez acordada com os Stakeholders, a visão é claramente comunicada a todos os membros da equipe de projeto. Quando o projeto inicia, as equipes XP escrevem a visão em um dos quadros brancos no espaço de trabalho aberto da equipe para que possa ser facilmente vista por todos os participantes do projeto. Após um curto período de tempo, a equipe normalmente internaliza a visão e já não precisa mais do lembrete.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_define_vision__activity_definition&quot; name=&quot;XE_define_vision__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>A Visão define o ponto de vista dos Stakeholders a respeito do produto a ser desenvolvido, especificada em termos das principais funcionalidades e necessidades.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

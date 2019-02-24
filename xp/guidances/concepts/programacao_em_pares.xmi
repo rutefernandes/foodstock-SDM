@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-n52TyFa7Reb3LOJV1JMpvg" name="pair_programming,3.876855509996079E-307" guid="-n52TyFa7Reb3LOJV1JMpvg" changeDate="2006-11-09T21:16:04.083-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__pair_programming&quot; name=&quot;XE_xp__pair_programming&quot;>&lt;/a>&lt;a id=&quot;XE_pair_programming__practice_of&quot; name=&quot;XE_pair_programming__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__pair_programming&quot; name=&quot;XE_engineering_practices__pair_programming&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>Toda a produção de software na XP é feita por dois programadores, sentados lado a lado, na mesma máquina. Esta prática garante que todo código de produção seja revisado por pelo menos outro programador e resulte em melhor design, teste e código.&lt;/p>&#xD;
+&lt;p>As pesquisas sobre a programação em pares revelam que ela produz melhor código do que se os programadores trabalhassem isoladamente no mesmo tempo.&lt;/p>&#xD;
+&lt;p>Ela também serve para troca de conhecimento entre toda a equipe. À medida que os pares mudam, todos se beneficiam com o conhecimento especializado dos outros. Os programadores se instruem, melhoram as suas aptidões e se tornam mais valiosos para a equipe e para a empresa.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Melhor design, código e testes.&lt;/li>&#xD;
+    &lt;li>Compartilhamento do conhecimento da aplicação e das habilidades por toda a equipe.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>Informações Relacionadas&lt;/h3>&#xD;
+&lt;p>Veja &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../xp/guidances/guidelines/pair_programming_189FA25A.html&quot; guid=&quot;3.85153041801319E-307&quot;>Diretrizes para Programação em Pares&lt;/a>.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

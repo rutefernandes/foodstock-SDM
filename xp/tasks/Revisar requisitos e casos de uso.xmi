@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vm6DzEBUmkN190O1H-sFjQ" name=",_9mNWgDfjEemUQtxHzDLDiA" guid="-vm6DzEBUmkN190O1H-sFjQ" changeDate="2019-02-24T00:39:16.592-0300">
+  <purpose>Revisar os requisitos e casos de uso do pds distribuído, identificar quais não foram concluídos e quais podem ser&#xD;
+adicionados.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

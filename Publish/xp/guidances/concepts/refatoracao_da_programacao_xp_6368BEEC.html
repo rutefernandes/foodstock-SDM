@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Concept: Refatora&ccedil;&atilde;o</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="refatoracao_da_programacao_xp">
+<meta name="uma.presentationName" content="Refatora&ccedil;&atilde;o">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="1.4410217108363206E-306"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Concept: Refatora&ccedil;&atilde;o</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../xp/roles/programador_xp_D005E927.html" guid="{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}">Programador XP</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_xp__refactoring" name="XE_xp__refactoring"></a><a id="XE_refactoring__practice_of" name="XE_refactoring__practice_of"></a><a id="XE_engineering_practices__refactoring" name="XE_engineering_practices__refactoring"></a> 
+<h3>Descrição</h3>
+<p>A refatoração é a prática de melhorar o design de um sistema sem alterar o seu comportamento. A refatoração é uma prática e habilidade crítica no desenvolvimento iterativo. O programador ou está adicionando uma nova funcionalidade ou está refatorando. Os programadores XP escolhem conscientemente entre refatorar ou adicionar novas funcionalidades a cada minuto. Algumas refatorações são triviais, tais como renomear ou mover coisas. Outras lhe permitem trocar uma lógica de procedimento por polimorfismo e, ainda existem refatorações maiores para implementar padrões de projeto.</p>
+<p>Apesar dos processos como a Programação Extrema se apoiarem na refatoração para permitir que o design apareça, a utilidade da refatoração vai além das Metodologias Ágeis. Como as solicitações de funcionalidades e a correção de erros necessitam de alterações em um sistema, as técnicas de refatoração permitem que os programadores mantenham um bom design. A refatoração também pode ser usada para melhorar o design de um sistema existente.</p>
+<p>A refatoração não é algo novo. Os desenvolvedores têm refatorado durante anos, embora só recentemente as pessoas tenham começado a catalogar as refatorações. A refatoração tornou-se uma parte tão importante do desenvolvimento que, ambientes de desenvolvimento integrado (IDEs) de nível profissional, incluem ferramentas embutidas ou têm plug-ins para apoiar a refatoração.</p>
+<p>Se o seu sistema não for refatorado quando ele for modificado, o seu design irá deteriorar; os métodos tornam-se mais longos, as classes ganham mais responsabilidades, mais código é recortado e colado em seu sistema e o código a ser recortado e colado deve previamente ser modificado em vários lugares.</p>
+<p>Se o seu sistema se tornar frágil e inflexível, seus desenvolvedores terão que gastar muito mais tempo e dinheiro para adicionar funcionalidades ou corrigir erros. À medida que o design continuar a deteriorar-se, a correção de um erro irá criar mais dois, ou o custo da adição de uma nova funcionalidade excederá o benefício de tê-la, porque uma grande parte do sistema terá que ser modificada. Existem muitas analogias para descrever esta batalha contra a entropia.</p>
+<p>Conhecer as refatorações não é suficiente. Os desenvolvedores devem ser capazes de identificar áreas problemáticas no design do programa (muitas vezes referenciadas como "cheiros"). Existem locais onde a refatoração pode ser usada para melhorar o design do código. A experiência e a habilidade com o design são necessários para detectar o cheiro de um código ruim.</p>
+<p>Os testes automatizados fornecem uma rede de segurança quando se faz mudanças. Os testes automatizados informam quando a funcionalidade do sistema muda. Faça uma mudança estrutural no software e veja se os testes continuam executando com sucesso. você pode refatorar confiantemente.</p>
+<p>De onde vêm todos estes testes? Na XP, eles são desenvolvidos usando o <a class="elementLinkWithUserText" href="./../../../xp/guidances/concepts/desenvolvimento_dirigido_por_testes_DACEB1AF.html" guid="1.620567348185129E-306">Desenvolvimento Dirigido por Testes</a>. É possível refatorar sem testes, mas você corre o risco de introduzir erros inconscientemente ou danificar uma funcionalidade existente.</p>
+<h3>Benefícios</h3>
+<ul>
+    <li>Permite que o design surja ao longo do tempo.</li>
+    <li>Mantém o design longe do sucateamento.</li>
+    <li>Reduz os custos de mudanças.</li>
+</ul>
+<h3>Informações Relacionadas</h3>
+<p>Veja <a class="elementLinkWithUserText" href="./../../../xp/guidances/guidelines/refatoracao_3FE6DCA.html" guid="8.137126904637637E-306">Diretrizes para Refatoração</a>.</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

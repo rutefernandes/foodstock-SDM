@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-6RyabSc-ZUEtoEKb90BCbg" name="run_acceptance_test,{D4E30732-30D3-4C75-8C69-D2F15313F1A9}" guid="-6RyabSc-ZUEtoEKb90BCbg" version="1.0.0">
+  <sections xmi:id="_oNI70GE-EdqnIZeW8YpHcA" name="Geral" guid="_oNI70GE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;p>Esta tarefa consiste em executar todos os testes de cliente ou aceitação para assegurar que todas as histórias de usuário previamente concluídas ainda estejam funcionando. Muitas equipes XP executam esses testes diariamente como parte da sua rotina de construção automatizada. Outras equipes executam esses testes toda vez que uma nova história é adicionada ao conjunto de histórias concluídas a fim de garantir que uma nova história não tenha causado problemas nas anteriores.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_run_customer_test__activity_definition&quot; name=&quot;XE_run_customer_test__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Executar o teste automatizado de aceitação e colher os resultados.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

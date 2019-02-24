@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-8WkAEYyjqW0ccqYtwmgjmQ" name="atualizar_plano_de_implementao,_VDwCMDfoEemUQtxHzDLDiA" guid="-8WkAEYyjqW0ccqYtwmgjmQ" changeDate="2019-02-24T00:57:44.920-0300">
+  <purpose>Incluir os possíveis novos casos de uso e requisitos no plano de implementação</purpose>
+</org.eclipse.epf.uma:TaskDescription>

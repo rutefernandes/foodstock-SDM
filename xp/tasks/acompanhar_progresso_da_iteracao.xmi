@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0iRnQW0M9QDTNqWNijBB5A" name="track_task_completion,{3D22CC4B-ABC4-4CFE-9ACF-C9615E01382C}" guid="-0iRnQW0M9QDTNqWNijBB5A" version="1.0.0">
+  <sections xmi:id="_oON54GE-EdqnIZeW8YpHcA" name="Geral" guid="_oON54GE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Idealmente, acompanhar as histórias é muito melhor do que acompanhar as tarefas, mesmo no nível de iteração, uma vez que pode ser comprovado que as histórias funcionam através dos testes de aceitação e as tarefas não. Entretanto, quando há poucas histórias na iteração, algumas equipes também usam as tarefas para ajudá-los a obter um senso de progresso.&lt;/p>&#xD;
+&lt;p>O rastreador simplesmente acompanha quantas tarefas já foram feitas na iteração e quantas faltam. Esta informação é rapidamente fornecida durante as reuniões diárias. Na metade da iteração, a equipe deverá ter feito cerca de metade das tarefas (ponderado pela estimativa de custo da tarefa). Se não tiver feito, é sinal de que o plano da iteração precisa de alguns ajustes. Se a equipe não estiver indo tão rápido quanto o planejado, os ajustes podem consistir em remover uma das histórias da iteração. Se eles estiverem indo mais rápido do que o planejado, então a equipe pode pedir ao cliente para adicionar uma nova história na iteração. Esta é a forma como a velocidade da equipe na iteração vai oscilar ao longo do tempo.&lt;/p>&#xD;
+&lt;p>Regularmente, o rastreador apresenta o progresso que a equipe está fazendo na iteração. Esta informação pode ser apresentada sob a forma de um gráfico grande e visível, pendurado no espaço de trabalho da equipe. O progresso é muitas vezes apresentado na forma de quantidade de tarefas ou histórias feitas versus  as planejadas para a iteração.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_track_iteration_progress__activity_definition&quot; name=&quot;XE_track_iteration_progress__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Acompanhar o progresso durante a iteração.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

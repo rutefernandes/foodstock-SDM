@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_6FJy8DfVEemwn90hXFEE7g" guid="_6FJy8DfVEemwn90hXFEE7g">
+    <resourceDescriptors xmi:id="_6FJy8TfVEemwn90hXFEE7g" id="-eJjnSWCt1UT-Z20-8X8QLQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_6EZlADfVEemwn90hXFEE7g" name="Ciclo de vida" guid="_6EZlADfVEemwn90hXFEE7g">
+    <methodElementProperty xmi:id="_6EaMEDfVEemwn90hXFEE7g" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_nhbuMDfXEemwn90hXFEE7g" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XT2k8DfaEemwn90hXFEE7g" name="Planejamento" guid="_XT2k8DfaEemwn90hXFEE7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_XT2k8TfaEemwn90hXFEE7g" name="Planejamento" guid="_XT2k8TfaEemwn90hXFEE7g" presentationName="Planejamento" superActivities="_6EZlATfVEemwn90hXFEE7g" breakdownElements="_WsJOQDfmEemUQtxHzDLDiA _WsJ1UDfmEemUQtxHzDLDiA _agOj4DfmEemUQtxHzDLDiA _eoZTIDfmEemUQtxHzDLDiA _eoZTITfmEemUQtxHzDLDiA _hJEt4DfrEemUQtxHzDLDiA _kR6gYDfmEemUQtxHzDLDiA _k__uYDfmEemUQtxHzDLDiA _lAA8gDfmEemUQtxHzDLDiA _lABjkDfmEemUQtxHzDLDiA _lABjkTfmEemUQtxHzDLDiA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WsJOQDfmEemUQtxHzDLDiA" name="explicar_processo" guid="_WsJOQDfmEemUQtxHzDLDiA" presentationName="Explicar o Processo" superActivities="_XT2k8TfaEemwn90hXFEE7g" performedPrimarilyBy="_WsJ1UDfmEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_ogtDwDfgEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-VH91BzPl5YCHRfHldVmCkw#_ogtDwTfgEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_WsJ1UDfmEemUQtxHzDLDiA" name="treinador_xp" guid="_WsJ1UDfmEemUQtxHzDLDiA" presentationName="Treinador XP" isPlanned="false" superActivities="_XT2k8TfaEemwn90hXFEE7g">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_agOj4DfmEemUQtxHzDLDiA" name="melhorar_habilidades_da_equipe" guid="_agOj4DfmEemUQtxHzDLDiA" presentationName="Melhorar as Habilidades da Equipe" superActivities="_XT2k8TfaEemwn90hXFEE7g" performedPrimarilyBy="_WsJ1UDfmEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_10aqoDfiEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-kOa9wQJcHt-9hNtV8LTetw#_10aqoTfiEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eoZTIDfmEemUQtxHzDLDiA" name="Revisar requisitos e casos de uso" guid="_eoZTIDfmEemUQtxHzDLDiA" presentationName="Revisar requisitos e casos de uso" superActivities="_XT2k8TfaEemwn90hXFEE7g" performedPrimarilyBy="_eoZTITfmEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_9mNWgDfjEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_eoZTITfmEemUQtxHzDLDiA" name="programador_xp" guid="_eoZTITfmEemUQtxHzDLDiA" presentationName="Programador XP" isPlanned="false" superActivities="_XT2k8TfaEemwn90hXFEE7g">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_kR6gYDfmEemUQtxHzDLDiA" name="adaptar_e_melhorar_o_processo" guid="_kR6gYDfmEemUQtxHzDLDiA" presentationName="Adaptar e Melhorar o Processo" superActivities="_XT2k8TfaEemwn90hXFEE7g" performedPrimarilyBy="_WsJ1UDfmEemUQtxHzDLDiA">
+        <methodElementProperty xmi:id="_iwIyUDfrEemUQtxHzDLDiA" name="wbe_GlobalPresentedAfter" value="_hJEt4DfrEemUQtxHzDLDiA"/>
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_dneQYDfgEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-hNsjRdhueJh8Wz9TCeXD0g#_dneQYTfgEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_k__uYDfmEemUQtxHzDLDiA" name="definir_plano_de_iteracao" guid="_k__uYDfmEemUQtxHzDLDiA" presentationName="Definir Iteração" superActivities="_XT2k8TfaEemwn90hXFEE7g" optionalInput="_lABjkDfmEemUQtxHzDLDiA" output="_lABjkTfmEemUQtxHzDLDiA" performedPrimarilyBy="_lAA8gDfmEemUQtxHzDLDiA">
+        <methodElementProperty xmi:id="_iC__gDfrEemUQtxHzDLDiA" name="wbe_GlobalPresentedAfter" value="_kR6gYDfmEemUQtxHzDLDiA"/>
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_60NFwDffEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-Qr2yB18LysKdOvyoQQiD1A#_60Ns0zffEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-Qr2yB18LysKdOvyoQQiD1A#_60Ns1DffEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-Qr2yB18LysKdOvyoQQiD1A#_60Ns0DffEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-Qr2yB18LysKdOvyoQQiD1A#_60Ns0TffEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-Qr2yB18LysKdOvyoQQiD1A#_60Ns0jffEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_lAA8gDfmEemUQtxHzDLDiA" name="cliente_xp" guid="_lAA8gDfmEemUQtxHzDLDiA" presentationName="Cliente XP" isPlanned="false" superActivities="_XT2k8TfaEemwn90hXFEE7g" modifies="_lABjkTfmEemUQtxHzDLDiA" responsibleFor="_lABjkTfmEemUQtxHzDLDiA _lABjkDfmEemUQtxHzDLDiA">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{3C90DD4F-CFDB-4111-922D-3B840B8942DE}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lABjkDfmEemUQtxHzDLDiA" name="plano_de_liberacao_xp" guid="_lABjkDfmEemUQtxHzDLDiA" presentationName="Plano de Liberação XP" isPlanned="false" superActivities="_XT2k8TfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{CA77FBD2-04DD-4010-B2AA-03E1E7C66B0B}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lABjkTfmEemUQtxHzDLDiA" name="plano_de_iteracao_xp" guid="_lABjkTfmEemUQtxHzDLDiA" presentationName="Plano de Iteração XP" isPlanned="false" superActivities="_XT2k8TfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{DC18E34B-70C1-403D-84CC-1BF117A7473D}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hJEt4DfrEemUQtxHzDLDiA" name="Validação de sistema corporativo" guid="_hJEt4DfrEemUQtxHzDLDiA" presentationName="Validação de sistema corporativo" superActivities="_XT2k8TfaEemwn90hXFEE7g">
+        <methodElementProperty xmi:id="_iC__gTfrEemUQtxHzDLDiA" name="wbe_GlobalPresentedAfter" value="_eoZTIDfmEemUQtxHzDLDiA"/>
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_aDrEYDfeEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_YQ82oDfrEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_hOTa4DflEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_idkDUDflEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_jb6h8DflEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_kK0PUDflEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_k6_vEDflEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-UZ8C39-4KCbKFfVU645lQA#_l5wdYDflEemUQtxHzDLDiA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Yo6TYDfaEemwn90hXFEE7g" name="Elaboração" guid="_Yo6TYDfaEemwn90hXFEE7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_Yo66cDfaEemwn90hXFEE7g" name="Elaboração" guid="_Yo66cDfaEemwn90hXFEE7g" presentationName="Elaboração" superActivities="_6EZlATfVEemwn90hXFEE7g" breakdownElements="_jIxcIDfoEemUQtxHzDLDiA _jIyDMDfoEemUQtxHzDLDiA _Qw3bQDfpEemUQtxHzDLDiA _hDi1ADfoEemUQtxHzDLDiA _Qw3bQTfpEemUQtxHzDLDiA _Qw4CUDfpEemUQtxHzDLDiA _Qw4CUTfpEemUQtxHzDLDiA _XgYAMDfpEemUQtxHzDLDiA _XgYnQDfpEemUQtxHzDLDiA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_hDi1ADfoEemUQtxHzDLDiA" name="atualizar_plano_de_implementao" guid="_hDi1ADfoEemUQtxHzDLDiA" presentationName="Atualizar plano de implementação" superActivities="_Yo66cDfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_VDwCMDfoEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jIxcIDfoEemUQtxHzDLDiA" name="implantar_ambiente_de_testes" guid="_jIxcIDfoEemUQtxHzDLDiA" presentationName="Implantar o Ambiente de Testes" superActivities="_Yo66cDfaEemwn90hXFEE7g" performedPrimarilyBy="_jIyDMDfoEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_5Ye1ADfnEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-L-V-qiqJslhcln-bnCNIbw#_5Ye1ATfnEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_jIyDMDfoEemUQtxHzDLDiA" name="testador_xp" guid="_jIyDMDfoEemUQtxHzDLDiA" presentationName="Testador XP" isPlanned="false" superActivities="_Yo66cDfaEemwn90hXFEE7g">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{FB65D00B-8304-4CF7-9969-52CE82F503DC}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Qw3bQDfpEemUQtxHzDLDiA" name="Realizar testes de unidade no sistema" guid="_Qw3bQDfpEemUQtxHzDLDiA" presentationName="Realizar testes de unidade no sistema" superActivities="_Yo66cDfaEemwn90hXFEE7g" optionalInput="_Qw4CUDfpEemUQtxHzDLDiA" output="_Qw4CUTfpEemUQtxHzDLDiA" performedPrimarilyBy="_Qw3bQTfpEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_7VZNoDfnEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-9PPeDTBWkTmn_EP18Fi6SA#_7VZNoTfnEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-9PPeDTBWkTmn_EP18Fi6SA#_7VZNojfnEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Qw3bQTfpEemUQtxHzDLDiA" name="programador_xp" guid="_Qw3bQTfpEemUQtxHzDLDiA" presentationName="Programador XP" isPlanned="false" superActivities="_Yo66cDfaEemwn90hXFEE7g" modifies="_Qw4CUTfpEemUQtxHzDLDiA" responsibleFor="_Qw4CUTfpEemUQtxHzDLDiA _Qw4CUDfpEemUQtxHzDLDiA">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Qw4CUDfpEemUQtxHzDLDiA" name="codigo_de_producao_xp" guid="_Qw4CUDfpEemUQtxHzDLDiA" presentationName="Código de Produção" isPlanned="false" superActivities="_Yo66cDfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{3EDA30A8-932C-4EC2-B9AB-A840304C5BC1}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Qw4CUTfpEemUQtxHzDLDiA" name="construcao_xp" guid="_Qw4CUTfpEemUQtxHzDLDiA" presentationName="Construção XP" isPlanned="false" superActivities="_Yo66cDfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{FE89AB1C-E0FE-4E7F-92B4-3FA2A0ED6222}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XgYAMDfpEemUQtxHzDLDiA" name="acompanhar_progresso_da_iteracao" guid="_XgYAMDfpEemUQtxHzDLDiA" presentationName="Acompanhar o Progresso da Iteração" superActivities="_Yo66cDfaEemwn90hXFEE7g" performedPrimarilyBy="_XgYnQDfpEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_Ivi7EDfnEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-qpGnx-pqXXV5VO8JB01gDQ#_Ivi7ETfnEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_XgYnQDfpEemUQtxHzDLDiA" name="rastreador_xp" guid="_XgYnQDfpEemUQtxHzDLDiA" presentationName="Rastreador XP" isPlanned="false" superActivities="_Yo66cDfaEemwn90hXFEE7g">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{D8FE277E-4F9A-47EB-855F-C451D601BBAF}"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ZzTp8DfaEemwn90hXFEE7g" name="Implementação" guid="_ZzTp8DfaEemwn90hXFEE7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_ZzTp8TfaEemwn90hXFEE7g" name="Implementação" guid="_ZzTp8TfaEemwn90hXFEE7g" presentationName="Implementação" superActivities="_6EZlATfVEemwn90hXFEE7g" breakdownElements="_d1W9kDfvEemUQtxHzDLDiA _fBOTwDfvEemUQtxHzDLDiA _fmdHwDfvEemUQtxHzDLDiA _fmdu0DfvEemUQtxHzDLDiA _fme88DfvEemUQtxHzDLDiA _fme88TfvEemUQtxHzDLDiA _jluZsDfvEemUQtxHzDLDiA _knJacDfvEemUQtxHzDLDiA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_d1W9kDfvEemUQtxHzDLDiA" name="Correção de erros" guid="_d1W9kDfvEemUQtxHzDLDiA" presentationName="Correção de erros " superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_y91ooDfuEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fBOTwDfvEemUQtxHzDLDiA" name="implementar_requisitos_planejados" guid="_fBOTwDfvEemUQtxHzDLDiA" presentationName="Implementar requisitos planejados" superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_qUiQgDfuEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fmdHwDfvEemUQtxHzDLDiA" name="Realizar testes de unidade no sistema" guid="_fmdHwDfvEemUQtxHzDLDiA" presentationName="Realizar testes de unidade no sistema" superActivities="_ZzTp8TfaEemwn90hXFEE7g" optionalInput="_fme88DfvEemUQtxHzDLDiA" output="_fme88TfvEemUQtxHzDLDiA" performedPrimarilyBy="_fmdu0DfvEemUQtxHzDLDiA">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_vyj_cDfuEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-dqpdeD44SPiStx2Wtwv7SA#_vyj_cjfuEemUQtxHzDLDiA"/>
+        <selectedSteps href="uma://-dqpdeD44SPiStx2Wtwv7SA#_vyj_cTfuEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fmdu0DfvEemUQtxHzDLDiA" name="programador_xp" guid="_fmdu0DfvEemUQtxHzDLDiA" presentationName="Programador XP" isPlanned="false" superActivities="_ZzTp8TfaEemwn90hXFEE7g" modifies="_fme88TfvEemUQtxHzDLDiA" responsibleFor="_fme88TfvEemUQtxHzDLDiA _fme88DfvEemUQtxHzDLDiA">
+        <Role href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fme88DfvEemUQtxHzDLDiA" name="codigo_de_producao_xp" guid="_fme88DfvEemUQtxHzDLDiA" presentationName="Código de Produção" isPlanned="false" superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{3EDA30A8-932C-4EC2-B9AB-A840304C5BC1}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fme88TfvEemUQtxHzDLDiA" name="construcao_xp" guid="_fme88TfvEemUQtxHzDLDiA" presentationName="Construção XP" isPlanned="false" superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <WorkProduct href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#{FE89AB1C-E0FE-4E7F-92B4-3FA2A0ED6222}"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_jluZsDfvEemUQtxHzDLDiA" name="realizar_testes_de_integrao_das_novas_funcionalidades" guid="_jluZsDfvEemUQtxHzDLDiA" presentationName="Realizar testes de integração das novas funcionalidades" superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_2hzeoDfuEemUQtxHzDLDiA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_knJacDfvEemUQtxHzDLDiA" name="realizar_testes_de_aceitao_das_novas_funcionalidades_" guid="_knJacDfvEemUQtxHzDLDiA" presentationName="Realizar testes de aceitação das novas funcionalidades " superActivities="_ZzTp8TfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_KrZqIDfvEemUQtxHzDLDiA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_a2gzYDfaEemwn90hXFEE7g" name="Testes" guid="_a2gzYDfaEemwn90hXFEE7g">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_a2gzYTfaEemwn90hXFEE7g" name="Testes" guid="_a2gzYTfaEemwn90hXFEE7g" presentationName="Testes" superActivities="_6EZlATfVEemwn90hXFEE7g" breakdownElements="_d_pukDfaEemwn90hXFEE7g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_d_pukDfaEemwn90hXFEE7g" name="Teste de aceitação" guid="_d_pukDfaEemwn90hXFEE7g" presentationName="Teste de aceitação " superActivities="_a2gzYTfaEemwn90hXFEE7g">
+        <Task href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_KftO8DfYEemwn90hXFEE7g"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_6EZlATfVEemwn90hXFEE7g" name="Ciclo de vida" guid="_6EZlATfVEemwn90hXFEE7g" presentationName="Ciclo de vida" breakdownElements="_XT2k8TfaEemwn90hXFEE7g _Yo66cDfaEemwn90hXFEE7g _ZzTp8TfaEemwn90hXFEE7g _a2gzYTfaEemwn90hXFEE7g">
+      <presentation xmi:id="-eJjnSWCt1UT-Z20-8X8QLQ" href="uma://-eJjnSWCt1UT-Z20-8X8QLQ#-eJjnSWCt1UT-Z20-8X8QLQ"/>
+      <defaultContext href="uma://_hmtlAG96EdupM6itjmYdSQ#_mohucGE-EdqnIZeW8YpHcA"/>
+      <validContext href="uma://_hmtlAG96EdupM6itjmYdSQ#_mohucGE-EdqnIZeW8YpHcA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

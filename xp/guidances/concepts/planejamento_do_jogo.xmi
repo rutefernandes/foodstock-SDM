@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CPHs6R59_druVDY6nRjHEw" name="planning_game,2.7371805612676613E-305" guid="-CPHs6R59_druVDY6nRjHEw" changeDate="2006-11-13T20:39:25.183-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__planning_game&quot; name=&quot;XE_xp__planning_game&quot;>&lt;/a>&lt;a id=&quot;XE_planning_game__practice_of&quot; name=&quot;XE_planning_game__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__planning_game&quot; name=&quot;XE_engineering_practices__planning_game&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>A finalidade do planejamento é garantir que estamos trabalhando nas coisas mais valiosas em todos os momentos. Independente do quanto nós gostaríamos, o planejamento não é a predição do futuro. Mesmo os melhores e mais ponderados planos precisam ser continuamente aperfeiçoados. Eles necessitam de feedback contínuo e constante para serem úteis.&lt;/p>&#xD;
+&lt;p>XP propõe a seguinte hierarquia de planejamento:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Os projetos são divididos em liberações com duração de dois a três meses.&lt;/li>&#xD;
+    &lt;li>As liberações são divididas em iterações com duração de duas a três semanas.&lt;/li>&#xD;
+    &lt;li>As iterações são planejadas em tarefas que normalmente duram de um a dois dias.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>O planejamento do jogo XP tem duas atividades principais:&lt;/p>&#xD;
+&lt;h4>Planejamento da Liberação&lt;/h4>&#xD;
+&lt;ul>&#xD;
+    &lt;li>O cliente apresenta as histórias de usuário para a equipe.&lt;/li>&#xD;
+    &lt;li>Os programadores estimam o tempo para cada história de usuário.&lt;/li>&#xD;
+    &lt;li>Os clientes selecionam um conjunto de histórias de usuário para a próxima liberação. O total de tempo estimado para as histórias selecionadas não pode exceder a velocidade da equipe na liberação anterior (o quanto eles fizeram da liberação anterior).&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h4>Planejamento da Iteração&lt;/h4>&#xD;
+&lt;ul>&#xD;
+    &lt;li>O cliente apresenta as histórias de usuário que serão trabalhadas na iteração. Estas histórias geralmente vêm da liberação. As histórias que não estão na liberação podem ser selecionadas para a iteração, mas o cliente terá que retirar da iteração e da liberação, uma história existente que tenha o mesmo tamanho. Isto é feito de forma que a equipe não se comprometa a fazer mais trabalho do que eles puderam fazer no passado.&lt;/li>&#xD;
+    &lt;li>Os programadores decompõem as histórias em tarefas de engenharia.&lt;/li>&#xD;
+    &lt;li>Os programadores escolhem e estimam o tempo para as tarefas de engenharia.&lt;/li>&#xD;
+    &lt;li>Os programadores fazem uma verificação para garantir que todas estas tarefas possam ser feitas, através da comparação com o que foi feito na iteração anterior.&lt;/li>&#xD;
+    &lt;li>Se houver muito a fazer, o cliente irá retirar uma ou mais histórias de usuário da iteração.&lt;/li>&#xD;
+    &lt;li>Se não houver bastante trabalho a fazer, o cliente poderá adicionar uma ou mais histórias de usuário para completar a iteração.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>Fornece &lt;b>feedback rápido e significativo&lt;/b>.&lt;/li>&#xD;
+    &lt;li>Fornece &lt;b>muitas oportunidades&lt;/b> para usar esse feedback &lt;b>na condução da equipe ao sucesso&lt;/b>.&lt;/li>&#xD;
+    &lt;li>Fornece &lt;b>metas&lt;/b> &lt;b>estratégicas&lt;/b> de longo prazo (plano de liberação) e &lt;b>táticas&lt;/b> de curto prazo (plano de iteração).&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Permite que a equipe se auto-gerencie&lt;/b> (lista de tarefas).&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>Informações Relacionadas&lt;/h3>&#xD;
+&lt;p>Veja &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../xp/guidances/guidelines/planning_game_3C5849C8.html&quot; guid=&quot;6.7335956461328426E-307&quot;>Diretrizes para Planejamento do Jogo&lt;/a>.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

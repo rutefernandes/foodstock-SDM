@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Concept: Cat&aacute;logo de Ideias de Teste</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="catalogo_de_ideias_de_teste">
+<meta name="uma.presentationName" content="Cat&aacute;logo de Ideias de Teste">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="1.2384224477983028E-305"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Concept: Cat&aacute;logo de Ideias de Teste</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../xp/roles/programador_xp_D005E927.html" guid="{08A6AF28-69B1-42DC-A957-2E6CDCB436C1}">Programador XP</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_test-ideas_catalog__concept_of" name="XE_test-ideas_catalog__concept_of"></a> 
+<h3>
+    <a id="Introduction" name="Introduction">Introdução</a>
+</h3>
+<p>
+    Grande parte da programação consiste em usar as coisas que você já usou várias vezes antes e usá-las, mais uma vez, em
+    um contexto diferente. Essas coisas são normalmente certas estruturas de classes de dados (tais como listas encadeadas,
+    tabelas hash ou bancos de dados relacionais) ou <i>operações</i> (tais como pesquisar, ordenar, criar arquivos
+    temporários ou mostrar uma janela do navegador). Por exemplo, dois bancos de dados relacionais de clientes terão muitas
+    características em estereotipadas.
+</p>
+<p>
+    A coisa interessante sobre esses estereótipos é que eles têm <i>falhas</i> estereotipadas. As pessoas não inventam
+    novas formas imaginativas para inserir incorretamente alguma coisa em uma lista duplamente encadeada. Elas tendem a
+    cometer os mesmos erros que cometeram anteriormente. Um programador que mostra uma janela do navegador pode cometer um
+    desses erros estereotipados:
+</p>
+<ul>
+    <li>
+        criar uma nova janela quando uma, que já estava aberta, deveria ser reutilizada
+    </li>
+    <li>
+        deixar de tornar visível uma janela do navegador minimizada ou obscurecida
+    </li>
+    <li>
+        usar o Internet Explorer quando o usuário escolheu outro navegador como padrão
+    </li>
+    <li>
+        não verificar se o JavaScript está ativado
+    </li>
+</ul>
+<p>
+    Uma vez que as falhas são estereotipadas, são as <i>ideias de teste</i> que podem encontrá-las. Coloque estas ideias de
+    teste em seu catálogo para que você possa reutilizá-las.
+</p>
+<h3>
+    <a id="HowCatalogsFindFaults" name="HowCatalogsFindFaults">Como um Catálogo de Ideias de Teste Encontra Falhas</a>
+</h3>
+<p>
+    Uma das virtudes de um catálogo é que uma única ideia de teste pode ser útil para encontrar mais de uma falha oculta.
+    Veja um exemplo de uma ideia que encontra duas falhas.
+</p>
+<p>
+    A primeira falha aconteceu em um compilador C. Este compilador aceita as opções de linha de comando "-table" ou
+    "-trace" ou "-nolink". As opções podem ser abreviadas para as suas menores formas únicas. Por exemplo, "-ta" é o mesmo
+    que "-table". Entretanto, "-t" não é permitido, porque é ambíguo: pode significar tanto "-table" como "-trace".
+</p>
+<p>
+    Internamente, as opções de linha de comando são armazenadas em uma tabela como esta:
+</p>
+<div align="left">
+    <table cellspacing="0" cellpadding="2" width="25%" border="1">
+        <tbody>
+            <tr>
+                <td width="100%">
+                    -table
+                </td>
+            </tr>
+            <tr>
+                <td width="100%">
+                    -trace
+                </td>
+            </tr>
+            <tr>
+                <td width="100%">
+                    -nolink
+                </td>
+            </tr>
+        </tbody>
+    </table><br />
+</div>
+<p>
+    Quando uma opção é encontrada na linha de comando, ela é procurada na tabela. Ela tem correspondência se tiver o mesmo
+    prefixo de qualquer entrada da tabela, isto é, "-t" corresponde a "-table". Após uma correspondência ter sido
+    encontrada, o resto da tabela é pesquisado para encontrar outra correspondência. Outra correspondência seria um erro,
+    porque iria indicar uma ambiguidade.
+</p>
+<p>
+    O código que faz a pesquisa parece com este:
+</p>
+<p>
+    Você vê o problema? É bastante sutil.
+</p>
+<p>
+    O problema está na declaração break. A intenção é parar e sair do laço mais externo quando uma correspondência
+    duplicada for encontrada, mas ele só sai do laço interno. Isto tem o mesmo efeito de não encontrar uma segunda
+    correspondência: o índice da primeira correspondência é retornado.
+</p>
+<p>
+    Note que esta falha só pode ser encontrada se a opção for procurada por duas correspondências na tabela, tal como "-t"
+    iria.
+</p>
+<p>
+    Agora vamos analisar outra falha completamente diferente.
+</p>
+<p>
+    O código obtém uma string. Supõe-se que irá substituir o último '=' na string por um '+'. Se não houver nenhum '=',
+    nada será feito. O código usa a rotina <font size="+0">strchr</font> da biblioteca C padrão para encontrar a
+    localização de '='. Aqui está o código:
+</p>
+<p>
+    Este problema também é um tanto sutil.
+</p>
+<p>
+    A função <font size="+0">strchr</font> retorna a <i>primeira</i> correspondência na string, e não a última. A função
+    correta é <font size="+0">str<b><u>r</u></b>chr</font>. O problema é provavelmente um erro tipográfico. (Na verdade, o
+    problema oculto é que é definitivamente desaconselhável colocar duas funções cujos nomes diferem somente por um
+    caractere em uma biblioteca padrão.)
+</p>
+<p>
+    Este erro só pode ser encontrado quando houver dois ou mais sinais de igual na entrada. Isto é:
+</p>
+<ul>
+    <li>
+        "a=b" retornaria o resultado correto, "a+b".
+    </li>
+    <li>
+        "noequals" iria retornar o resultado correto, "noequals".
+    </li>
+    <li>
+        "a=b=c" iria retornar incorretamente "a+b=c", e não o correto "a=b+c"
+    </li>
+</ul>
+<p>
+    O que há de interessante e útil aqui é que temos duas falhas com causas completamente diferentes (erro tipográfico,
+    equívoco de uma construção C), e as diferentes manifestações no código (chamada à função errada, declaração mal usada
+    ou incompleta) que podem ser encontradas pela <i>mesma</i> ideia de teste (busca de algo que ocorre duas vezes).
+</p>
+<h3>
+    <a id="GoodCatalogs" name="GoodCatalogs">Um Bom Catálogo de Ideias de Teste</a>
+</h3>
+<p>
+    O que torna um catálogo bom?
+</p>
+<ul>
+    <li>
+        Conter um pequeno conjunto de ideias de teste que possam encontrar um conjunto muito maior de falhas ocultas.
+    </li>
+    <li>
+        Seja fácil de ler rapidamente. Permitir que seja possível ignorar as ideias de teste que não são relevantes para a
+        sua situação.
+    </li>
+    <li>
+        Conter somente as ideias de teste que você irá usar. Por exemplo, alguém que nunca irá lidar com navegadores web
+        não deveria ter que lidar com as ideias de teste para programas que usam navegadores web. Alguém que trabalhe com
+        software de jogos irá querer um catálogo mais curto do que alguém que trabalhe com software de segurança crítica. A
+        pessoa dos jogos pode se dar ao luxo de concentrar-se apenas nas ideias de teste que têm maior chance de encontrar
+        falhas.
+    </li>
+</ul>
+<p>
+    Dadas essas regras, parece ser melhor ter mais do que um catálogo. Alguns dados e operações são comuns a todas as
+    linguagens, sendo assim, as suas ideias de teste podem ser colocadas em um catálogo que todos os programadores possam
+    usar. Outros são específicos para um determinado domínio, então as ideias de teste para eles podem ser colocadas em um
+    catálogo de ideias teste de domínio específico.
+</p>
+<p>
+    O catálogo de exemplo (<a href="./../../../xp/guidances/concepts/./resources/tstids_short-catalog.pdf" target="_blank">tstids_short-catalog.pdf</a>)(<a href="http://www.adobe.com/products/acrobat/alternate.html">Obtenha o Adobe Reader</a>), usado no exemplo a seguir, é
+    uma boa opção para começar. Ideias de Teste para Misturas de Es e OUs é outro exemplo.
+</p>
+<h3>
+    <a id="UsingACatalogExample" name="UsingACatalogExample">Um Exemplo de Uso de um Catálogo de Ideias de Teste</a>
+</h3>
+<p>
+    Veja aqui como você pode usar o catálogo de exemplo (<a href="./../../../xp/guidances/concepts/./resources/tstids_short-catalog.pdf" target="_blank">tstids_short-catalog.pdf</a>)(<a href="http://www.adobe.com/products/acrobat/alternate.html">Obtenha o
+    Acrobat Reader</a>). Suponha que você esteja implementando este método:
+</p>
+<p>
+    <font size="+0">applyToCommonFiles</font> tem dois diretórios como argumentos. Quando um arquivo no primeiro diretório
+    tiver o mesmo nome de um arquivo, no segundo, <font size="+0">applytocommonfiles</font> realiza algumas operações nos
+    dois arquivos. Ele desce nos subdiretórios.
+</p>
+<p>
+    O método para usar o catálogo é através da varredura à procura dos segmentos que correspondam a sua situação. Considere
+    as ideias de teste em cada segmento e veja se elas são pertinentes e, então, escreva aquelas que são relevantes em uma
+    <a class="elementLink" href="./../../../xp/guidances/concepts/lista_de_ideias_de_teste_9B7EE6E1.html" guid="8.834380241450745E-306">Lista de Ideias de Teste</a>.
+</p>
+<p>
+    <b>Nota:</b> Esta descrição passo-a-passo pode fazer parecer que o uso do catálogo seja trabalhoso. Leva mais tempo
+    para ler sobre a criação da lista de verificação do que para realmente criar uma.
+</p>
+<p>
+    Sendo assim, no caso de <font size="+0">applyToCommonFiles</font>, você pode aplicar o catálogo da forma descrita nesta
+    seção.
+</p>
+<p>
+    A primeira entrada é para <b>Qualquer Objeto</b>. Qualquer um dos argumentos poderia ser um ponteiro nulo? Esta é uma
+    questão do contrato entre <font size="+0">applyToCommonFiles</font> e seus invocadores. O contrato pode ser tal que os
+    invocadores não passem um ponteiro nulo. Se eles fizerem isso, você não poderá confiar no comportamento esperado: <font     size="+0">applyToCommonFiles</font> poderia executar qualquer ação. Neste caso, nenhum teste é apropriado, visto que
+    qualquer coisa que <font size="+0">applyToCommonFiles</font> fizer não estará errado. Se, entretanto, for exigido que
+    <font size="+0">applyToCommonFiles</font> verifique se há ponteiros nulos, a ideia de teste seria útil. Vamos assumir a
+    última, que nos dá esta lista inicial de ideias de teste:
+</p>
+<ul>
+    <li>
+        d1 é nulo (caso de erro)
+    </li>
+    <li>
+        d2 é nulo (caso de erro)
+    </li>
+    <li>
+        op é nulo (caso de erro)
+    </li>
+</ul>
+<p>
+    A próxima entrada do catálogo é <b>Strings</b>. Os nomes dos arquivos são strings, e são comparados para ver se
+    correspondem. A ideia de testar com a strings vazia ("") não parece útil. Presumivelmente algumas rotinas padrão de
+    comparação de string serão usadas, e elas irão tratar as strings vazias corretamente.
+</p>
+<p>
+    Mas espere... Se existem strings sendo comparadas, o que acontece com Maiúsculas e Minúsculas? Suponha que <font     size="+0">d1</font> contenha um arquivo chamado "Arquivo" e <font size="+0">d2</font> contenha um arquivo chamado
+    "arquivo". Esses arquivos correspondem? No Unix, certamente que não. No Microsoft&reg; Windows&reg;, eles certamente iriam.
+    Outra ideia de teste:
+</p>
+<ul>
+    <li>
+        Os arquivos correspondem nos dois diretórios, mas a caixa dos nomes é diferente.
+    </li>
+</ul>
+<p>
+    Note que esta ideia de teste não veio diretamente do catálogo. Entretanto, o catálogo chamou a nossa atenção para um
+    aspecto específico do programa (nomes de arquivos como strings), e a nossa criatividade nos deu uma ideia adicional. É
+    importante não usar o catálogo restritivamente - use-o como uma técnica para brainstorming, uma forma de inspirar novas
+    ideias.
+</p>
+<p>
+    A próxima entrada é <b>Coleções</b>. Um diretório é uma coleção de arquivos. Muitos programas que tratam coleções
+    falham quando elas estão vazias. Alguns que tratam as coleções vazias, ou com muitos elementos, falham nas coleções com
+    exatamente um elemento. Então estas ideias são úteis:
+</p>
+<ul>
+    <li>
+        d1 está vazio
+    </li>
+    <li>
+        d2 está vazio
+    </li>
+    <li>
+        d1 tem somente um arquivo
+    </li>
+    <li>
+        d2 tem somente um arquivo
+    </li>
+</ul>
+<p>
+    A próxima ideia é usar uma coleção do tamanho máximo possível. Isto é útil porque programas como <font     size="+0">applyToCommonFiles</font> muitas vezes são testados com poucos diretórios comuns. Então, alguns usuários
+    usam-nos com duas enormes árvores de diretório com milhares de arquivos em cada uma, apenas para descobrir que o
+    programa é grotescamente ineficiente com a memória e não pode tratar este caso realista.
+</p>
+<p>
+    Agora, testar o tamanho máximo absoluto para um diretório não é importante, só precisa ser grande o bastante para que
+    um usuário possa usá-lo. Entretanto, deve existir pelo menos <i>algum</i> teste com mais de três arquivos em um
+    diretório:
+</p>
+<ul>
+    <li>
+        d1 contém muitos arquivos
+    </li>
+    <li>
+        d2 contém muitos arquivos
+    </li>
+</ul>
+<p>
+    A ideia de teste final (elementos duplicados) não se aplica aos diretórios de arquivos. Isto é, se você tiver um
+    diretório com dois arquivos que tenham o mesmo nome, você tem um problema independente de <font     size="+0">applyToCommonFiles</font> - o sistema de arquivos está corrompido.
+</p>
+<p>
+    A próxima entrada do catálogo é <b>Pesquisa</b>. Essas ideias podem ser traduzidas em termos de <font     size="+0">applyToCommonFiles</font> como estas:
+</p>
+<ul>
+    <li>
+        d1 e d2 não têm arquivos em comum (todos os nomes são diferentes)
+    </li>
+    <li>
+        d1 e d2 têm exatamente um arquivo em comum (é alfabeticamente o último elemento do diretório)
+    </li>
+    <li>
+        d1 e d2 têm mais de um arquivo em comum
+    </li>
+</ul>
+<p>
+    A ideia de teste final verifica se <font size="+0">applyToCommonFiles</font> termina muito cedo. Ele retorna assim que
+    encontra a primeira correspondência? A observação entre parênteses na ideia de teste anterior pressupõe que o programa
+    irá buscar a lista de arquivos em um diretório usando alguma rotina da biblioteca que os retorne ordenados
+    alfabeticamente. Se não estiver, será melhor encontrar qual é o último realmente (o criado mais recentemente?) e fazer
+    com que ele seja o elemento de correspondência. Antes de dedicar muito tempo para descobrir como os arquivos estão
+    ordenados, pergunte-se se colocar o elemento a ser correspondido por último, irá tornar mais fácil a descoberta de
+    defeitos. Colocar um elemento na última posição de uma coleção é mais útil se o código manipula a coleção usando um
+    índice. Se estiver usando um iterator, é extremamente improvável que a ordem tenha importância.
+</p>
+<p>
+    Vamos analisar mais uma entrada no catálogo de exemplo. A entrada <b>Estruturas Ligadas</b> lembra-nos que estamos
+    comparando <i>árvores</i> de diretório, e não apenas coleções de arquivos. Seria triste se <font     size="+0">applyToCommonFiles</font> trabalhasse apenas nos diretórios de nível superior, e não nos de níveis
+    inferiores. Decidir a forma de testar se <font size="+0">applyToCommonFiles</font> trabalha em diretórios de níveis
+    mais baixos nos obriga a enfrentar a incompletude da sua descrição.
+</p>
+<p>
+    Em primeiro lugar, quando <font size="+0">applyToCommonFiles</font> desce nos subdiretórios? Se a estrutura de
+    diretórios tiver esta aparência
+</p>
+<p align="center">
+    <img height="162" alt="" src="./../../../xp/guidances/concepts/resources/tstidsctl-img1.gif" width="334" />
+</p>
+<p class="picturetext">
+    Figura 1: Estrutura de diretório
+</p>
+<p>
+    será que <font size="+0">applyToCommonFiles</font> desce até <font size="+0">Cdir</font>? Isso parece não fazer
+    sentido. Pode não existir correspondência na outra árvore de diretórios. Na verdade, parece que os arquivos nos
+    subdiretórios só podem corresponder se os nomes dos subdiretórios corresponderem. Ou seja, suponha que temos esta
+    estrutura de diretório:
+</p>
+<p align="center">
+    <img height="165" alt="" src="./../../../xp/guidances/concepts/resources/tstidsctl-img2.gif" width="334" />
+</p>
+<p class="picturetext">
+    Figura 2: Uma segunda estrutura de diretório
+</p>
+<p>
+    Os arquivos chamados "File" não correspondem, porque eles estão em subdiretórios diferentes. Os subdiretórios devem
+    descender apenas se tiverem o mesmo nome em <font size="+0">d1</font> e <font size="+0">d2</font>. O que leva a estas
+    ideias de teste:
+</p>
+<ul>
+    <li>
+        Algum subdiretório em d1 não é encontrado em d2 (sem descendência).
+    </li>
+    <li>
+        Algum subdiretório em d2 não é encontrado em d1 (sem descendência)
+    </li>
+    <li>
+        Algum subdiretório aparece tanto em d1 como em d2 (descende)
+    </li>
+</ul>
+<p>
+    Mas isso levanta outras questões. A operação (<font size="+0">op</font>) pode ser aplicada para encontrar subdiretórios
+    ou apenas arquivos? Se for aplicada aos subdiretórios, ela deve ser aplicada antes ou depois da descendência? Isso faz
+    diferença, se, por exemplo, a operação apagar os arquivos ou diretórios correspondentes. E em assim sendo, a operação
+    <i>deve</i> ser autorizada a modificar a estrutura de diretórios? e, mais especificamente: qual é o comportamento
+    correto de <font size="+0">applyToCommonFiles</font> se isso acontecer? (este é o mesmo problema que surge com
+    iteradores.)
+</p>
+<p>
+    Estes tipos de dúvidas surgem normalmente quando você lê atentamente uma descrição da criação de ideias de teste para o
+    método. Mas vamos deixá-las de lado por enquanto. Quaisquer que sejam as dúvidas, deverão existir ideias de teste para
+    elas - ideias de teste que verifiquem se o código as implementa corretamente.
+</p>
+<p>
+    Vamos voltar ao catálogo. Nós ainda não consideramos todas as ideias de teste. A primeira - vazia (nada na estrutura) -
+    pergunta por um diretório vazio. Nós já obtivemos isso no item <b>Coleções</b>. Nós também já obtivemos a estrutura
+    <b>mínima não-vazia</b>, que é um diretório com um único elemento. Este tipo de redundância não é raro, mas é fácil de
+    ignorar.
+</p>
+<p>
+    E a <b>estrutura circular</b>? As estruturas de diretório não podem ser circulares - um diretório não pode estar dentro
+    de um de seus descendentes ou dentro de si mesmo... ou pode? E os atalhos (no Windows) ou links simbólicos (no UNIX)?
+    Se houver um atalho na árvore de diretório em <font size="+0">d1</font> que aponta de volta para <font     size="+0">d1</font>, <font size="+0">applyToCommonFiles</font> deve continuar descendo indeterminadamente? A resposta
+    pode levar a uma ou mais ideias de teste novas:
+</p>
+<ul>
+    <li>
+        d1 é circular por causa de atalhos ou links simbólicos
+    </li>
+    <li>
+        d2 é circular por causa de atalhos ou links simbólicos
+    </li>
+</ul>
+<p>
+    Dependendo do comportamento correto, podem existir mais ideias de teste além desta.
+</p>
+<p>
+    Finalmente, e a <b>profundidade maior que um</b>? As primeiras ideias de teste irão garantir que estamos testando em um
+    nível descendente de subdiretório, mas devemos verificar se <font size="+0">applyToCommonFiles</font> continua
+    descendo:
+</p>
+<ul>
+    <li>
+        descendo diversos níveis (&gt;1) dos subdiretórios em d1
+    </li>
+    <li>
+        descendo diversos níveis (&gt;1) dos subdiretórios em d2
+    </li>
+</ul>
+<h3>
+    <a id="CreatingYourOwnCatalogs" name="CreatingYourOwnCatalogs">Criando e Mantendo Seu Próprio Catálogo de Ideias de
+    Teste</a>
+</h3>
+<p>
+    Como mencionado anteriormente, os catálogos genéricos não conterão todas as ideias de teste que você precisa. Mas, os
+    catálogos de <i>domínios</i> específicos não têm sido publicados fora das empresas que os criaram. Se você os quiser,
+    precisa construí-los. Eis alguns conselhos.
+</p>
+<ul>
+    <li>
+        Não encha o catálogo com especulações sobre quais ideias poderiam ser boas para encontrar falhas. lembre-se que
+        cada ideia de teste que você coloca no catálogo custa tempo e dinheiro: 
+        <ul>
+            <li>
+                Seu tempo para manter o catálogo
+            </li>
+            <li>
+                O tempo de outros programadores para pensar sobre a ideia de teste
+            </li>
+            <li>
+                Possivelmente, o tempo de outros programadores para implementar um teste
+            </li>
+        </ul><br />
+        Adicione apenas as ideias que têm demonstrado um registro histórico. Você deve ser capaz de identificar, pelo
+        menos, uma falha real que a ideia de teste tenha capturado. Idealmente, a falha deverá ser aquela que não foi
+        detectada por outros testes, isto é, uma que foi relatada quando da execução. Uma boa forma para construir
+        catálogos é navegar no banco de dados de falhas da sua empresa e questionar como cada uma poderia ter sido
+        detectada mais cedo.
+    </li>
+    <li style="LIST-STYLE-TYPE: none">
+        <br />
+        <br />
+    </li>
+    <li>
+        É pouco provável que o trabalho de criar e manter um catálogo de ideias de teste é algo que possa ser feito em seu
+        tempo livre. Você precisará alocar um tempo especifico para esta tarefa, tal como para qualquer outra importante.
+        Nós recomendamos que você crie e mantenha o seu Catálogo de Ideias de Teste durante o Detalhe de Fluxo de Trabalho:
+        Melhorar os Recursos de Teste.
+    </li>
+</ul></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-DoLoZOTPa_LacQ3jUG_lsg" name="xp_sustainable_pace,3.133529870649493E-306" guid="-DoLoZOTPa_LacQ3jUG_lsg" changeDate="2006-11-09T20:07:23.389-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__sustainable_pace&quot; name=&quot;XE_xp__sustainable_pace&quot;>&lt;/a>&lt;a id=&quot;XE_sustainable_pace__practice_of&quot; name=&quot;XE_sustainable_pace__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__sustainable_pace&quot; name=&quot;XE_engineering_practices__sustainable_pace&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>O pressuposto na XP é que o desenvolvimento de software não seja uma correria, mas uma maratona. Enquanto um corredor vence facilmente um maratonista em uma distância muito curta, o maratonista sempre vencerá em percursos longos. Trabalhar constantemente em horário extraordinário irá destruir a equipe, o design e, eventualmente, o produto. Isto cria um ambiente que torna impossível fazer um trabalho de alta qualidade. As pessoas cometem mais erros, porque estão cansadas (sem falar na baixa moral), ocasionando falhas que necessitam de muito tempo para correção. O resultado final é que tudo atrasa e todos ficam cansados.&lt;/p>&#xD;
+&lt;p>O horário extraordinário contínuo pode ser um sintoma de um problema mais profundo que não está sendo tratado. Talvez o processo esteja tão fragmentado que seja impossível consertá-lo apenas com mais trabalho. A regra na XP é que, se a equipe tiver que trabalhar em horário extraordinário mais do que uma semana consecutiva, a situação deverá ser reavaliada e o plano deverá ser repensado. O horário extraordinário é aceitável se você precisar chegar ao final de uma iteração ou liberação, mas deve sempre ser uma exceção e não uma regra.&lt;/p>&#xD;
+&lt;p>O ritmo sustentável serve para estimular a equipe a produzir uma quantidade de trabalho consistente durante um longo período de tempo.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Aumento da previsibilidade&lt;/b>: Os planos se tornam mais precisos.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Melhoria da qualidade do produto&lt;/b>: Os programadores têm tempo suficiente para fazer a coisa certa.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Aumento da satisfação profissional&lt;/b>: Os programadores podem executar seu trabalho com o mínimo estresse possível.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Redução no tempo de entrega&lt;/b>: Menos tempo é necessário para corrigir código ruim e design mal feito.&lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

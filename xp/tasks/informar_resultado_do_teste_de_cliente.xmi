@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-p0GGwGNG5O8Dn6O6ZzivIw" name="report_acceptance_test_result,{52D6E875-C46B-454B-A39C-CEC21603AF5C}" guid="-p0GGwGNG5O8Dn6O6ZzivIw" version="1.0.0">
+  <sections xmi:id="_oH6dkGE-EdqnIZeW8YpHcA" name="Geral" guid="_oH6dkGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Esta atividade comunica a toda equipe os progressos alcançados. Como isto é um importante fator de motivação, as equipes XP frequentemente usam gráficos grandes e visíveis para mostrar o seu progresso. Estes gráficos são muitas vezes colocados no espaço de trabalho aberto e ficam visíveis para qualquer pessoa que entre na área da equipe.&lt;/p>&#xD;
+&lt;p>Um gráfico adequado poderia comparar a quantidade de testes de cliente definidos e executados por iteração. O eixo vertical representa a quantidade de testes e o eixo horizontal o número da iteração.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_report_customer_test_result__activity_definition&quot; name=&quot;XE_report_customer_test_result__activity_definition&quot;>&lt;/a>&#xD;
+&#xD;
+&lt;ul>&#xD;
+    &lt;li>Fornecer à equipe uma clara compreensão do progresso.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

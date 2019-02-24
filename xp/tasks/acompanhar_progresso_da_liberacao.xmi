@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FxF90KOknQ5km30pP0038w" name="track_story_completion,{C333BA32-CF6B-4577-9212-302893043EFF}" guid="-FxF90KOknQ5km30pP0038w" version="1.0.0">
+  <sections xmi:id="_oOHzQGE-EdqnIZeW8YpHcA" name="Geral" guid="_oOHzQGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>O progresso na XP é medido na forma de histórias de usuário que passam nos testes de aceitação. As histórias de usuários são consideradas concluídas quando, e somente quando, elas passam em todos os testes de aceitação. Pelo fato de todos os testes de cliente serem automatizados, esta tarefa é realmente muito simples, visto que ela consiste somente em executar a suíte de testes automatizados de aceitação e comparar os resultados com o planejado. Se 50% das histórias (ponderadas de acordo com os custos) passarem pelos testes de aceitação, você terá concluído 50%. Espera-se que menos de 50% da liberação tenha decorrido. Se não for, é uma indicação de que o plano de liberação deve ser revisto.&lt;/p>&#xD;
+&lt;p>Regularmente, o rastreador apresenta o progresso que a equipe está tendo na liberação. Esta informação pode ser apresentada sob a forma de um gráfico grande e visível, pendurado no espaço de trabalho da equipe. O progresso é muitas vezes apresentado na forma de quantidade de histórias prontas versus  as planejadas para a liberação.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_track_release_progress__activity_definition&quot; name=&quot;XE_track_release_progress__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Acompanhar o progresso da liberação.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

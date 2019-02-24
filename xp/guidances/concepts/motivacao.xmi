@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-nIpFvBhY9WogqrEQv4NknQ" name="why_xp,1.6390805262958034E-306" guid="-nIpFvBhY9WogqrEQv4NknQ" changeDate="2006-11-08T20:24:24.660-0300" version="1.0.0">
+  <mainDescription>&lt;p>A meta de um processo de software é guiar a organização de desenvolvimento de software para:&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>Construir o software certo.&lt;/li>&#xD;
+    &lt;li>Acertar na construção do software.&lt;/li>&#xD;
+    &lt;li>Construir o software rapidamente.&lt;/li>&#xD;
+    &lt;li>Construir o software de forma frugal.&lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;p>Existem muitas abordagens para este problema. Alguns processos de software são de alta cerimônia. Eles induzem os desenvolvedores a criar vários artefatos. Pontuam o projeto com fases e finalizações. Liberam raramente, por vezes apenas na conclusão do projeto. Existe tempo e lugar para esses processos.&lt;/p>&#xD;
+&lt;p>Por outro lado, o recurso mais importante e escasso em qualquer projeto é o tempo dos desenvolvedores. Os processos de alta cerimônia preenchem esse tempo com atividades focadas em vários artefatos e revisões ao invés dos principais artefatos de código e teste. Para muitos projetos esta é uma despesa exorbitante.&lt;/p>&#xD;
+&lt;p>Para gerenciar este custo, muitos projetos precisam de um processo que utilize um mínimo de cerimônia e concentre-se nos principais artefatos. Eles precisam de um processo direcionado por feedback que entregue rapidamente um software executável em curtas liberações.&lt;/p>&#xD;
+&lt;p>XP é exatamente esse processo de pouca cerimônia. É usada pelas equipes e nos projetos cuja cerimônia tenha pouco valor, mas o rápido feedback seja valoroso. Tais projetos tendem a ser pequenos ou médios - menos de um ou dois milhões de linhas de código - e envolvem menos de uma ou duas dúzias de desenvolvedores. Eles tendem a existir em ambientes de intensas mudanças empresariais ou técnicas. Eles são, evidentemente, extremamente comuns.&lt;/p>&#xD;
+&lt;p>A falta de cerimônia não implica em falta de gestão. XP coloca bastante ênfase nas técnicas de planejamento, estimativa e gestão de cronograma. A criação, manutenção e gestão de um plano de projeto são uma grande parte da XP.&lt;/p>&#xD;
+&lt;p>A falta de cerimônia também não implica em falta de disciplina. XP defende a disciplina para todas as facetas do projeto. Existem disciplinas para teste, integração, planejamento, revisão e para a produção de software com estrutura interna de alta qualidade. A meta é manter o projeto em movimento e o software fácil de modificar, estender e desenvolver.&lt;/p>&#xD;
+&lt;p>Resumindo, a XP coloca ênfase na garantia de que a equipe esteja trabalhando com o conjunto mínimo de atividades e artefatos que irão produzir o software certo, construído corretamente, rapidamente e de forma frugal.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

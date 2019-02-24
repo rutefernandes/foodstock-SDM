@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WgE0oiE2yddCOMnfzL25Gw" name="define_customer_test,{DCDB57BE-4233-4CF8-90CE-70D6808F92B0}" guid="-WgE0oiE2yddCOMnfzL25Gw" version="1.0.0">
+  <sections xmi:id="_oGorMGE-EdqnIZeW8YpHcA" name="Entender a História" guid="_oGorMGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Visto que os testes de cliente são automatizados, o cliente deve ser muito específico sobre o que os testes irão fazer. É impossível fazer isto se o cliente não entender a história nos mínimos detalhes a partir de uma perspectiva de usuário. Escrever os testes de cliente irá forçar o cliente a percorrer todos os detalhes da história. As histórias devem ser testáveis.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oGorMWE-EdqnIZeW8YpHcA" name="Definir Critérios de Teste" guid="_oGorMWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Assim que a história estiver bem entendida e selecionada para a iteração, os testes de cliente automatizados devem ser escritos. Se a equipe cliente possuir testadores, o cliente poderá comunicar os critérios de teste ao testador. Isto pode ser feito de forma verbal ou escrita. O critério descreve os testes para o comportamento normal e excepcional do sistema.&lt;br />&#xD;
+      &#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_define_customer_test__activity_definition&quot; name=&quot;XE_define_customer_test__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Definir os critérios com os quais o cliente irá considerar uma história completa.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

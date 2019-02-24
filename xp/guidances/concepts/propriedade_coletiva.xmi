@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-YP0i7TC6QNgemddcj1iE7g" name="collective_ownership,9.300699588493279E-306" guid="-YP0i7TC6QNgemddcj1iE7g" changeDate="2006-11-13T19:36:27.348-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__collective_ownership&quot; name=&quot;XE_xp__collective_ownership&quot;>&lt;/a>&lt;a id=&quot;XE_collective_ownership__practice_of&quot; name=&quot;XE_collective_ownership__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__collective_ownership&quot; name=&quot;XE_engineering_practices__collective_ownership&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>A prática de propriedade coletiva declara que qualquer membro da equipe pode alterar qualquer parte do código do sistema a qualquer momento.&lt;/p>&#xD;
+&lt;p>Ter uma boa suíte de testes e ser capaz de integrar continuamente são questões críticas para assegurar que esta prática funcione bem. Sem os testes, seria impossível saber se uma parte crucial do sistema foi modificada indevidamente por causa de compreensão inadequada. A integração com frequência e os testes garantem que tais problemas são capturados e corrigidos rapidamente.  Usado com a programação em pares, a propriedade coletiva de código é uma forma eficaz para difundir o conhecimento do sistema por toda a equipe.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Conhecimento compartilhado do código&lt;/b>: permite que os programadores se familiarizem mais com o código e se beneficiem da experiência dos outros.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Código mais simples&lt;/b>: faz com que o código complexo seja encontrado e refatorado com mais rapidez à medida que muitos pares de olhos leem o mesmo código.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Implementação mais rápida&lt;/b>: remove os obstáculos de forma que as alterações possam ser feitas por aqueles que precisam delas e quando precisam.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

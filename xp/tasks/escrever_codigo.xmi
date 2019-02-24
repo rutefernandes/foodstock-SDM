@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kNZQ2Mr_nyfmCboprjMNTg" name="write_code,{8F6CB99A-D2EA-44BB-8CE5-F97220D44088}" guid="-kNZQ2Mr_nyfmCboprjMNTg" version="1.0.0">
+  <sections xmi:id="_oUbPkGE-EdqnIZeW8YpHcA" name="Consiga um Parceiro de Programação" guid="_oUbPkGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>A Programação em Pares é uma das Melhores Práticas da Programação Extrema. A regra básica em relação à programação em pares da XP é que todo código de produção é desenvolvido em pares. Um programador tem a responsabilidade de concluir uma tarefa. Este programador convida outro programador para ser seu parceiro na conclusão da tarefa. A parceria é de curto prazo, normalmente menos de meio dia. Encontre um parceiro que tenha a experiência ou habilidade que você precisa para completar sua tarefa. A sua tarefa pode incluir a modificação de uma tabela na base de dados. Procure pela pessoa da equipe que tenha maior conhecimento para ajudá-lo a usar a API do banco de dados. Mais tarde, você poderá ter necessidade de exibir os dados em uma janela GUI, mas você ainda não viu esta parte da GUI. Encontre alguém que conheça isso para lhe ajudar.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oUbPkWE-EdqnIZeW8YpHcA" name="Escreva Casos de Teste que Falhem" guid="_oUbPkWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Ao olhar para uma Tarefa de Engenharia, você deverá considerar como adicionar esta capacidade ao sistema. O sistema necessitará de novas classes? Existem classes que possam ser úteis? Independente de como essas decisões acontecem, a adição de funcionalidade exige a criação de um caso de teste. Você escreve o caso de teste para demonstrar que uma parte da funcionalidade que você precisa não está no sistema. Este caso de teste deverá falhar.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oUbPkmE-EdqnIZeW8YpHcA" name="Escreva Código Para Fazer os Testes Passarem" guid="_oUbPkmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Quando você tiver um caso de teste falho, você deverá escrever apenas o código necessário para satisfazer o caso de teste. Os casos de teste devem ter um foco muito estreito. Um caso de teste falho pode desencadear a criação de uma nova classe ou método para atendê-lo, ou pode simplesmente exigir que você adicione mais código as classes e métodos existentes.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oUbPk2E-EdqnIZeW8YpHcA" name="Refatore Imediatamente" guid="_oUbPk2E-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step4&quot; name=&quot;Step4&quot;>&lt;/a> &#xD;
+&lt;p>Logo após o caso de teste passar, volte e torne o código o mais limpo possível. Você adicionou código a um método de forma a fazê-lo ter mais de uma única função? Se for o caso, divida o método. Uma classe cresceu muito? Considere dividi-la em mais classes. Você notou alguma duplicação? Refatore para removê-la.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oUbPlGE-EdqnIZeW8YpHcA" name="Repita até que a Tarefa de Engenharia Tenha Sido Concluída" guid="_oUbPlGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step5&quot; name=&quot;Step5&quot;>&lt;/a> &#xD;
+&lt;p>Os três passos anteriores deverão ser executados em sequência, varias vezes, até que você e seu parceiro tenham concluído a Tarefa de Engenharia. É importante refatorar durante o projeto porque, mesmo em uma micro-escala, torna o trabalho posterior mais fácil.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_write_code__activity_definition&quot; name=&quot;XE_write_code__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Especificar o design do sistema de forma que seja preciso o bastante para permitir que os computadores gerem automaticamente processos eficientes e suficientemente claros para que as pessoas possam entendê-los durante o trabalho em curso e a manutenção.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

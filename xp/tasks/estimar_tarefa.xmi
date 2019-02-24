@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9EbmL3qGJ_TemB83cJublQ" name="estimate_task,{EC483990-8129-4AE3-893C-0F7406C128DA}" guid="-9EbmL3qGJ_TemB83cJublQ" version="1.0.0">
+  <sections xmi:id="_oCfyEmE-EdqnIZeW8YpHcA" name="Entender a Tarefa" guid="_oCfyEmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>A decomposição em tarefas de uma história de usuário é feita no planejamento da iteração por toda a equipe. Visto que todos os membros da equipe estão presentes, eles devem ter um ótimo entendimento das tarefas. Se assim não for, a equipe estará lá para ajudá-los.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oCfyE2E-EdqnIZeW8YpHcA" name="Fazer uma Estimativa Com Base na Experiência" guid="_oCfyE2E-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>A pessoa responsável pela estimativa pode usar sua experiência pessoal com base nas tarefas semelhantes que realizou no passado. Se não existir experiência, outros membros da equipe podem ajudar fornecendo a sua contribuição com base em suas próprias experiências. Frequentemente, os pares irão se formar para tarefas específicas nesta fase. O aspecto mais importante para ter em mente é que a pessoa responsável pela tarefa é quem faz a estimativa.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_estimate_task__activity_definition&quot; name=&quot;XE_estimate_task__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Fornecer uma estimativa minuciosa que será usada no planejamento da iteração.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-LVHbtWMGC3pAL9abD018MA" name="xp_best_practices,4.315031901943112E-306" guid="-LVHbtWMGC3pAL9abD018MA" changeDate="2006-12-01T20:22:33.700-0300" version="1.0.0">
+  <mainDescription>&lt;p>A Programação Extrema baseia-se principalmente nos valores de &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/xp_values_72DBC1C.html&quot; guid=&quot;1.076140803519123E-306&quot;>comunicação, simplicidade, feedback e coragem&lt;/a>. Estas não são somente palavras-do-momento: elas permeiam o comportamento dos profissionais XP e as escolha das práticas XP.&lt;/p>&#xD;
+&lt;p>Mais do que qualquer outra coisa, XP baseia-se em pessoas, pessoas que ficam juntas e trabalham em conjunto para construir software. As práticas XP existem para permitir que as pessoas trabalhem em conjunto; as práticas tentam nunca interferir no empreendimento humano de construção de software que atenda às necessidades de negócio. Ou seja, as práticas XP, embora bastante disciplinadas, existem para permitir interações entre indivíduos, nunca para substituir ou interferir essas interações.&lt;/p>&#xD;
+&lt;h3>Práticas XP&lt;/h3>&#xD;
+&lt;p>&#xD;
+    &lt;b>&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Visão Geral&lt;/a>&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/whole_team_7E4B7BE3.html&quot; guid=&quot;7.89591827591278E-306&quot;>Toda a Equipe&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/planning_game_39C56241.html&quot; guid=&quot;2.7371805612676613E-305&quot;>Planejamento do Jogo&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/small_releases_782AF220.html&quot; guid=&quot;5.762953011420275E-306&quot;>Pequenas Liberações&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/customer_tests_D6F96AB.html&quot; guid=&quot;2.297945473205673E-305&quot;>Testes de Cliente&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/simple_design_63BCA71E.html&quot; guid=&quot;1.6109092258980447E-306&quot;>Design Simples&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/pair_programming_954480F4.html&quot; guid=&quot;3.876855509996079E-307&quot;>Programação em Pares&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/test_driven_development_DACEB1AF.html&quot; guid=&quot;1.620567348185129E-306&quot;>Desenvolvimento Dirigido por Testes&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/refactoring_xp_programming_6368BEEC.html&quot; guid=&quot;1.4410217108363206E-306&quot;>Refatoração&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/metaphor_system_of_names_22EF5A32.html&quot; guid=&quot;4.884861766532753E-306&quot;>Metáfora&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/continuous_integration_80DF5104.html&quot; guid=&quot;3.193414568279561E-305&quot;>Integração Contínua&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/collective_ownership_DE6F39EE.html&quot; guid=&quot;9.300699588493279E-306&quot;>Propriedade Coletiva&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/coding_standard_140001B7.html&quot; guid=&quot;8.8116853923311E-307&quot;>Padrão de Codificação&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/xp_sustainable_pace_A9E6BBD3.html&quot; guid=&quot;3.133529870649493E-306&quot;>Ritmo Sustentável&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

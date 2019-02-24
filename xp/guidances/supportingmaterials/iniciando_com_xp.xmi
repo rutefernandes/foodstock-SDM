@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PCk5_o83KYiPZaKUzt021A" name="getting_started_with_xp,1.2284921351651456E-304" guid="-PCk5_o83KYiPZaKUzt021A" changeDate="2006-11-08T20:14:04.387-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__getting started_with&quot; name=&quot;XE_xp__getting started_with&quot;>&lt;/a>&lt;a id=&quot;XE_getting started__with_xp&quot; name=&quot;XE_getting started__with_xp&quot;>&lt;/a> &#xD;
+&lt;h3>Tópicos&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;#WhatisXP&quot;>O que é XP?&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;#Start&quot;>Onde devo iniciar?&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a href=&quot;#Providing&quot;>Fornecendo Feedback&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>&#xD;
+    &lt;a id=&quot;WhatisXP&quot; name=&quot;WhatisXP&quot;>O que é XP?&lt;/a>&#xD;
+&lt;/h3>&#xD;
+&lt;p>Programação Extrema ou XP é um processo de desenvolvimento que pode ser usado por equipes pequenas ou médias para desenvolver software de alta qualidade com orçamento e cronograma previsíveis e com o mínimo de dispêndio. XP é atualmente um dos processos ágeis mais largamente usados na indústria.&lt;/p>&#xD;
+&lt;h3>&#xD;
+    &lt;a id=&quot;Start&quot; name=&quot;Start&quot;>Onde devo iniciar?&lt;/a>&#xD;
+&lt;/h3>&#xD;
+&lt;p>Se você não está familiarizado com XP e quer aprender mais sobre o assunto, sugerimos que siga os seguintes passos:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Obtenha uma &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../xp/guidances/concepts/what_is_xp_A89DF252.html&quot; guid=&quot;9.251272550276345E-306&quot;>visão geral da XP&lt;/a>.&lt;/li>&#xD;
+    &lt;li>Leia sobre a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../xp/guidances/concepts/motivation_D5B404DA.html&quot; guid=&quot;1.6390805262958034E-306&quot;>motivação por trás da XP&lt;/a>.&lt;/li>&#xD;
+    &lt;li>Entenda o que significa &lt;a class=&quot;elementLink&quot; href=&quot;./../../../xp/guidances/concepts/agile_software_development_4BF66D1B.html&quot; guid=&quot;1.041091673844025E-305&quot;>Desenvolvimento Ágil de Software&lt;/a>.&lt;/li>&#xD;
+    &lt;li>Faça um tour pelos &lt;a class=&quot;elementLink&quot; href=&quot;./../../../xp/guidances/concepts/xp_values_72DBC1C.html&quot; guid=&quot;1.076140803519123E-306&quot;>Valores XP&lt;/a> e pelas &lt;a class=&quot;elementLink&quot; href=&quot;./../../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Práticas XP&lt;/a>.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>&#xD;
+    &lt;a id=&quot;Providing&quot; name=&quot;Providing&quot;>Fornecendo Feedback&lt;/a>&#xD;
+&lt;/h3>&#xD;
+&lt;p>Como esta é a primeira versão do plug-in XP, estamos aguardando as opiniões da comunidade sobre como torná-la melhor.  Você pode nos ajudar enviando suas sugestões, comentários ou perguntas para as listas de discussões (veja &lt;a href=&quot;http://www.eclipse.org/epf&quot;>www.eclipse.org/epf&lt;/a> para mais informações).&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

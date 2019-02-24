@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_GqtAEsGnq12qQmyqWdHHQ" name="xp_white_papers,6.505229665845286E-306" guid="-_GqtAEsGnq12qQmyqWdHHQ" changeDate="2005-12-06T09:42:48.153-0300" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Additional white papers related to XP can be found at:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    White papers relate to the &lt;a href=&quot;http://www.objectmentor.com/processImprovement/xpRupResourceCenter/index&quot;>BUP XP&#xD;
+    Plug-In Resource Center&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    White papers related to Agile methods and Object Oriented Programming at &lt;a&#xD;
+    href=&quot;http://www.objectmentor.com/resources&quot; target=&quot;_blank&quot;>http://www.objectmentor.com/resources&lt;/a>&lt;a&#xD;
+    href=&quot;http://www.objectmentor.com&quot;>&lt;/a>&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

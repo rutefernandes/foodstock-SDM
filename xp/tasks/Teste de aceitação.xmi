@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-S3toOTSu7ML8gtcqnAeZAQ" name="Teste de aceitação,_KftO8DfYEemwn90hXFEE7g" guid="-S3toOTSu7ML8gtcqnAeZAQ">
+  <mainDescription>Teste de aceitação no sistema geral, e se necessário, correções de acordo com o feedback.</mainDescription>
+  <purpose>Foco em apresentar o produto ao usuário para que o produto seja homologado.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

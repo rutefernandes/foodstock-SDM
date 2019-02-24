@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vcCn_ksJo5Jw27aNZb1Cvw" name="small_releases,5.762953011420275E-306" guid="-vcCn_ksJo5Jw27aNZb1Cvw" changeDate="2006-11-09T20:03:57.390-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__small_releases&quot; name=&quot;XE_xp__small_releases&quot;>&lt;/a>&lt;a id=&quot;XE_small_releases__practice_of&quot; name=&quot;XE_small_releases__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__small_releases&quot; name=&quot;XE_engineering_practices__small_releases&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>Existem muitos desenvolvedores que passaram anos desenvolvendo softwares que não foram liberados para uso. Felizmente, esta situação está tornando-se mais rara, mas ainda acontece. Existem muitas razões pelas quais alguns softwares nunca são colocados em produção, mas o principal fator é o tamanho das liberações. A liberação de software é bem parecida com a integração das alterações de código fonte em um projeto: quanto mais você demorar, mais difícil ela se tornará. A liberação de software em produção é frequentemente uma boa forma de obter feedback. Os usuários irão normalmente pensar em questões que eles não teriam pensado sem a experiência real de uso do software. Obter este feedback cedo aumenta a qualidade global do produto.&lt;/p>&#xD;
+&lt;p>Na XP, nós recomendamos ciclos de liberação de três a quatro meses, no máximo.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Pequenas liberações aumentam o feedback&lt;/b>. As discrepâncias entre o sistema que é necessário e o sistema que está sendo desenvolvido são encontradas mais cedo.&lt;/li>&#xD;
+    &lt;li>Colocar pedaços de um sistema em produção normalmente suscita a consciência da qualidade do projeto. O &lt;b>sistema deve ser consistentemente bom o suficiente para ser entregue&lt;/b>.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

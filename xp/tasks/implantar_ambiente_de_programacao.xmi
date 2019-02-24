@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1rVEQRCvrcicCdhpuuIZ8w" name="setup_programmer_environment,{D3AA9FEE-AAD9-4884-BF71-425E122110A7}" guid="-1rVEQRCvrcicCdhpuuIZ8w" version="1.0.0">
+  <sections xmi:id="_oPGqsGE-EdqnIZeW8YpHcA" name="Remover Cubículos e Outros Impedimentos" guid="_oPGqsGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Na XP, nós tentamos maximizar a comunicação dentro da equipe. Os programadores devem ter a possibilidade de fazer perguntas rápidas aos outros desenvolvedores e escutar as conversas que possam aumentar seu entendimento sobre o sistema. Quando os membros da equipe estão separados em escritórios ou salas, há mais chance de que ilhas de conhecimento cresçam de forma isolada. Isto resulta em atividades redundantes e, muitas vezes, em trabalho menos integrado do que poderia ser se tivesse sido feito em um espaço aberto sujeito as contribuições de outros membros da equipe.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oPNYYGE-EdqnIZeW8YpHcA" name="Colocar os Computadores em Posições Confortáveis Para os Pares" guid="_oPNYYGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>O mobiliário de escritório padrão não é projetado para a programação em pares. Em particular, parece impossível executar trabalho em pares em mesas com pernas. Idealmente, os computadores devem ser colocados em mesas que tenham espaço suficiente para duas pessoas sentarem lado a lado e compartilharem o teclado durante o trabalho. O conforto deve ser o seu guia. Se você não estiver confortável, ficará cansado facilmente e certamente não fará o trabalho do qual é capaz.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oPNYYWE-EdqnIZeW8YpHcA" name="Padronizar as Ferramentas e a Configuração de Desenvolvimento" guid="_oPNYYWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Na XP, consideramos que o trabalho funcionará melhor quando todos forem capazes de ajudar qualquer participante do projeto. Uma coisa simples que pode ser feita é a configuração dos computados. Se você usa um editor com um conjunto de teclas de função e outro membro da equipe usa outro, será difícil para qualquer um de vocês ir para o computador do outro e sentir-se confortável o suficiente para trabalhar. Mesmo parecendo ser uma pequena questão, isso faz grande diferença na forma como uma equipe pode colaborar efetivamente. Em muitas equipes XP, as máquinas são impessoais. Você simplesmente vai para uma máquina livre na parte da manhã e faz check-out do código que você precisa para começar a trabalhar.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oPNYYmE-EdqnIZeW8YpHcA" name="Estabelecer uma Clara Linha de Visão Para o Cliente" guid="_oPNYYmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step4&quot; name=&quot;Step4&quot;>&lt;/a> &#xD;
+&lt;p>Para trabalhar eficazmente com XP, você deve ser capaz de fazer perguntas ao seu cliente. Se você não for capaz de fazer perguntas e obter respostas rápidas, você ficará travado em uma tarefa ou irá tentar adivinhar e esperar que não tenha que refazer seu trabalho mais tarde. Quando for configurar o seu ambiente, estabeleça uma clara linha de visão para o cliente. O cliente deverá trabalhar no mesmo ambiente físico da equipe. Se isso não for possível, o cliente não poderá estar mais distante do que um telefonema.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_setup_programmer_environment__activity_definition&quot; name=&quot;XE_setup_programmer_environment__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Facilitar o trabalho colaborativo e elevar o nível de comunicação entre a equipe&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

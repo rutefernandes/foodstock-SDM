@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9PPeDTBWkTmn_EP18Fi6SA" name="Realizar testes de unidade no sistema,_7VZNoDfnEemUQtxHzDLDiA" guid="-9PPeDTBWkTmn_EP18Fi6SA" changeDate="2019-02-24T01:01:55.084-0300" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Esta tarefa consiste em executar todos os testes de unidade ou aceitação para assegurar que todas as histórias de&#xD;
+    usuário previamente concluídas ainda estejam funcionando. Muitas equipes XP executam esses testes diariamente como&#xD;
+    parte da sua rotina de construção automatizada. Outras equipes executam esses testes toda vez que uma nova história é&#xD;
+    adicionada ao conjunto de histórias concluídas a fim de garantir que uma nova história não tenha causado problemas nas&#xD;
+    anteriores.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_7VZNoTfnEemUQtxHzDLDiA" name="Executar Todos os Testes de Unidade do Sistema" guid="_7VZNoTfnEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Execute testes unitários para se certificar que não&amp;nbsp;foram introduzidos defeitos no código. À medida que um sistema&#xD;
+    evolui, pode tornar-se impraticável a execução de todos os testes de unidade para todas as mudanças feitas. Neste caso,&#xD;
+    você pode escolher um subconjunto dos testes de unidade para ser executado após cada mudança no código.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7VZNojfnEemUQtxHzDLDiA" name="Fazer Check-in do Código" guid="_7VZNojfnEemUQtxHzDLDiA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Se todos os testes de unidade do sistema passarem, faça Check-in do seu código e produza uma construção do sistema.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_integrate_and_build__activity_definition&quot; name=&quot;XE_integrate_and_build__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A partir da aplicação já desenvolvida, realizar testes de unidade em todo o sistema.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

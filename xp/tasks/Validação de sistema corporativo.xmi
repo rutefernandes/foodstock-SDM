@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UZ8C39-4KCbKFfVU645lQA" name=",_aDrEYDfeEemUQtxHzDLDiA" guid="-UZ8C39-4KCbKFfVU645lQA" changeDate="2019-02-24T00:32:35.347-0300">
+  <sections xmi:id="_YQ82oDfrEemUQtxHzDLDiA" name="Realizar testes de sistema" guid="_YQ82oDfrEemUQtxHzDLDiA"/>
+  <sections xmi:id="_hOTa4DflEemUQtxHzDLDiA" name="Verificar se o sistema é baseado em componentes modulares" guid="_hOTa4DflEemUQtxHzDLDiA"/>
+  <sections xmi:id="_idkDUDflEemUQtxHzDLDiA" name="Verificar se o sistema executa em servidores de aplicações" guid="_idkDUDflEemUQtxHzDLDiA"/>
+  <sections xmi:id="_jb6h8DflEemUQtxHzDLDiA" name="Verificar se o sistema oferece suporte para acesso de Multiusuários (simultâneos)" guid="_jb6h8DflEemUQtxHzDLDiA"/>
+  <sections xmi:id="_kK0PUDflEemUQtxHzDLDiA" name="Verificar se o sistema oferece manutenção de consistência com transações" guid="_kK0PUDflEemUQtxHzDLDiA"/>
+  <sections xmi:id="_k6_vEDflEemUQtxHzDLDiA" name="Verificar se o sistema não leve a uma espera demasiada pela entrega" guid="_k6_vEDflEemUQtxHzDLDiA"/>
+  <sections xmi:id="_l5wdYDflEemUQtxHzDLDiA" name="Verificar se o sistema suporta escalabilidade, segurança, integridade e outros requisitos de aplicações corporativas ou de grande porte." guid="_l5wdYDflEemUQtxHzDLDiA"/>
+  <purpose>&lt;p>&#xD;
+    Analisar se o sistema está atendendo todos os requisitos para ser classificado como um sistema corporativo.&lt;br />&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

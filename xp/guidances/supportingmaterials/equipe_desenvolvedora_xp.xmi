@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_11Y5NHJcC5lkqB4CeSpbg" name="xp_developer_team,8.608243854485154E-306" guid="-_11Y5NHJcC5lkqB4CeSpbg" changeDate="2005-12-06T07:43:06.686-0300" version="7.2.0">
+  <mainDescription>&lt;p>A equipe desenvolvedora escreve o software que atenderá às necessidades do cliente A equipe consiste de programadores e normalmente um treinador, que ajuda a manter a equipe no caminho certo e facilita o processo.&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

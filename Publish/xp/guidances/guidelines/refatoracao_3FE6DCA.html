@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Refatora&ccedil;&atilde;o</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="refatoracao">
+<meta name="uma.presentationName" content="Refatora&ccedil;&atilde;o">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="8.137126904637637E-306"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Refatora&ccedil;&atilde;o</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../xp/tasks/refatorar_codigo_57A587FE.html" guid="{3DD335BB-45F6-49C7-B17A-90652C73A485}">Refatorar Código</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    Tópicos
+</h3>
+<ul>
+    <li>
+        <a href="#WhatIs">O que é refatoração?</a>
+    </li>
+    <li>
+        <a href="#Why">Por que devo refatorar?</a>
+    </li>
+    <li>
+        <a href="#When">Quando devo refatorar?</a>
+    </li>
+    <li>
+        <a href="#Example">Um exemplo de refatoração</a>
+    </li>
+</ul>
+<h3>
+    <a id="WhatIs" name="WhatIs">O que é refatoração?</a>
+</h3>
+<p>
+    A refatoração é o ato de melhorar a estrutura de um programa sem alterar o seu comportamento. A refatoração é feita em
+    poucos pequenos passos, cada um valendo o que faz. Entre cada passo, executamos os testes de unidade relevantes para
+    certificar que as mudanças que fizemos não prejudicaram nada. O ciclo de edição, compilação e testes dura normalmente
+    de 30 segundos a cinco minutos.
+</p>
+<h3>
+    <a id="Why" name="Why">Por que devo refatorar?</a>
+</h3>
+<p>
+    A finalidade da refatoração é melhorar o design e a legibilidade do código. Existem várias metas específicas:
+</p>
+<ul>
+    <li>
+        O código deve passar em todos os seus testes.
+    </li>
+    <li>
+        Ele deve ser o mais expressivo possível que você possa fazer.
+    </li>
+    <li>
+        Ele deve ser o mais simples possível que você possa fazer.
+    </li>
+    <li>
+        Ele não deve ter nenhuma redundância.
+    </li>
+</ul>
+<h3>
+    <a id="When" name="When">Quando devo refatorar?</a>
+</h3>
+<p>
+    A refatoração não é algo que possamos agendar. Não existe nenhuma entrada no cronograma para ela. Não existe nenhum
+    momento especial para fazê-la. A refatoração é feita o tempo todo. Quando você e seu parceiro estiverem trabalhando em
+    uma tarefa, tal como escrever testes e código, vocês notarão que o código e os testes não estão tão limpos e simples
+    quanto poderiam estar. Esta é a hora de parar e refatorar o código.
+</p>
+<p>
+    A regra é: <b>Não deixe que o sol se ponha com código ruim.</b>
+</p>
+<h3>
+    <a id="Example" name="Example">Um exemplo de refatoração</a>
+</h3>
+<p>
+    Considere os dois testes de unidade e a classe <font size="3"><tt>Formatter</tt></font> abaixo. A classe <font     size="3"><tt>Formatter</tt></font> funciona, mas não é tão expressiva como eu gostaria que fosse. Então eu vou
+    refatorá-la em etapas.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; public void testCenterLine() {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; Formatter f = new Formatter();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; f.setLineWidth(10);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; assertEquals(" word ", f.center("word"));<br />
+                &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; public void testOddCenterLine() throws Exception {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; Formatter f = new Formatter();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; f.setLineWidth(10);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; assertEquals(" hello ", f.center("hello"));<br />
+                &nbsp; &nbsp; }<br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table><br />
+<br />
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; import java.util.Arrays;<br />
+                &nbsp; &nbsp; public class Formatter {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int width;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private char spaces[];<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public void setLineWidth(int width) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; this.width = width;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; spaces = new char[width];<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Arrays.fill(spaces, ' ');<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int remainder = 0;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int padding = (width - line.length()) / 2;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; remainder = line.length() % 2;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, padding);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, padding + remainder);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; }<br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    A função <font size="3"><tt>setLineWidth</tt></font> está um pouco misteriosa. O que é este array <font     size="3"><tt>spaces</tt></font> e porque é preenchido com espaços em branco? Olhando adiante, a função <font     size="3"><tt>center</tt></font>, vemos que o array <font size="3"><tt>spaces</tt></font> é apenas uma conveniência para
+    nos permitir mover uma série de espaços em branco para um <font size="3"><tt>StringBuffer</tt></font>. Questiono se
+    precisamos realmente deste array de conveniência.
+</p>
+<p>
+    Por enquanto, eu irei inicializar o array com sua própria função denominada <font     size="3"><tt>buildArrayOfSpaces</tt></font>. Dessa forma, tudo está em um só lugar, e posso pensar sobre isso com um
+    pouco mais de clareza.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public void setLineWidth(int width) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; this.width = width;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>buildArrayOfSpaces(width);</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private void <b>buildArrayOfSpaces(int width)</b> {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; spaces = new char[width];<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Arrays.fill(spaces, ' ');<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Eu não gosto da forma como a função <font size="3"><tt>center</tt></font> foi construída. Existe matemática espalhada
+    por toda parte. Creio que podemos reorganizar a matemática para tornar as coisas mais claras.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>int remainder = line.length() % 2;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>int numberOfBlanksInFront = (width - line.length()) /
+                2;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>int numberOfBlanksAtEnd = (width - line.length()) / 2 +
+                remainder;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, <b>numberOfBlanksInFront</b>);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, <b>numberOfBlanksAtEnd</b>);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Agora parece melhor, mas podemos reduzir a desordem, transformando algumas variáveis em funções.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, <b>numberOfBlanksInFront(line)</b>);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(spaces, 0, <b>numberOfBlanksBehind(line)</b>);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; <b>private int numberOfBlanksBehind(String line) {</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>int extraBlankIfOdd = line.length() % 2;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>return (width - line.length()) / 2 +
+                extraBlankIfOdd;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>}</b><br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; <b>private int numberOfBlanksInFront(String line) {</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>return (width - line.length()) / 2;</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; <b>}</b><br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Isto torna a leitura da função <font size="3"><tt>center</tt></font> um pouco melhor. Entretanto, o uso da função <font     size="3"><tt>StringBuffer.append</tt></font> está um pouco confuso. Podemos melhorá-la um pouco, criando uma função
+    mais explícita.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>appendBlanks(b, numberOfBlanksInFront(line));</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>appendBlanks(b, numberOfBlanksBehind(line));</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; <strong>private void appendBlanks(StringBuffer b, int numberOfBlanks)
+                {</strong><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <strong>b.append(spaces, 0, numberOfBlanks);</strong><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; <strong>}</strong><br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Agora, podemos rescrever <font size="3"><tt>appendBlanks</tt></font> para evitar usar o array <font     size="3"><tt>spaces</tt></font>.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; import java.util.Arrays;<br />
+                &nbsp; &nbsp; public class Formatter {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int width;<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public void setLineWidth(int width) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; this.width = width;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; appendBlanks(b, numberOfBlanksInFront(line));<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; appendBlanks(b, numberOfBlanksBehind(line));<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private void appendBlanks(StringBuffer b, int numberOfBlanks) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>while(numberOfBlanks-- &gt; 0)</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b>b.append(' ');</b><br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int numberOfBlanksBehind(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int extraBlankIfOdd = line.length() % 2;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return (width - line.length()) / 2 + extraBlankIfOdd;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int numberOfBlanksInFront(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return (width - line.length()) / 2; }<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    Os nomes de funções tais como <font size="3"><tt>numberOfBlanksBehind</tt></font> implicam que o leitor saiba que elas
+    serão chamadas a partir da função <font size="3"><tt>center</tt></font>. Devemos eliminar essa implicação renomeando
+    essas funções.
+</p>
+<table width="100%" border="1">
+    <tbody>
+        <tr>
+            <td>
+                <br />
+                &nbsp; &nbsp; import java.util.Arrays;<br />
+                &nbsp; &nbsp; public class Formatter {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int width;<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public void setLineWidth(int width) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; this.width = width;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; public String center(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; StringBuffer b = new StringBuffer();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; appendBlanks(b, <b>numberOfBlanksToLeftOfCenter</b>(line));<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(line);<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; appendBlanks(b,
+                <b>numberOfBlanksToRightOfCenter</b>(line));<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return b.toString();<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private void appendBlanks(StringBuffer b, int numberOfBlanks) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while(numberOfBlanks-- &gt; 0)<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.append(' ');<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int <b>numberOfBlanksToRightOfCenter</b>(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int extraBlankIfOdd = line.length() % 2;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return (width - line.length()) / 2 + extraBlankIfOdd;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; &nbsp; &nbsp; private int <b>numberOfBlanksToLeftOfCenter</b>(String line) {<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return (width - line.length()) / 2;<br />
+                &nbsp; &nbsp; &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; }<br />
+                <br />
+                &nbsp; &nbsp; <font size="3"><b><i>Executo os testes: os testes passam</i></b></font><br />
+                <br />
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p>
+    E acho que acabamos. Você poderá fazer outros tipos de refatorações, ou talvez não concorde com todas as refatorações
+    que eu fiz. Isso é esperado. A questão é, contudo, que eu fiz um grande esforço para melhorar a legibilidade e a
+    simplicidade desta classe. Este esforço irá ajudar as outras pessoas a compreender esta classe e facilitará a mudança
+    quando chegar a hora.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

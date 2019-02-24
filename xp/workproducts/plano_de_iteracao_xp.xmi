@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-45BLJONIjGn7h4z87VXqHQ" name="xp_iteration_plan,{DC18E34B-70C1-403D-84CC-1BF117A7473D}" guid="-45BLJONIjGn7h4z87VXqHQ" changeDate="2006-11-13T18:17:43.002-0300" version="1.0.0">
+  <mainDescription>&lt;p>O &lt;a class=&quot;PresentationName&quot; guid=&quot;{DC18E34B-70C1-403D-84CC-1BF117A7473D}&quot;>Plano de Iteração XP&lt;/a> contém uma lista das histórias selecionadas para serem implementadas na iteração. Cada história é decomposta em uma ou mais tarefas de engenharia. Estas tarefas são suficientemente pequenas de forma que uma pessoa possa entender o seu escopo e fornecer uma estimativa razoável. As tarefas normalmente duram menos de um a dois dias para um único indivíduo.&lt;/p>&#xD;
+&lt;p>O &lt;a class=&quot;PresentationName&quot; guid=&quot;{DC18E34B-70C1-403D-84CC-1BF117A7473D}&quot;>Plano de Iteração XP&lt;/a> é registrado em uma folha de flip chart e pendurado em uma parede do espaço de trabalho aberto da equipe. Cada história da iteração é escrita em uma folha de flip chart e pendurada na parede do espaço de trabalho aberto. A equipe pensa sobre as tarefas necessárias para completar uma história. Eles discutirem a história com o cliente conforme necessário. Às vezes a equipe poderá ter uma rápida sessão de design para ajudá-los a descobrir as tarefas para uma determinada história. Isto se repete para cada história da iteração. Uma vez que todas as histórias tenham sido decompostas, os indivíduos escolhem as tarefas, gravando suas iniciais e a estimativa, ao lado da tarefa.&lt;/p>&#xD;
+&lt;p>O que indica um bom &lt;a class=&quot;PresentationName&quot; guid=&quot;{DC18E34B-70C1-403D-84CC-1BF117A7473D}&quot;>Plano de Iteração XP&lt;/a>:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>As histórias foram decompostas em tarefas.&lt;/li>&#xD;
+    &lt;li>As tarefas foram escolhidas e estimadas.&lt;/li>&#xD;
+    &lt;li>Histórias são removidas do plano se houver muito a fazer.&lt;/li>&#xD;
+    &lt;li>Histórias são adicionadas ao plano, se não houver o bastante a fazer.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>&lt;a id=&quot;XE_xp_iteration_plan__artifact_definition&quot; name=&quot;XE_xp_iteration_plan__artifact_definition&quot;>&lt;/a>&lt;a id=&quot;Purpose&quot; name=&quot;Purpose&quot;>&lt;/a>&lt;a id=&quot;XE_xp_iteration_plan__purpose_of&quot; name=&quot;XE_xp_iteration_plan__purpose_of&quot;>&lt;/a> &#xD;
+&lt;p>O &lt;a class=&quot;PresentationName&quot; guid=&quot;{DC18E34B-70C1-403D-84CC-1BF117A7473D}&quot;>Plano de Iteração XP&lt;/a> direciona os esforços da equipe durante a iteração.&lt;br />&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

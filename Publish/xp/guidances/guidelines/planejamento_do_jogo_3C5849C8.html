@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Planejamento do Jogo</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="planejamento_do_jogo">
+<meta name="uma.presentationName" content="Planejamento do Jogo">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="6.7335956461328426E-307"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Planejamento do Jogo</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../xp/tasks/atualizar_plano_de_iteracao_9CD15DDA.html" guid="{653F1EF4-2BE5-4CCB-80E7-17CE02B081DC}">Ajustar Escopo da Iteração</a>
+</li>
+<li>
+<a href="./../../../xp/tasks/definir_plano_de_iteracao_7C7CAB3.html" guid="{849E3635-6FCD-4FAD-A007-CA34B9998622}">Definir Iteração</a>
+</li>
+<li>
+<a href="./../../../xp/tasks/definir_plano_de_iteracao_2154AAD3.html" guid="_60NFwDffEemUQtxHzDLDiA">Definir Iteração</a>
+</li>
+<li>
+<a href="./../../../xp/tasks/definir_plano_de_liberacao_61480A42.html" guid="{D755C076-8E63-4A24-89AA-A7D64E368B90}">Definir Liberação</a>
+</li>
+<li>
+<a href="./../../../xp/tasks/revisar_plano_de_liberacao_4C2AF338.html" guid="{18BF87E6-5849-4091-AFE2-FC4F0C3887B1}">Revisar Plano de Liberação</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_xp__planning_game" name="XE_xp__planning_game"></a><a id="XE_planning__in_xp" name="XE_planning__in_xp"></a> 
+<h3>
+    Tópicos
+</h3>
+<ul>
+    <li>
+        <a href="#Overview">Visão Geral do Planejamento XP</a>
+    </li>
+    <li>
+        <a href="#Iterations">Iterações</a>
+    </li>
+    <li>
+        <a href="#Stories">Histórias de Usuário</a>
+    </li>
+    <li>
+        <a href="#ReleasePlanning">Planejamento da Liberação</a>
+    </li>
+    <li>
+        <a href="#IterationPlanning">Planejamento da Iteração</a>
+    </li>
+    <li>
+        <a href="#TaskPlanning">Planejamento de tarefas</a>
+    </li>
+    <li>
+        <a href="#Recovery">Recuperação</a>
+    </li>
+    <li>
+        <a href="#Feedback">Feedback</a>
+    </li>
+    <li>
+        <a href="#AcceptanceTests">Testes de Aceitação</a>
+    </li>
+    <li>
+        <a href="#First">Como criar o orçamento para a primeira iteração e liberação?</a>
+    </li>
+    <li>
+        <a href="#Velocity">Como as alterações na equipe afetam a velocidade?</a>
+    </li>
+</ul>
+<h3>
+    <a id="Overview" name="Overview">Visão Geral do Planejamento XP</a>
+</h3>
+<p>
+    Um projeto XP é decomposto em um conjunto de iterações de duas semanas. Cada iteração passa à próxima, em uma sequência
+    linear. O código executável que passa nos testes de unidade e de aceitação é o principal entregável que começa na
+    primeira iteração.
+</p>
+<p>
+    Planejar um projeto XP é uma atividade contínua. Não existe um plano mestre que é construído no início do projeto, e
+    seguido até o fim. Um projeto XP é planejado em detalhes, uma iteração por vez. O plano de uma iteração é criado no
+    início da iteração. O plano é então continuamente verificado e ajustado ao longo da iteração.
+</p>
+<p>
+    As iterações são agrupadas em grandes marcos chamados liberações. Uma típica liberação dura de dois a três meses. No
+    início, o plano de liberação é criado. É um plano grosseiro que timidamente descreve as funcionalidades que a equipe do
+    projeto considera que podem e devem ser implementadas durante esse período. O plano de liberação é permanentemente
+    atualizado a medida que cada iteração dentro da liberação forneça mais dados.
+</p>
+<p>
+    O princípio geral do planejamento XP é o feedback. Cada iteração fornece dados sobre a velocidade da equipe. Esses
+    dados são usados para ajustar o plano continuamente. A medição dos resultados de cada iteração gera um fluxo contínuo
+    de dados. A equipe e seus gestores usam esses dados para tomar decisões e executar ações que irão melhorar o resultado
+    do projeto.
+</p>
+<h3>
+    <a id="Iterations" name="Iterations">Iterações</a>
+</h3>
+<p>
+    Uma iteração é simplesmente um espaço de tempo no qual a equipe implementa um conjunto de funcionalidades. Em um
+    projeto XP, esse tempo dura tipicamente duas semanas e nunca deve ser superior a quatro. A equipe deverá decidir quanto
+    tempo as suas iterações deverão durar e, então, se adequar a ele. Não é sensato mudar continuamente a duração das
+    iterações, porque torna a determinação da velocidade da equipe mais complicada.
+</p>
+<p>
+    Quando uma iteração termina, ela termina, independente do quanto foi realizado na iteração. Não é sábio estender uma
+    iteração, a fim de proporcionar mais tempo para terminar o que foi planejado. A capacidade de planejar um projeto XP
+    depende fortemente de iterações com tamanho fixo de duração consistente e implacável término de cada iteração,
+    independente do fato de as tarefas previstas estarem completas, para permitir que a velocidade seja medida.
+</p>
+<h3>
+    <a id="Stories" name="Stories">Histórias de Usuário</a>
+</h3>
+<p>
+    O conteúdo ou escopo de um projeto XP é descrito por histórias de usuário. As histórias de usuário são descrições muito
+    simples das funcionalidades a serem desenvolvidas. Cada história é normalmente escrita em um único cartão de índice e
+    praticamente não contém detalhes. O cartão contém pouco mais do que o nome da funcionalidade.
+</p>
+<p>
+    As histórias são os insumos para o planejamento. Quando criamos um plano de liberação ou um plano de iteração,
+    selecionamos as histórias que queremos entregar na liberação ou iteração e as agendamos. Uma vez que uma história
+    esteja agendada para uma iteração, duas coisas devem acontecer nessa iteração. Em primeiro lugar, os detalhes da
+    história devem ser desenvolvidos, resultando na criação dos testes de aceitação adequados. Em segundo, a história deve
+    ser implementada de forma que passe nos testes de aceitação.
+</p>
+<p>
+    Para escolher quais histórias deverão ser agendadas em uma iteração, precisamos saber duas coisas: qual é a importância
+    da história e quanto tempo será necessário para implementá-la. A primeira vem do julgamento dos clientes/Stakeholders,
+    e a segunda do julgamento dos desenvolvedores.
+</p>
+<p>
+    Os desenvolvedores estimam a implementação das histórias. A estimativa para uma história de usuário não deve ser nem
+    muito grande nem muito pequena. As que forem muito grandes deverão ser divididas em várias histórias, e as que são
+    muito pequenas deverão ser agrupadas. Uma boa diretriz é manter o tamanho de uma história de usuário entre dois dias e
+    uma semana de esforço da equipe. O cliente/Stakeholder e os desenvolvedores irão negociar as histórias, dividindo e
+    agrupando se for necessário, até que estejam adequadamente dimensionadas.
+</p>
+<p>
+    As estimativas são registradas nos cartões das histórias como números. Que serão referenciados como pontos de história.
+    Não importa quais unidades foram originalmente usadas para criar as estimativas. Pode ter sido homem-hora ou
+    homem-semana ou outra coisa qualquer. Uma vez que as estimativas estejam prontas, esquecemos as unidades e simplesmente
+    nos referimos a elas como pontos de história.
+</p>
+<h3>
+    <a id="ReleasePlanning" name="ReleasePlanning">Planejamento da Liberação</a>
+</h3>
+<p>
+    O cliente/Stakeholder sabe quais características ele quer que estejam completas na próxima liberação. Os
+    desenvolvedores sabem o quanto eles podem fazer até a próxima liberação. Os desenvolvedores fornecem ao
+    cliente/Stakeholder um orçamento para a liberação com base no quanto eles fizeram na liberação anterior. Se os
+    desenvolvedores concluíram 720 pontos de história na última liberação, então é seguro dizer que eles concluirão cerca
+    de 720 nesta.
+</p>
+<p>
+    O cliente/Stakeholder escolhe as histórias que somem este número. Eles escolhem as histórias que são mais críticas e
+    que têm o máximo valor para o negócio. Eles estabelecem a ordem na qual gostariam de vê-las implementadas. Esta seleção
+    e ordenação das histórias torna-se o plano de liberação.
+</p>
+<p>
+    Qualquer Stakeholder pode olhar para o plano de liberação e ver quando uma característica em especial será
+    implementada. Eles sabem que, se a funcionalidade estiver priorizada para o início, então é provável que seja
+    concluída. Se uma história estiver priorizada para o final do plano, então o risco será maior. O plano de liberação não
+    é estático. As prioridades mudam a qualquer hora, os clientes/Stakeholders podem alterar o plano reordenando as
+    histórias, adicionando novas histórias, removendo as histórias atuais, e assim por diante. Sendo assim, o plano de
+    liberação estará sempre mudando, em resposta à evolução do negócio.
+</p>
+<h3>
+    <a id="IterationPlanning" name="IterationPlanning">Planejamento da Iteração</a>
+</h3>
+<p>
+    No início de cada iteração, investimos meio-dia para planejar a iteração. Os desenvolvedores fornecem aos
+    clientes/Stakeholders um orçamento para a iteração com base no que concluíram na última iteração. Se fizeram 68 pontos
+    de história na última iteração, então é seguro planejar 68 nesta iteração.
+</p>
+<p>
+    Os clientes/Stakeholders selecionam as histórias, a partir do plano de liberação, que acham ser mais importantes para
+    esta iteração. A soma dos pontos de história selecionados não pode exceder o orçamento fornecido pelos desenvolvedores.
+</p>
+<p>
+    Apesar dos clientes/Stakeholders poderem sugerir uma ordem de execução para as histórias em uma iteração, os
+    desenvolvedores não estão presos a essa ordem. Os desenvolvedores estão livres para reorganizar as histórias dentro da
+    iteração de qualquer forma que faça sentido.
+</p>
+<p>
+    Uma vez que a iteração tenha iniciado, os clientes/Stakeholders não podem fazer alterações arbitrárias nas histórias,
+    nesta iteração. Qualquer mudança tem de ser cuidadosamente negociada com os desenvolvedores. Se os
+    clientes/Stakeholders desejarem substituir uma história por outra, devem verificar com os desenvolvedores se isso
+    caberá na iteração. Se os desenvolvedores concordarem, então, a mudança pode ser feita. Se os desenvolvedores não
+    concordarem, então os clientes/Stakeholders poderão decidir entre esperar até a próxima iteração ou abortar
+    completamente a iteração atual e planejar uma nova iteração.
+</p>
+<h3>
+    <a id="TaskPlanning" name="TaskPlanning">Planejamento de tarefas</a>
+</h3>
+<p>
+    Uma vez que as histórias tenham sido selecionadas para a iteração, então os desenvolvedores as decompõem em tarefas de
+    programação. As tarefas são registradas em um quadro branco ou um flip-chart.
+</p>
+<p>
+    As tarefas são simples unidades de trabalho que realizam uma meta específica em uma história. Uma tarefa poderia ser a
+    criação do esquema de banco de dados para uma história. Outra, a criação das páginas HTML para uma história. E ainda
+    outra, a confecção de um servlet que verifique senhas. Cada tarefa deverá demandar o esforço em homens-dia.
+</p>
+<p>
+    A decomposição das histórias em tarefas é uma atividade de design. Os desenvolvedores consideram como as histórias
+    serão desenvolvidas e se existem quaisquer opções de design que permitam que as histórias compartilhem as tarefas.
+</p>
+<p>
+    Uma vez que a lista de tarefas esteja completa, os desenvolvedores se revezam escolhendo as tarefas a serem realizadas.
+    Cada desenvolvedor coloca suas iniciais ao lado de cada tarefa que escolheu e, então, estima o tempo para realizar cada
+    uma. A estimativa é normalmente feita em horas.
+</p>
+<p>
+    Cada desenvolvedor tem um orçamento de horas que ele guarda mentalmente. Este orçamento representa a quantidade de
+    horas que ele acredita serem necessárias para executar suas tarefas nesta iteração. Cada vez que um desenvolvedor
+    escolhe uma tarefa para executar, ele deduz a sua estimativa do orçamento. Quando o orçamento de um desenvolvedor for à
+    zero, ele não escolherá mais tarefas.
+</p>
+<p>
+    Idealmente, ao final das escolhas, todas as tarefas deveriam ter iniciais, e todos os orçamentos dos desenvolvedores
+    estarem zerados. Mas isto é um caso raro. Existem mais dois cenários prováveis:
+</p>
+<ul>
+    <li>
+        Todos os orçamentos estão zerados, mas nem todas as tarefas foram escolhidas. Neste caso, os desenvolvedores
+        precisam trabalhar juntos para encontrar uma melhor divisão de tarefas. Se um designer de interface de usuário
+        escolheu uma tarefa de banco de dados apenas para obter uma nova experiência, então ele deverá trocá-la com alguém
+        que possa fazê-la mais rapidamente. Se após essa negociação ainda existirem tarefas não escolhidas, então a equipe
+        deve pedir aos clientes/Stakeholders para remover algumas histórias ou tarefas.
+    </li>
+    <li>
+        Todas as tarefas foram escolhidas, mas ainda existe orçamento para algumas pessoas. Neste caso, a equipe precisa
+        pedir ao cliente/Stakeholder que lhes forneça mais algumas histórias.
+    </li>
+</ul>
+<h3>
+    <a id="Recovery" name="Recovery">Recuperação</a>
+</h3>
+<p>
+    No dia que marca a metade da iteração, a equipe participa de outra reunião curta. A metade das tarefas deve estar
+    completa. Mais importante, a metades das histórias deve esta completa. Mais precisamente, um conjunto de histórias
+    cujos pontos somam a metade do orçamento da iteração deve estar completo. O pesadelo que estamos tentando evitar é que
+    a iteração termine com todas as histórias 95% concluídas. Nós preferimos que 95% das histórias estejam completas.
+</p>
+<p>
+    Se metade das histórias não estiver completa, então a equipe pede que o cliente retire algumas histórias da iteração.
+    Este mesmo tipo de verificação é feito no final da iteração. A equipe avalia o quanto foi concluído e o quanto não foi
+    feito. Se for verificado que eles não poderão completar todas as histórias acordadas, então eles pedem ao
+    cliente/Stakeholder para remover algumas.
+</p>
+<p>
+    Do mesmo modo, se mais da metade das histórias estiver completo na metade da iteração, os desenvolvedores pedem ao
+    cliente/Stakeholder por mais trabalho. Da mesma forma, assim que a iteração for terminando, qualquer desenvolvedor que
+    ficar desocupado deve ajudar os outros a completarem suas tarefas. Se for verificado que todas as tarefas serão
+    concluídas mais cedo, os desenvolvedores deverão pedir ao cliente/Stakeholder mais histórias.
+</p>
+<h3>
+    <a id="Feedback" name="Feedback">Feedback</a>
+</h3>
+<p>
+    A quantidade de pontos de história completos na iteração anterior torna-se a velocidade atual da equipe. Esta
+    velocidade deve ser usada como orçamento para a próxima iteração. Então nós só nos comprometeremos a fazer o que
+    sabemos que fizemos na última iteração.
+</p>
+<p>
+    O mesmo é verdade para as liberações. Quando estivermos planejando a próxima liberação, usaremos o número de pontos de
+    história que concluímos na liberação anterior.
+</p>
+<p>
+    Os desenvolvedores usam individualmente a mesma técnica para o orçamento das suas tarefas. Se eles consumiram 22 horas
+    de trabalho nas tarefas concluídas na última iteração, então eles só devem escolher 22 horas de tarefas desta vez.
+</p>
+<h3>
+    <a id="AcceptanceTests" name="AcceptanceTests">Testes de Aceitação</a>
+</h3>
+<p>
+    Após o término da reunião de planejamento da iteração, o cliente/Stakeholder devera fornecer aos desenvolvedores os
+    testes de aceitação para as histórias que foram selecionadas para a iteração. Normalmente, estes testes serão criados
+    com a ajuda do Q/A ou de grupos de teste. Estes testes especificam exatamente o que cada história a ser implementada
+    deve fazer, sendo assim eles devem entregá-los aos desenvolvedores o mais rápido possível.
+</p>
+<p>
+    Algumas equipes XP escrevem seus testes de aceitação durante a iteração anterior. O Q/A ou o grupo de testes trabalha
+    com o cliente/Stakeholder durante a iteração corrente para determinar quais histórias deverão ser selecionadas para a
+    próxima iteração. Juntos, eles definem o conjunto de testes de aceitação que serão entregues aos desenvolvedores
+    durante a reunião de planejamento da próxima iteração. Ao planejar o futuro desta forma, os desenvolvedores poderão ter
+    os testes de aceitação para as histórias de uma iteração imediatamente.
+</p>
+<h3>
+    <a id="First" name="First">Como criar o orçamento para a primeira iteração e liberação?</a>
+</h3>
+<p>
+    Se você tiver histórias de outros projetos, então faça uso delas. Caso contrário, você terá que adivinhar. Uma boa
+    prática é investir um ou dois dias na tentativa de implementar uma ou duas histórias. Isto deve lhe dar uma ideia da
+    sua velocidade.
+</p>
+<h3>
+    <a id="Velocity" name="Velocity">Como as alterações na equipe afetam a velocidade?</a>
+</h3>
+<p>
+    Se a alteração for pequena, então provavelmente será melhor permitir que a velocidade mude por si própria. Se você
+    concluiu 52 pontos de história na última iteração, mas nesta iteração você tiver um novo membro no grupo, provavelmente
+    será melhor manter a sua velocidade em 52 e se comprometer a fazer apenas 52 pontos de história na próxima iteração. Ao
+    final da iteração, você poderá descobrir que fez um pouco mais de 52, então poderá ajustar sua velocidade de acordo com
+    a nova medida.
+</p>
+<p>
+    Por outro lado, se 30% da equipe for sair de férias na próxima iteração, então provavelmente será melhor reduzir sua
+    velocidade.
+</p>
+<p>
+    <br />
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

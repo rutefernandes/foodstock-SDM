@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-u-Svthjtn1xLK2IwVUpk5Q" name="adapt_and_improve_process,{F0D4C205-4A38-42AF-BE87-9A6C0C173E65}" guid="-u-Svthjtn1xLK2IwVUpk5Q" version="1.0.0">
+  <sections xmi:id="_oNoEAGE-EdqnIZeW8YpHcA" name="Geral" guid="_oNoEAGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>As equipes que usam XP são guiadas pelos &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_values_72DBC1C.html&quot; guid=&quot;1.076140803519123E-306&quot;>Valores XP&lt;/a> no uso das &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Práticas XP&lt;/a>. As práticas XP são melhores práticas, mas elas também alavancam as vantagens das outras práticas para formar um conjunto mínimo e eficiente de práticas necessárias para entregar software de alta qualidade alinhado às necessidades dos clientes.&lt;/p>&#xD;
+&lt;p>Em geral, as equipes serão mais eficazes no uso da XP se cada uma das práticas for utilizada o máximo possível no projeto. Na prática, isto pode ser difícil de conseguir, por várias razões, incluindo:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Obstáculos técnicos, tais como linguagens não-OO e código legado&lt;/li>&#xD;
+    &lt;li>Falta de competências, incluindo competências de programação básica, habilidades práticas, especialização no domínio e aptidões de trabalho em equipe&lt;/li>&#xD;
+    &lt;li>Um ambiente de cliente complexo, onde uma única fonte de histórias priorizadas seja difícil de desenvolver&lt;/li>&#xD;
+    &lt;li>Obstáculos Organizacionais, tais como equipes distribuídas, grandes equipes e culturas orientadas a comando e controle&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>À medida que a equipe usa XP, esses obstáculos afetam a sua capacidade de usar eficazmente as práticas. O &lt;a class=&quot;PresentationName&quot; href=&quot;./../../xp/roles/xp_coach_60023190.html&quot; guid=&quot;{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}&quot;>Treinador XP&lt;/a> ajuda a equipe a tratar como esses desafios irão afetar a utilização das práticas. Ele começa ajudando a equipe a manter a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/concepts/xp_values_72DBC1C.html#Courage&quot; guid=&quot;1.076140803519123E-306&quot;>Coragem&lt;/a> para enfrentar e remover esses obstáculos, limpando o caminho para as práticas serem usadas. Nos casos onde os obstáculos não puderem ser removidos, o treinador e a equipe usarão os &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_values_72DBC1C.html&quot; guid=&quot;1.076140803519123E-306&quot;>Valores XP&lt;/a> para guiar na adaptação das práticas.&lt;/p>&#xD;
+&lt;p>O &lt;a class=&quot;PresentationName&quot; href=&quot;./../../xp/roles/xp_coach_60023190.html&quot; guid=&quot;{9C440605-FF0E-4D37-A774-BBF8B5F47AB6}&quot;>Treinador XP&lt;/a> precisa participar de comunidades que compartilhem as melhores práticas no desenvolvimento de software e XP. Estas comunidades existem dentro de grandes empresas, em grupos de usuários locais e na Internet.&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_adapt_and_improve_process__activity_definition&quot; name=&quot;XE_adapt_and_improve_process__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Melhorar a produtividade da equipe.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

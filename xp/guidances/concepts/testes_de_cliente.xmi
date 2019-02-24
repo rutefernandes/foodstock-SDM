@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-oW2j2l-rXqHeWPIgjPpbng" name="customer_tests,2.297945473205673E-305" guid="-oW2j2l-rXqHeWPIgjPpbng" changeDate="2006-11-10T14:32:51.048-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__customer_tests&quot; name=&quot;XE_xp__customer_tests&quot;>&lt;/a>&lt;a id=&quot;XE_customer_tests__practice_of&quot; name=&quot;XE_customer_tests__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__customer_tests&quot; name=&quot;XE_engineering_practices__customer_tests&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>Um dos direitos do cliente é que ele será capaz de ver o progresso na forma de um sistema executável que passe nos testes repetitivos que ele especificar. Estes testes são o que chamamos de Testes de Cliente. O cliente especifica um ou mais Testes de Cliente para cada história de usuário do sistema, descrevendo em detalhes como ele espera que cada história funcione. Pelo fato dos testes serem colocados em forma executável e totalmente automatizados, eles determinam aos programadores o que precisa ser feito de forma inequívoca (o teste passa ou falha) e permitem que o cliente se sinta confiante de que o sistema atende as suas necessidades.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Capacidade de ver um &lt;b>progresso concreto e verificável&lt;/b>.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Rastreabilidade máxima:&lt;/b> Os Testes de Cliente são requisitos de sistema executáveis.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Repetitividade:&lt;/b> pelo fato de serem automatizados, os testes podem ser executados a qualquer momento.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

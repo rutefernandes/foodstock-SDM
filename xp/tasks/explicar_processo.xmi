@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-I3yOxhkbTu3OCbzQ0sUsyA" name="explain_process,{1FA31F30-1F90-4BD3-9F0D-57DF66FC6727}" guid="-I3yOxhkbTu3OCbzQ0sUsyA" version="1.0.0">
+  <sections xmi:id="_oNuxsGE-EdqnIZeW8YpHcA" name="Geral" guid="_oNuxsGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Assim que uma equipe começa a usar as &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/xp_practices_36E149F4.html&quot; guid=&quot;2.2937799026801584E-305&quot;>Práticas XP&lt;/a>, o treinador deverá prepará-la para usar as práticas de forma eficaz.&lt;/p>&#xD;
+&lt;p>Isto inclui o seguinte:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Instruir a equipe sobre XP e garantir que ela tenha um entendimento comum das práticas.&lt;/li>&#xD;
+    &lt;li>Facilitar a decisão da equipe sobre quão agressiva deverá ser a transição para as novas práticas.&lt;/li>&#xD;
+    &lt;li>Facilitar que a equipe identifique quais obstáculos eles irão enfrentar no uso efetivo das práticas. Garantir que a equipe tenha um plano para superar esses obstáculos.&lt;/li>&#xD;
+    &lt;li>Facilitar que a equipe possa identificar quais restrições irão causar adaptação nas práticas. Assegurar que as adaptações sejam compreendidas por &lt;a class=&quot;elementLink&quot; href=&quot;./../../xp/guidances/concepts/whole_team_7E4B7BE3.html&quot; guid=&quot;7.89591827591278E-306&quot;>Toda a Equipe&lt;/a>.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Pelo fato de existirem muitos papéis na equipe, um treinador precisa ter uma boa compreensão das diferentes atividades em todo o processo. Em alguns casos, pode existir mais de um treinador em uma equipe para tratar as necessidades. Poderá existir um treinador para a equipe de desenvolvedores e um para a equipe cliente, por exemplo.&lt;/p>&#xD;
+&lt;p>Use expertise externo, se for necessário, para assegurar que a equipe comece com uma forte base de conhecimento para obter sucesso.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_explain_process__activity_definition&quot; name=&quot;XE_explain_process__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Certificar que a equipe tenha um entendimento comum dos princípios fundamentais.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

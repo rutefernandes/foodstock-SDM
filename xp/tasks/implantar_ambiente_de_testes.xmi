@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-OPKuXnenD910fJyGKA99aw" name="setup_tester_environment,{B4F9BDCC-629E-485B-9EFA-318F8D5A37BC}" guid="-OPKuXnenD910fJyGKA99aw" version="1.0.0">
+  <sections xmi:id="_oNI70WE-EdqnIZeW8YpHcA" name="Geral" guid="_oNI70WE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Os testadores terão que configurar algum tipo de ambiente de hardware e/ou software para executar os testes de aceitação de cliente. O ambiente pode exigir a instalação de ferramentas de teste de software específicas ou o sistema operacional poderá necessitar de ajustes específicos de ambiente. Tente reproduzir, tanto quanto possível, um ambiente típico de usuário final, quando da execução dos testes. Os testes podem necessitar da criação de múltiplos ambientes (quando são utilizados diferentes sistemas operacionais, por exemplo).&lt;/p>&#xD;
+&lt;p>Os ambientes de teste não são apenas para testadores, é fundamental que eles sejam colocados à disposição dos programadores. A execução dos testes de aceitação é a única forma de saber se a história está concluída e se as histórias anteriores não foram danificadas.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_setup_tester_environment__activity_definition&quot; name=&quot;XE_setup_tester_environment__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Criar um ambiente estável para execução dos testes de cliente.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

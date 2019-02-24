@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-7gEOFFavlkSqwIoTNrvfJA" name="define_release_plan,{D755C076-8E63-4A24-89AA-A7D64E368B90}" guid="-7gEOFFavlkSqwIoTNrvfJA" version="1.0.0">
+  <sections xmi:id="_oOauMGE-EdqnIZeW8YpHcA" name="Preparação" guid="_oOauMGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Os passos para esta atividade fazem parte do planejamento da liberação XP. Para que essa atividade seja bem sucedida, as seguintes precondições devem ser cumpridas:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>O cliente possui histórias de usuário suficientes para formar pelo menos uma liberação.&lt;/li>&#xD;
+    &lt;li>O cliente compreende muito bem as histórias de usuário.&lt;/li>&#xD;
+    &lt;li>O cliente definiu os critérios de aceitação das histórias.&lt;/li>&#xD;
+    &lt;li>Todos os membros da equipe que estarão envolvidos no desenvolvimento das histórias devem estar presentes.&lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOauMWE-EdqnIZeW8YpHcA" name="O Cliente Apresenta as Histórias de Usuário" guid="_oOauMWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>O cliente descreve cada história para a equipe e explica as condições sob as quais a história vai ser considerada completa.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOauMmE-EdqnIZeW8YpHcA" name="Os Desenvolvedores Estimam as Histórias de Usuário" guid="_oOauMmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Os desenvolvedores discutem cada história e chegam a uma estimativa com base em sua experiência. Discussões de design de alto nível acontecem à medida que os desenvolvedores tentam entender a história e elaboram diferentes formas de implementá-la. Em alguns casos, a equipe não será capaz de fornecer uma estimativa razoável:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Eles não entenderam a história: a equipe deve fazer mais perguntas para o cliente.&lt;/li>&#xD;
+    &lt;li>A história é muito grande: os desenvolvedores não têm um bom entendimento do escopo. Ela deve ser decomposta em histórias menores.&lt;/li>&#xD;
+    &lt;li>Eles não sabem como implementá-la: eles terão que fazer algumas pesquisas primeiro.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Tome cuidado para evitar a paralisia analítica. A estimativa que a equipe fará para a primeira história poderá levar até uma hora. A segunda história deverá gastar menos tempo. Você deverá ter como meta, a capacidade de estimar uma história em apenas alguns minutos.&lt;/p>&#xD;
+&lt;p>Como regra geral, as estimativas das histórias não devem exceder a duração da iteração com base em um par de pessoas dedicado à história. Quando as histórias excederem a duração da iteração, o cliente deverá dividir a história.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oOg00GE-EdqnIZeW8YpHcA" name="O Cliente Prioriza as Histórias" guid="_oOg00GE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Uma vez que todas as histórias tenham um custo estimado, o cliente pode priorizá-las no plano de liberação. O cliente organiza as histórias em iterações e as sequências de iterações em liberações. A soma de todos os pontos de história em cada iteração não pode exceder a velocidade da equipe. No início do projeto, você terá que adivinhar a velocidade da equipe. Tente um terço do tempo ideal de programador disponível em uma iteração. Após algumas iterações, reveja o plano e use a velocidade da equipe que foi medida. Veja mais sobre planejamento de liberação, na &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../xp/guidances/guidelines/planning_game_3C5849C8.html&quot; guid=&quot;6.7335956461328426E-307&quot;>diretriz planejamento do jogo&lt;/a>.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_define_release__activity_definition&quot; name=&quot;XE_define_release__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Estimar o conteúdo e a data de entrega de uma liberação do produto.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

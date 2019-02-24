@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0rSxLFlmQfyKrgnqi1NKrg" name="simple_design,1.6109092258980447E-306" guid="-0rSxLFlmQfyKrgnqi1NKrg" changeDate="2006-11-08T21:39:05.846-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__simple_design&quot; name=&quot;XE_xp__simple_design&quot;>&lt;/a>&lt;a id=&quot;XE_simple_design__practice_of&quot; name=&quot;XE_simple_design__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__simple_design&quot; name=&quot;XE_engineering_practices__simple_design&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>A estratégia de design na XP é criar o mais simples design que atenda aos requisitos, refletidos nos casos de teste atuais. Em muitos domínios o &quot;design simples&quot; é ambíguo, mas na XP é um termo bem-definido. Um design simples tem as quatro características abaixo, listadas em ordem de prioridade:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>O sistema passa em todos os testes.&lt;/li>&#xD;
+    &lt;li>Não contém código duplicado.&lt;/li>&#xD;
+    &lt;li>O código explicita claramente a intenção dos programadores.&lt;/li>&#xD;
+    &lt;li>Contém a menor quantidade possível de classes e métodos.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>O design na Programação Extrema é muito mais incremental do que em qualquer outra metodologia. A prática do Desenvolvimento Dirigido por Testes descreve como o sistema é criado em vários pequenos passos, orientado pelos testes que os programadores criam. Cada um destes testes é como uma sonda no design do sistema, permitindo aos desenvolvedores explorar o sistema à medida que ele é criado. Isto é um contraste em relação as outras metodologias onde o design é uma fase separada do projeto ou da iteração. Na XP, o design literalmente acontece o tempo todo.&lt;/p>&#xD;
+&lt;p>É necessário ter bastante coragem para parar o design e começar a codificação. Quase todos os desenvolvedores são orientados a entender tudo sobre o sistema antes de transferir o conhecimento para o código. A razão, que eles sempre têm dito, é que o código é difícil de mudar. Uma vez que ele tenha se fixado em seus papéis virtuais, mudá-lo envolve a compreensão dos pressupostos exclusivos do desenvolvedor inicial, acoplagens desconhecidas, procedimentos de verificação de grande duração, etc. Mas se o código puder ser alterado com impunidade, os desenvolvedores poderão se dar ao luxo de adiar as decisões de design, entender o sistema de forma incremental e implementá-lo em pedaços.&lt;/p>&#xD;
+&lt;p>A estratégia de construir software desta forma está baseada no seguinte raciocínio:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Dado que todos os requisitos não são conhecidos no primeiro dia do projeto, o estilo de desenvolvimento deve ser ajustado para acomodar novos entendimentos provenientes dos clientes e das mudanças no clima empresarial.&lt;/li>&#xD;
+    &lt;li>Se uma decisão de design não tiver de ser feita agora, evite a adivinhação adiando a decisão até que seja necessária. Posteriormente, existirá maior chance de que haja compreensão suficiente para suportar uma melhor decisão.&lt;/li>&#xD;
+    &lt;li>A mudança acontece durante todo o tempo de vida do projeto. As decisões tomadas, logo serão alteradas. O software deve ser projetado e implementado de forma que as alterações possam ser facilmente acomodadas.&lt;/li>&#xD;
+    &lt;li>O design raramente sobreviver a sua primeira batalha contra o código. O ato da codificação fornece para o desenvolvedor feedback a respeito do sistema. Este aprendizado deve ser refletido no design. Se o design já tiver sido feito antes da codificação iniciar, este feedback será mais difícil e oneroso de ser colocado de volta no design.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>Aqui estão algumas diretrizes para ajudar na consecução de um design simples:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Procure por uma forma simples de resolver o problema. O software é difícil, por isso, haverá muito tempo mais tarde para a complexidade. Por enquanto, mantenha-o simples. Simples, entretanto, não significa estúpido. Preste atenção aos bons princípios de design quando da construção incremental de um sistema.&lt;/li>&#xD;
+    &lt;li>Resista à tentação de acrescentar infraestruturas ou outros recursos que possam ser necessários somente mais tarde. As chances são deles não serem (YAGNI: Você Não Vai Precisar Disso).  Permita que as histórias de usuário lhe forcem a alterar o design.&lt;/li>&#xD;
+    &lt;li>Não generalize uma solução até que ela seja necessária em, pelo menos, dois lugares. Siga a primeira regra acima e mantenha a implementação simples. Deixe que o segundo usuário pague pela generalidade.&lt;/li>&#xD;
+    &lt;li>Procure e destrua as duplicidades. A prática da &lt;a class=&quot;elementLink&quot; href=&quot;./../../../xp/guidances/concepts/refactoring_xp_programming_6368BEEC.html&quot; guid=&quot;1.4410217108363206E-306&quot;>Refatoração&lt;/a> é o instrumento mais poderoso do arsenal. É através da eliminação das duplicidades que as novas classes, métodos e sistemas de grande escala nascem.&lt;/li>&#xD;
+    &lt;li>Lembre-se que se trata apenas de código. Se estiver ficando muito complexo e doloroso, exclua-o. Ele pode sempre ser recriado novamente em menos tempo e melhor do que na primeira vez pela alavancagem do que foi aprendido inicialmente.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Pequeno Investimento Inicial:&lt;/b> Não há necessidade de investir em frameworks ou generalidades que possam não ser necessários no futuro.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Manutenção:&lt;/b> O design simples irá manter o design longe do sucateamento e da morte prematura. Quão mais complexo for o design, mais difícil será de compreendê-lo e preservá-lo e ele irá desaparecer rapidamente.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Flexibilidade&lt;/b>: Os sistemas simples são sempre mais fáceis de alterar do que os sistemas mais complexos.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Agilidade:&lt;/b> Os sistemas simples são mais rápidos de alterar do que os sistemas mais complexos.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

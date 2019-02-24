@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vEvfeoyYAPDr-jfyX2QLww" name="xp_rights,3.036332011267074E-306" guid="-vEvfeoyYAPDr-jfyX2QLww" changeDate="2006-11-08T20:44:06.238-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__bill_of_rights&quot; name=&quot;XE_xp__bill_of_rights&quot;>&lt;/a>&lt;a id=&quot;XE_bill_of_rights__in_xp&quot; name=&quot;XE_bill_of_rights__in_xp&quot;>&lt;/a> &#xD;
+&lt;h2>Lista de Direitos do Desenvolvedor&lt;/h2>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Você tem o direito de saber o que é desejado com uma clara declaração das prioridades.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de produzir um trabalho de qualidade em todos os momentos.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de solicitar e receber ajuda de seus pares, superiores e clientes.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de fazer e atualizar suas próprias estimativas.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de aceitar responsabilidades ao invés de tê-las atribuídas a você.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h2>Lista de Direitos do Cliente&lt;/h2>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Você tem o direito a um plano global, para saber o que pode ser feito quando e com qual custo.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de obter o maior valor possível de cada semana de programação.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de ver o progresso na forma de um sistema executável que comprovadamente funciona ao passar pelos testes que você especificou.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de mudar de ideia, substituir as funcionalidades e alterar as prioridades sem pagar custos exorbitantes.&lt;/li>&#xD;
+    &lt;li>Você tem o direito de ser informado imediatamente sobre mudanças no cronograma, de forma que possa escolher a forma de reduzir o escopo para manter o prazo original. Você pode cancelar o projeto a qualquer hora e sair com um sistema útil e executável que reflita o investimento feito até o momento.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

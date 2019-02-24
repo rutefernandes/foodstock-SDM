@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:org.eclipse.epf.diagram.model="http://www.eclipse.org/epf/diagram/1.0.0/diagram.ecore" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML">
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_v3PjwDfxEemUQtxHzDLDiA" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_6EZlADfVEemwn90hXFEE7g#_6EZlATfVEemwn90hXFEE7g"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_v3PjwTfxEemUQtxHzDLDiA" type="ADD" element="_v3PjwDfxEemUQtxHzDLDiA" name="Ciclo de vida" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_v3PjwjfxEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_v3PjwzfxEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_v3PjxDfxEemUQtxHzDLDiA"/>
+  </notation:Diagram>
+  <org.eclipse.epf.diagram.model:ActivityDetailDiagram xmi:id="_wNybgDfxEemUQtxHzDLDiA" autoLayout="true">
+    <linkedElement xmi:type="org.eclipse.epf.uma:Phase" href="uma://_6EZlADfVEemwn90hXFEE7g#_a2gzYTfaEemwn90hXFEE7g"/>
+  </org.eclipse.epf.diagram.model:ActivityDetailDiagram>
+  <notation:Diagram xmi:id="_wNybgTfxEemUQtxHzDLDiA" type="ADD" element="_wNybgDfxEemUQtxHzDLDiA" name="Testes" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_wNybgjfxEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_wNybgzfxEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_wNybhDfxEemUQtxHzDLDiA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_xXfZEDfyEemUQtxHzDLDiA" name="Ciclo de vida">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xXfZETfyEemUQtxHzDLDiA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xXfZEjfyEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_6EZlATfVEemwn90hXFEE7g"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xXfZEzfyEemUQtxHzDLDiA" key="type" value="Activity"/>
+    </eAnnotations>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_xey68DfyEemUQtxHzDLDiA" name="Planejamento">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xey68TfyEemUQtxHzDLDiA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xey68jfyEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_XT2k8TfaEemwn90hXFEE7g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xey68zfyEemUQtxHzDLDiA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_xey69DfyEemUQtxHzDLDiA" name="Elaboração">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xey69TfyEemUQtxHzDLDiA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xey69jfyEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_Yo66cDfaEemwn90hXFEE7g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xey69zfyEemUQtxHzDLDiA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_xeziADfyEemUQtxHzDLDiA" name="Implementação">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xeziATfyEemUQtxHzDLDiA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xeziAjfyEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_ZzTp8TfaEemwn90hXFEE7g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xeziAzfyEemUQtxHzDLDiA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+    <node xmi:type="uml:StructuredActivityNode" xmi:id="_xeziBDfyEemUQtxHzDLDiA" name="Testes">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xeziBTfyEemUQtxHzDLDiA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xeziBjfyEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_a2gzYTfaEemwn90hXFEE7g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xeziBzfyEemUQtxHzDLDiA" key="type" value="Phase"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_xXn78DfyEemUQtxHzDLDiA" type="AD" element="_xXfZEDfyEemUQtxHzDLDiA" name="Ciclo de vida" measurementUnit="Pixel">
+    <children xmi:type="notation:Node" xmi:id="_xe3MYDfyEemUQtxHzDLDiA" type="1010" element="_xey68DfyEemUQtxHzDLDiA">
+      <children xmi:type="notation:Node" xmi:id="_xe3zcDfyEemUQtxHzDLDiA" type="4009"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xe3MYTfyEemUQtxHzDLDiA" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_xe3MYjfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_xe3MYzfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xe3MZDfyEemUQtxHzDLDiA" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xe3MZTfyEemUQtxHzDLDiA" x="180" y="120"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xe4agDfyEemUQtxHzDLDiA" type="1010" element="_xey69DfyEemUQtxHzDLDiA">
+      <children xmi:type="notation:Node" xmi:id="_xe4ahjfyEemUQtxHzDLDiA" type="4009"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xe4agTfyEemUQtxHzDLDiA" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_xe4agjfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_xe4agzfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xe4ahDfyEemUQtxHzDLDiA" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xe4ahTfyEemUQtxHzDLDiA" x="285" y="55"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xe5BkDfyEemUQtxHzDLDiA" type="1010" element="_xeziADfyEemUQtxHzDLDiA">
+      <children xmi:type="notation:Node" xmi:id="_xe5BljfyEemUQtxHzDLDiA" type="4009"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xe5BkTfyEemUQtxHzDLDiA" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_xe5BkjfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_xe5BkzfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xe5BlDfyEemUQtxHzDLDiA" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xe5BlTfyEemUQtxHzDLDiA" x="375" y="125"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xe5BlzfyEemUQtxHzDLDiA" type="1010" element="_xeziBDfyEemUQtxHzDLDiA">
+      <children xmi:type="notation:Node" xmi:id="_xe5ooDfyEemUQtxHzDLDiA" type="4009"/>
+      <styles xmi:type="notation:FontStyle" xmi:id="_xe5BmDfyEemUQtxHzDLDiA" fontName="Arial" fontHeight="8"/>
+      <styles xmi:type="notation:DescriptionStyle" xmi:id="_xe5BmTfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:FillStyle" xmi:id="_xe5BmjfyEemUQtxHzDLDiA"/>
+      <styles xmi:type="notation:LineStyle" xmi:id="_xe5BmzfyEemUQtxHzDLDiA" lineColor="0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xe5BnDfyEemUQtxHzDLDiA" x="290" y="185"/>
+    </children>
+    <styles xmi:type="notation:PageStyle" xmi:id="_xXn78TfyEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_xXn78jfyEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_xXn78zfyEemUQtxHzDLDiA"/>
+  </notation:Diagram>
+  <uml:Activity xmi:id="_Q7KbMDfzEemUQtxHzDLDiA" name="Testes">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q7KbMTfzEemUQtxHzDLDiA" source="uma_element">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7KbMjfzEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_a2gzYTfaEemwn90hXFEE7g"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7KbMzfzEemUQtxHzDLDiA" key="type" value="Phase"/>
+    </eAnnotations>
+    <node xmi:type="uml:ActivityParameterNode" xmi:id="_Q7gZcDfzEemUQtxHzDLDiA" name="Teste de aceitação ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q7gZcTfzEemUQtxHzDLDiA" source="uma_element">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7gZcjfzEemUQtxHzDLDiA" key="uri" value="uma://_6EZlADfVEemwn90hXFEE7g#_d_pukDfaEemwn90hXFEE7g"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7gZczfzEemUQtxHzDLDiA" key="type" value="Task"/>
+      </eAnnotations>
+    </node>
+  </uml:Activity>
+  <notation:Diagram xmi:id="_Q7KbNDfzEemUQtxHzDLDiA" type="AD" element="_Q7KbMDfzEemUQtxHzDLDiA" name="Testes" measurementUnit="Pixel">
+    <styles xmi:type="notation:PageStyle" xmi:id="_Q7LCQDfzEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:GuideStyle" xmi:id="_Q7LCQTfzEemUQtxHzDLDiA"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_Q7LCQjfzEemUQtxHzDLDiA"/>
+  </notation:Diagram>
+</xmi:XMI>

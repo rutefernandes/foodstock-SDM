@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--tP2hgRfEkZPGYvy1y0GZQ" name="integrate_system,{70FEC254-8555-4844-AD82-68367E25F082}" guid="--tP2hgRfEkZPGYvy1y0GZQ" version="1.0.0">
+  <sections xmi:id="_oE9QMGE-EdqnIZeW8YpHcA" name="Executar Todos os Testes de Unidade do Sistema" guid="_oE9QMGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Enquanto você e seu parceiro estiverem trabalhando em uma tarefa, execute testes unitários para se certificar que não estejam sendo introduzidos defeitos no código. À medida que um sistema evolui, pode tornar-se impraticável a execução de todos os testes de unidade para todas as mudanças feitas. Neste caso, você pode escolher um subconjunto dos testes de unidade para ser executado após cada mudança no código. Quando uma tarefa for concluída, você achar que existe uma parte significativa de código que possa ser integrado ou for necessário por qualquer outro motivo, execute todos os testes de unidade do sistema.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oE9QMWE-EdqnIZeW8YpHcA" name="Fazer Check-in do Código" guid="_oE9QMWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Se todos os testes de unidade do sistema passarem, faça Check-in do seu código e produza uma construção do sistema.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_integrate_and_build__activity_definition&quot; name=&quot;XE_integrate_and_build__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Produzir um executável da aplicação em desenvolvimento que possa ser usado para avaliar o progresso e fornecer feedback&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

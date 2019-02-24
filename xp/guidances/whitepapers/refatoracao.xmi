@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ql_2w28A9SIIZQca3Wg-kQ" name="refactoring,1.0713784560673905E-305" guid="-ql_2w28A9SIIZQca3Wg-kQ" changeDate="2006-11-10T20:40:03.134-0300" version="1.0.0">
+  <mainDescription>&lt;address>Por Michael Feathers.&lt;/address>&#xD;
+&lt;address>Todos os Direitos Reservados.&lt;/address>&#xD;
+&lt;p>Uma &lt;a href=&quot;resources/refactoring.pdf&quot; target=&quot;_blank&quot;>Versão PDF&lt;/a> deste artigo está disponível, entretanto, você deve ter o &lt;a href=&quot;http://www.adobe.com/products/acrobat/alternate.html&quot; target=&quot;_blank&quot;>Adobe Acrobat&lt;/a> instalado para vê-la.&lt;/p>&#xD;
+&lt;h3>Resumo&lt;/h3>&#xD;
+&lt;p>O presente documento aborda a refatoração no contexto de iniciar com código legado, em oposição ao chamado desenvolvimento em &quot;área verde&quot;. Os tópicos cobertos incluem: Coberturas de Testes; Pontos de Inflexão; Quebrando Dependências Externas e Internas.&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+      &#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZUxMgSWqLlaO5p1r1-ug6Q" name="xp_vision,{2300FB25-7249-4481-A1BD-978240906832}" guid="-ZUxMgSWqLlaO5p1r1-ug6Q" changeDate="2006-11-10T13:46:22.508-0300" version="1.0.0">
+  <purpose>&lt;a id=&quot;XE_xp_vision__artifact_definition&quot; name=&quot;XE_xp_vision__artifact_definition&quot;>&lt;/a>&lt;a id=&quot;Purpose&quot; name=&quot;Purpose&quot;>&lt;/a>&lt;a id=&quot;XE_xp_vision__purpose_of&quot; name=&quot;XE_xp_vision__purpose_of&quot;>&lt;/a> &#xD;
+&lt;p>A &lt;a class=&quot;PresentationName&quot; guid=&quot;{2300FB25-7249-4481-A1BD-978240906832}&quot;>Visão XP&lt;/a> consiste de requisitos de altíssimo nível. Ela comunica à equipe uma compreensão comum sobre o projeto e definições com as quais todas as decisões futuras devem ser validadas. Ela irá orientar a equipe durante o ciclo de desenvolvimento.&lt;/p></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

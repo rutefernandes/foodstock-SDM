@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-Z9xFd9JTnJuNN5S27p06UQ" name="estimate_user_story,{23A924D3-5989-40DD-86A9-9D8FCFB8AE52}" guid="-Z9xFd9JTnJuNN5S27p06UQ" version="1.0.0">
+  <sections xmi:id="_oEqVQGE-EdqnIZeW8YpHcA" name="Entender a História de Usuário" guid="_oEqVQGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step1&quot; name=&quot;Step1&quot;>&lt;/a> &#xD;
+&lt;p>Para fornecer uma estimativa que seja bastante acurada, os desenvolvedores precisam ter uma boa compreensão da história. Durante o planejamento da liberação, o cliente descreve cada história de usuário e apresenta os critérios para os testes de aceitação. Os desenvolvedores podem fazer perguntas até que estejam satisfeitos e compreendam os aspectos mais importantes que o cliente está solicitando. Evite a paralisia analítica; existem muitas histórias.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oEqVQWE-EdqnIZeW8YpHcA" name="Discutir Possíveis Implementações" guid="_oEqVQWE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step2&quot; name=&quot;Step2&quot;>&lt;/a> &#xD;
+&lt;p>Às vezes, a equipe pode estimar a história com precisão. Outras vezes a história pode não se encaixar perfeitamente nas experiências anteriores, e a equipe poderá ter que explorar alternativas potenciais de design. Não decida sobre um design específico. Se várias ideias tiverem quase a mesma estimativa de tempo, escolha uma estimativa e passe para a próxima história. Evite a paralisia analítica; existem muitas histórias.&lt;/p>&#xD;
+&lt;p>Quando existir uma profunda incerteza, a equipe poderá pedir mais tempo para fazer pesquisas (experimento), a fim de fornecer uma estimativa mais realista.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oEqVQmE-EdqnIZeW8YpHcA" name="Fazer uma Estimativa Com Base na Experiência" guid="_oEqVQmE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Step3&quot; name=&quot;Step3&quot;>&lt;/a> &#xD;
+&lt;p>Se a equipe já tiver feito algum trabalho similar, eles simplesmente extrapolarão a partir do trabalho anterior. Para o trabalho que a equipe não estiver familiarizada, a implementação de um experimento pode fornecer informações suficientes para saber o que é possível ser feito e quanto tempo e esforço serão necessários. Uma equipe XP experiente pode estimar a maioria das histórias em poucos minutos. Evite a paralisia analítica; existem muitas histórias.&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_oEqVQ2E-EdqnIZeW8YpHcA" name="Solicitar ao Cliente para Decompor a História" guid="_oEqVQ2E-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Ask&quot; name=&quot;Ask&quot;>&lt;/a> &#xD;
+&lt;p>A estimativa de uma história não poderá exceder a duração da iteração para um par de programadores. Se a estimativa for muito grande, solicite ao cliente para decompor a história. As pessoas fazem melhores estimativas para trabalhos menores. As estimativas grandes tendem a estourar o orçamento. Não é incomum decompor uma história de quatro semanas e descobrir que ela se torna quatro histórias de duas semanas.&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_estimate_user_story__activity_definition&quot; name=&quot;XE_estimate_user_story__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Fornecer uma estimativa de alto nível que será usada no planejamento da liberação.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

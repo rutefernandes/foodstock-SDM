@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-23MZj6vLVbgbkXaptH4riQ" name="xp_system_administrator,{0CB3C507-AFEE-4DA8-982B-9B93C8729910}" guid="-23MZj6vLVbgbkXaptH4riQ" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp_programmer_(administrator)__role_definition&quot; name=&quot;XE_xp_programmer_(administrator)__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>O papel &lt;a class=&quot;PresentationName&quot; guid=&quot;{0CB3C507-AFEE-4DA8-982B-9B93C8729910}&quot;>Programador XP (Administrador)&lt;/a> engloba a maioria dos papéis técnicos tradicionais de desenvolvimento de software, tais como designer, implementador, integrador e administrador.&lt;/p>&#xD;
+&lt;p>No papel administrador, o programador trata do estabelecimento do ambiente físico de trabalho.&lt;/p></mainDescription>
+  <skills>&lt;a id=&quot;Skills&quot; name=&quot;Skills&quot;>&lt;/a> &#xD;
+&lt;p>O papel &lt;a class=&quot;PresentationName&quot; guid=&quot;{0CB3C507-AFEE-4DA8-982B-9B93C8729910}&quot;>Programador XP (Administrador)&lt;/a> é responsável em estabelecer o espaço de trabalho para a programação em pares, incluindo a remoção dos cubículos, o estabelecimento do campo visual com o cliente e a padronização das ferramentas de desenvolvimento.&lt;/p></skills>
+</org.eclipse.epf.uma:RoleDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-yaD6WKGdrZ0n0yBSpwPr4g" name="test_driven_development,1.620567348185129E-306" guid="-yaD6WKGdrZ0n0yBSpwPr4g" changeDate="2006-11-21T20:06:48.997-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__test_driven_development&quot; name=&quot;XE_xp__test_driven_development&quot;>&lt;/a>&lt;a id=&quot;XE_test_driven_development__practice_of&quot; name=&quot;XE_test_driven_development__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__test_driven_development&quot; name=&quot;XE_engineering_practices__test_driven_development&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>O Desenvolvimento Dirigido por Testes é uma das principais práticas de programação da XP. Muitos de nós aprendemos ao longo dos anos o valor de escrever testes automatizados para o nosso código. Muitos de nós também conhecemos a dificuldade de escrever testes após o código já está pronto. O Desenvolvimento Dirigido por Testes tem uma abordagem diferente para garantir que estamos testando todo o código, o tempo todo.&lt;/p>&#xD;
+&lt;p>A prática do Desenvolvimento Dirigido por Testes requer uma mudança na forma de programar e pensar. Você não escreve os testes como uma consequência. Você não tentará verificar se o código que você escreveu está funcionando. Ao invés disso, você escreverá testes como parte do quotidiano, em cada minuto de construção do software. Ao invés de escrever especificações detalhadas do design no papel, você as escreve no código. Ao invés de esforçar-se primeiramente em projetar perfeitamente um sistema no papel, usa os testes para orientar o seu design. Ao invés de codificar durante horas só para descobrir que o planejamento estava equivocado, use o Desenvolvimento Dirigido por Testes para lhe ritmar, assegurando sempre o progresso com a sólida estrutura de uma suíte de testes executáveis que sempre cresce.&lt;/p>&#xD;
+&lt;p>Os passos:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Tenha noção para onde você está indo.&lt;/li>&#xD;
+    &lt;li>Escreva um teste que especifique pouca funcionalidade.&lt;/li>&#xD;
+    &lt;li>Garanta que o teste falhe (você ainda não criou a funcionalidade!).&lt;/li>&#xD;
+    &lt;li>Escreva somente o código necessário para fazer o teste passar.&lt;/li>&#xD;
+    &lt;li>Refatore o código, garantindo que ele tenha um design claro e simples para as funcionalidades construídas até o momento.&lt;/li>&#xD;
+    &lt;li>Repita até que você obtenha o comportamento desejado.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>As regras:&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Teste tudo que possivelmente possa falhar.&lt;/li>&#xD;
+    &lt;li>Os testes devem vir primeiro.&lt;/li>&#xD;
+    &lt;li>Todos os testes passam 100% o tempo todo.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>O Desenvolvimento Dirigido por Testes é infeccioso! Os desenvolvedores pedem por ele. Os desenvolvedores não o abandonam depois de terem lhe dado uma real oportunidade.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>Os módulos testáveis são desacoplados de outras classes complexas, resultando em &lt;b>módulos fracamente acoplados&lt;/b>. Módulos fracamente acoplados são um sinal de um bom design.&lt;/li>&#xD;
+    &lt;li>O código é escrito de forma que os &lt;b>módulos sejam testáveis em condições de isolamento&lt;/b>. O código escrito sem os testes em mente é muitas vezes altamente acoplado, uma grande dica que você tem um pobre design orientado a objeto. Se você tiver que escrever os testes primeiro, irá encontrar formas de minimizar as dependências no sistema para poder escrever os testes.&lt;/li>&#xD;
+    &lt;li>Os &lt;b>testes agem como documentação&lt;/b>, fornecendo exemplos concretos de como utilizar o módulo a ser testado.&lt;/li>&#xD;
+    &lt;li>Os testes são os primeiros clientes das classes; &lt;b>mostram como o desenvolvedor planejou que a classe fosse usada&lt;/b>.&lt;/li>&#xD;
+    &lt;li>Os &lt;b>testes agem como uma rede de segurança&lt;/b>. Notificando o programador imediatamente quando um defeito de efeito colateral é introduzido no sistema.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        O &lt;b>Desenvolvimento é ritmado&lt;/b>. Você pode parar a qualquer hora que os testes descreverão o progresso feito até o momento. Cada sessão de programação dá uma sensação de satisfação pela obtenção de código funcional.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>Informações Relacionadas&lt;/h3>&#xD;
+&lt;p>Para obter mais informações, veja &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../xp/guidances/guidelines/test_driven_development_tdd_D7F1F440.html&quot; guid=&quot;3.9254165491375454E-306&quot;>Diretrizes para Desenvolvimento Dirigido por Testes&lt;/a>.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

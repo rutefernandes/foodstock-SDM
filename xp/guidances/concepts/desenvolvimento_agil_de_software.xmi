@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-EHSlFv7Gla5oCPGBiaZKow" name="agile_software_development,1.041091673844025E-305" guid="-EHSlFv7Gla5oCPGBiaZKow" changeDate="2006-11-29T20:32:13.357-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_agile_software_development__process_differentiators&quot; name=&quot;XE_agile_software_development__process_differentiators&quot;>&lt;/a> &#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Intro&quot; name=&quot;Intro&quot;>Introdução&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>A Programação Extrema é provavelmente o conjunto de métodos de desenvolvimento ágil de software mais conhecido e mais usado que se tem conhecimento. Existem muitos profissionais de softwares trabalhando com métodos ágeis atualmente. Muitas conferências internacionais sobre métodos ágeis têm sido organizadas, bem como muitos papers, sites e uma grande quantidade de livros têm sido criados. Esta discussão está fundamentada no Manifesto Ágil que se encontra em &lt;a href=&quot;http://www.agilemanifesto.org&quot; target=&quot;_blank&quot;> www.agilemanifesto.org&lt;/a>.&lt;/p>&#xD;
+&lt;p>Nós estamos descobrindo melhores formas de desenvolvimento de software fazendo e ajudando os outros a fazer. Através deste trabalho nós pudemos avaliar:&lt;/p>&#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Individuals&quot; name=&quot;Individuals&quot;>Indivíduos e Interações Acima de Processos e Ferramentas&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>Processos e ferramentas são muito importantes. Nós não estaríamos escrevendo isto e você não estaria lendo se não fosse verdade. Os melhores processos e ferramentas, em nossa opinião, são aqueles que permitem que os indivíduos, que fazem parte de um projeto de software, façam seu trabalho de forma mais eficaz. Para isso, os processos e ferramentas precisam facilitar as interações humanas que geram compreensão e cooperação. Os métodos ágeis usam a menor quantidade de processos que sejam seguros e as mais simples ferramentas que sejam eficazes na ajuda desses indivíduos e interações.&lt;/p>&#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Working&quot; name=&quot;Working&quot;>Software que Funciona Acima de Documentação Abrangente&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>A documentação pode ser muito importante para um projeto de software. Às vezes, é a única maneira de comunicar ideias no tempo e no espaço. Para um projeto de software em curso, no entanto, existe uma maneira muito melhor de saber o que está acontecendo e de orientar o projeto.&lt;/p>&#xD;
+&lt;p>Observe o software. O software pode ser testado, usado e inspecionado, e todas as respostas que você obtém são inequívocas. Os métodos ágeis concentram-se em manter o software visível, começando o mais cedo possível. Os melhores projetos XP iniciam produzindo software visível e testado nas primeiras semanas do projeto e nunca param.&lt;/p>&#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Customer&quot; name=&quot;Customer&quot;>Colaboração do Cliente Acima de Negociação Contratual&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>Muitos projetos de software necessitam de um contrato, e de todos os benefícios de uma compreensão clara do que será feito. Entretanto, tentar super-restringir a compreensão inicial é quase sempre contraproducente. Muitas vezes, o resultado pode ser um produto que &quot;Atende as Leis&quot;, mas que não agrada nem aos desenvolvedores nem aos usuários. Os métodos ágeis reconhecem que todos os Stakeholders estarão aprendendo ao longo do projeto. Então os projetos ágeis são criados para facilitar o aprendizado e tirar vantagem disso.&lt;/p>&#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Responding&quot; name=&quot;Responding&quot;>Responder as Mudanças Acima de Seguir um Plano&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>Muitas mudanças de direção podem fazer com que um projeto fique fora de controle, custe demasiadamente ou nunca termine. O planejamento inicial, entretanto, não pode saber quais mudanças potenciais devem ser tratadas e quais ignoradas. Os métodos ágeis abordam esta questão de duas maneiras:&lt;/p>&#xD;
+&lt;p>Em primeiro lugar, eles respondem as alterações com planejamento transparente e frequente. Pequenas mudanças são tratadas frequentemente em pequenas sessões de planejamento da equipe, e a visão geral é publicada e processada por todos os Stakeholders, também com alta frequência.&lt;/p>&#xD;
+&lt;p>Em segundo lugar, as técnicas de desenvolvimento dos métodos ágeis geralmente permitem que os Stakeholders forneçam novas e melhores ideias em substituição as antigas noções, sem um aumento exorbitante dos custos.&lt;/p>&#xD;
+&lt;h2>&#xD;
+    &lt;a id=&quot;Summary&quot; name=&quot;Summary&quot;>Resumo&lt;/a>&#xD;
+&lt;/h2>&#xD;
+&lt;p>À medida que você estuda e usa a Programação Extrema, é importante manter estes valores ágeis em mente. À medida que você ajusta o processo para a sua situação, trabalhar com os valores irá permitir que você possa obter os melhores resultados com o mínimo esforço.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

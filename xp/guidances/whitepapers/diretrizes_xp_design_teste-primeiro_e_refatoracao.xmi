@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-_AgYWcSlbVBZOVcQfJuBnQ" name="xp_guidelines_test-first_design_and_refactoring,6.334658646686929E-306" guid="-_AgYWcSlbVBZOVcQfJuBnQ" changeDate="2006-11-29T20:11:30.669-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_XP__Test-first_Design_and_Refactoring&quot; name=&quot;XE_XP__Test-first_Design_and_Refactoring&quot;>&lt;/a> &#xD;
+&lt;address>&#xD;
+    By Robert C. Martin&lt;br />&#xD;
+     Object Mentor, Inc.&lt;br />&#xD;
+     &lt;a href=&quot;http://www.objectmentor.com&quot; target=&quot;_blank&quot;>www.objectmentor.com&lt;/a>&#xD;
+&lt;/address>&#xD;
+&lt;p>Todos os Direitos Reservados.&lt;/p>&#xD;
+&lt;p>Uma &lt;a href=&quot;resources/xprefact.pdf&quot; target=&quot;_blank&quot;>Versão PDF&lt;/a> deste artigo está disponível, entretanto, você deve ter o &lt;a href=&quot;http://www.adobe.com/products/acrobat/alternate.html&quot; target=&quot;_blank&quot;>Adobe Acrobat&lt;/a> instalado para vê-la.&lt;/p>&#xD;
+&lt;h3>Resumo&lt;/h3>&#xD;
+&lt;p>Este trabalho demonstra as técnicas de refatoração, face ao design teste-primeiro e transmite uma atitude de programação. Um programa não esta pronto quando funciona; um programa está pronto quando funciona &lt;i>e&lt;/i> quando é o mais simples e limpo possível.&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

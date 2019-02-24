@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-DbsgXRUjLhsnnpioGI2b3g" name="implement_spike,{85BE1C0E-F389-4246-BB22-9A52988018B7}" guid="-DbsgXRUjLhsnnpioGI2b3g" version="1.0.0">
+  <sections xmi:id="_oCl4sGE-EdqnIZeW8YpHcA" name="Geral" guid="_oCl4sGE-EdqnIZeW8YpHcA">
+    <sectionDescription>&lt;a id=&quot;Prep&quot; name=&quot;Prep&quot;>&lt;/a> &#xD;
+&lt;p>Implementar um Experimento ajuda a equipe a encontrar alguma informação que esteja faltando, para poder ir em frente. Como tal, os experimentos são instrumentos importantes para minimizar os riscos do projeto.&lt;/p>&#xD;
+&lt;p>Os experimentos são frequentemente evocados durante o processo de planejamento, quando a equipe está insegura sobre quanto tempo será necessário para implementar alguma história. Neste caso, o experimento consiste em tentar diferentes formas de implementação da história. A equipe fará o mínimo para obter entendimento sobre como construir a história, de forma que possam fornecer uma estimativa razoável. Muitas vezes, o código gerado pelos experimentos é literalmente jogado fora. O valor do experimento está na obtenção da informação que faltava, permitindo assim uma boa estimativa de implementação.&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+      &#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;a id=&quot;XE_implement_spike__activity_definition&quot; name=&quot;XE_implement_spike__activity_definition&quot;>&lt;/a> &#xD;
+&lt;ul>&#xD;
+    &lt;li>Pesquisar uma informação que esteja faltando.&lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>
