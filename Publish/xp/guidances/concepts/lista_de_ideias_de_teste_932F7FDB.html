@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Concept: Lista de Ideias de Teste</title>
+<meta name="uma.type" content="Concept">
+<meta name="uma.name" content="lista_de_ideias_de_teste">
+<meta name="uma.presentationName" content="Lista de Ideias de Teste">
+<meta name="element_type" content="concept">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_L1LT4EObEemEOvVpXztn1g"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Concept: Lista de Ideias de Teste</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/concept.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><h3>
+    <a id="Introduction" name="Introduction">Introdução</a>
+</h3>
+<p>
+    As informações usadas no design de testes são obtidas de várias fontes: modelos de design, interfaces classificadoras,
+    gráficos de estado e o próprio código. Em algum momento, essa fonte de informações documentais deve ser transformada em
+    testes executáveis:
+</p>
+<ul>
+    <li>
+        entradas específicas fornecidas ao software sob teste
+    </li>
+    <li>
+        em uma determinada configuração de hardware e software
+    </li>
+    <li>
+        definida inicialmente em um estado conhecido
+    </li>
+    <li>
+        com resultados específicos esperados
+    </li>
+</ul>
+<p>
+    É possível ir diretamente da fonte de informações documentais aos testes executáveis, mas é útil acrescentar uma etapa
+    intermédia. Nesta etapa, as ideias de teste são escritas em uma <i>Lista de Ideias de Teste</i>, que é usada para criar
+    os testes executáveis.
+</p>
+<h3>
+    <a id="TestIdeas" name="TestIdeas">O que são as ideias de teste?</a>
+</h3>
+<p>
+    Uma ideia de teste (também conhecida como um requisito de teste) é uma declaração resumida de um teste que pode ser
+    realizado. Como simples exemplo, vamos considerar uma função que calcula a raiz quadrada e que tenha as seguintes
+    ideias de teste:
+</p>
+<ul>
+    <li>
+        fornecer um número que é inferior a zero como entrada
+    </li>
+    <li>
+        fornecer zero como entrada
+    </li>
+    <li>
+        testar um número que seja um quadrado perfeito, tal como 4 ou 16 (o resultado é exatamente 2 ou 4?)
+    </li>
+</ul>
+<p>
+    Cada uma dessas ideias poderia facilmente ser convertida em um teste executável com descrições exatas das entradas e
+    resultados esperados.
+</p>
+<p>
+    Existem duas vantagens para esta forma intermediaria menos específica:
+</p>
+<ul>
+    <li>
+        As ideias de teste são mais fáceis de revisar e entender do que os testes completos - é mais fácil entender o
+        raciocínio por trás delas
+    </li>
+    <li>
+        as ideias de teste suportam testes mais poderosos, descritos abaixo sob o título <a href="#TestDesignUsingTheList">Design de Teste Usando a Lista</a>
+    </li>
+</ul>
+<p>
+    Os exemplos da raiz quadrada descrevem as entradas, mas as ideias de teste podem descrever qualquer elemento de um
+    teste executável. Por exemplo, "imprimir em uma LaserJet IIIP" descreve um aspecto do ambiente de teste, a ser usado em
+    um teste, tal como "testar com o banco de dados completo"; Entretanto, estas últimas idéias de teste são muito
+    incompletas em si: Imprimir <b>o que</b> na impressora? Fazer <b>o que</b> com o banco de dados completo? Entretanto,
+    elas asseguram que ideias importantes não foram esquecidas; ideias que serão descritas com mais detalhes
+    posteriormente, no design de testes.
+</p>
+<p>
+    As ideias de teste são muitas vezes baseadas em modelos de falhas; noções de quais falhas são plausíveis no software e
+    como elas podem ser melhor descobertas. Por exemplo, considere as fronteiras. É seguro assumir que a função raiz
+    quadrada pode ser implementada tal como:
+</p>
+<blockquote>
+    &nbsp; &nbsp; double sqrt(double x) {<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; if (x &lt; 0)<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; // signal error<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; ...<br />
+</blockquote>
+<p>
+    Também é plausível que o <font size="+0">&lt;</font> seja digitado incorretamente como <font size="+0">&lt;=</font>. As
+    pessoas normalmente cometem este tipo de erro, por isso é importante verificar. A falha não pode ser detectada com
+    <font size="+0">X</font> tendo o valor <font size="+0">2</font>, porque tanto a expressão incorreta (<font     size="+0">X&lt;= 0</font>) como a expressão correta (<font size="+0">X&lt;0</font>) seguirão pelo mesmo ramo da
+    declaração <font size="+0">if</font>. Da mesma forma, se <font size="+0">X</font> tiver o valor <font     size="+0">-5</font>, a falha não será encontrada. A única forma de encontrá-la é atribuir a <font size="+0">X</font> o
+    valor <font size="+0">0</font>, o que justifica a segunda ideia de teste.
+</p>
+<p>
+    Neste caso, o modelo de falha é explícito. Em outros casos, é implícito. Por exemplo, sempre que um programa manipula
+    uma estrutura encadeada, é bom testá-lo com uma estrutura circular. É possível que muitas falhas possam conduzir a uma
+    estrutura circular mal tratada. Para os propósitos do teste, elas não precisam ser enumeradas - é suficiente saber que
+    qualquer falha é o bastante para que valha a pena executar o teste.
+</p>
+<p>
+    Os links a seguir contêm informações sobre como obter ideias de teste de diferentes tipos de modelos de falha. Os dois
+    primeiros são modelos de falha explícitos; o último usa um implícito.
+</p>
+<ul>
+    <li>
+        <a class="elementLinkWithType" href="./../../../xp/guidances/guidelines/ideias_de_teste_para_valores_limitrofes_e_booleanos_29731344.html" guid="1.7150344523489172E-305">Guideline: Ideias de Teste Para Valores Limítrofes e Booleanos</a>
+    </li>
+    <li>
+        <a class="elementLinkWithType" href="./../../../xp/guidances/guidelines/ideias_de_teste_para_chamadas_de_metodos_F55E5A9E.html" guid="8.5657170364036E-306">Guideline: Ideias de Teste Para Chamadas de Métodos</a>
+    </li>
+    <li>
+        <a class="elementLinkWithType" href="./../../../xp/guidances/concepts/catalogo_de_ideias_de_teste_F649734.html" guid="1.2384224477983028E-305">Concept: Catálogo de Ideias de Teste</a>
+    </li>
+</ul>
+<p>
+    Estes modelos de falha podem ser aplicados em diversos artefatos. Por exemplo, o primeiro descreve o que fazer com
+    expressões Booleanas. Tais expressões podem ser encontradas no código, em condições de guarda, em gráficos de estado e
+    diagramas de sequência e em descrições em linguagem natural dos comportamentos do método (tal como você pode encontrar
+    em uma API publicada).
+</p>
+<p>
+    Ocasionalmente também é útil ter diretrizes para artefatos específicos. Veja <a class="elementLinkWithType" href="./../../../xp/guidances/guidelines/ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo_AD59D4ED.html" guid="1.0347051690476123E-305">Guideline: Ideias de Teste para Gráficos de Estado e Diagramas de Fluxo</a>.
+</p>
+<p>
+    Uma Lista especial de Ideias de Teste pode conter ideias de teste de muitos modelos de falha, e os modelos de falha
+    podem ser derivados de mais de um artefato.
+</p>
+<h3>
+    <a id="TestDesignUsingTheList" name="TestDesignUsingTheList">Design de Testes Usando a Lista</a>
+</h3>
+<p>
+    Vamos supor que você esteja projetando testes para um método que pesquise uma string em uma coleção sequencial. Ele
+    pode tanto considerar a caixa ou ignorá-la em sua pesquisa, e retornar a posição da primeira correspondência encontrada
+    ou -1 se nenhuma for encontrada.
+</p>
+<blockquote>
+    &nbsp; &nbsp; int Collection.find(String string, Boolean ignoreCase);<br />
+</blockquote>
+<p>
+    Aqui estão algumas ideias de teste para este método:
+</p>
+<ol>
+    <li>
+        correspondência encontrada na primeira posição
+    </li>
+    <li>
+        correspondência encontrada na última posição
+    </li>
+    <li>
+        nenhuma correspondência encontrada
+    </li>
+    <li>
+        duas ou mais correspondências encontradas na coleção
+    </li>
+    <li>
+        com a caixa ignorada a correspondência foi encontrada, mas não seria se a caixa fosse considerada
+    </li>
+    <li>
+        com a caixa considerada, uma correspondência exata foi encontrada
+    </li>
+    <li>
+        com a caixa considerada, não foi encontrada uma string que caso a caixa fosse ignorada ela seria
+    </li>
+</ol>
+<p>
+    Seria simples implementar estes sete testes, um para cada ideia de teste. Entretanto, diferentes ideias de teste podem
+    ser combinadas em um único teste. Por exemplo, o teste a seguir <i>satisfaz</i> as ideias de teste 2, 6 e 7:
+</p>
+<blockquote>
+    <p>
+        Inicialização: a coleção é inicializada com [ "alvorada", "Alvorada"]<br />
+        invocação: collection.find("Alvorada", false)<br />
+        Resultado esperado: o valor de retorno é 1 (seria 0 se "alvorada" não fosse desprezada)
+    </p>
+</blockquote>
+<p>
+    Fazer as ideias de teste não específicas torna-as mais fáceis de combinar.
+</p>
+<p>
+    É possível satisfazer todas as ideias de teste com três testes. Porque três testes, que satisfazem as sete ideias de
+    teste, são melhores do que sete testes separados?
+</p>
+<ul>
+    <li>
+        Quando você cria uma grande quantidade de testes simples, é comum criar o teste N+1, copiando o teste N e
+        ajustando-o apenas o suficiente para satisfazer a nova ideia de teste. The result, especially in more complex
+        software, is that test N+1 probably exercises the program in almost the same way as test N. It takes almost exactly
+        the same path through the code.<br />
+        <br />
+        Uma menor quantidade de testes, cada um satisfazendo várias ideias de teste, não permite uma abordagem "copiar e
+        adaptar". Cada teste será um pouco diferente do último, exercitando o código de formas diferentes e percorrendo
+        caminhos diferentes.<br />
+        <br />
+        Por que isso seria melhor? Se a Lista de Ideias de Teste estivesse completa, com uma ideia de teste para cada falha
+        no programa, não seria importante a forma como você iria escrever os testes. Mas sempre faltam algumas ideias de
+        teste na lista que poderiam encontrar erros. Se cada teste fizer coisas muito diferentes do último - acrescentando
+        variedade aparentemente desnecessária - você aumenta a chance de um dos testes encontrar um erro escondido. Com
+        efeito, os testes menores e mais complexos aumentam a chance de satisfazer uma ideia de teste que você não sabia
+        que era necessária.<br />
+    </li>
+    <li>
+        Às vezes quando você está criando testes mais complexos, novas ideias de teste vêm à mente. Isto acontece em menor
+        frequência com testes simples, porque grande parte do que você está fazendo é exatamente igual ao que você fez no
+        último teste, o que embota sua mente.
+    </li>
+</ul>
+<p>
+    Entretanto, existem razões para não criar testes complexos.
+</p>
+<ul>
+    <li>
+        Se cada teste satisfizer uma única ideia de teste e o teste para a ideia 2 falhar, você saberá imediatamente a
+        causa mais provável: o programa não tratou uma correspondência na última posição. Se um teste satisfizer as ideias
+        2, 6, e 7 então isolar a falha será mais difícil.<br />
+    </li>
+    <li>
+        Os testes complexos são mais difíceis de entender e manter. A intenção do teste é menos evidente.<br />
+    </li>
+    <li>
+        Os testes complexos são mais difíceis de criar. A construção de um teste que satisfaça cinco ideias de teste,
+        normalmente leva mais tempo do que a construção de cinco testes que satisfaçam cada uma. Aliás, é muito mais fácil
+        cometer erros - pensar que está satisfazendo todas as cinco quando está apenas satisfazendo quatro.
+    </li>
+</ul>
+<p>
+    Na prática, você deve encontrar um equilíbrio razoável entre a complexidade e a simplicidade. Por exemplo, os primeiros
+    testes que você submeteu o software (normalmente os testes fumaça) devem ser simples, fáceis de entender e manter e
+    destinados a capturar os problemas mais óbvios. Os testes posteriores devem ser mais complexos, mas não tão complexos
+    que não possam ser mantidos.
+</p>
+<p>
+    Após terminar um conjunto de testes, é bom verificar os enganos característicos de design de teste discutidos em <a class="elementLinkWithType" href="./../../../xp/guidances/concepts/testes_de_desenvolvedor_E45BC54E.html#TestDesignMistakes" guid="4.085829182735815E-305">Concept: Testes de Desenvolvedor</a>.
+</p>
+<h3>
+    <a id="UsingTestIdeasBeforeTest" name="UsingTestIdeasBeforeTest">Usando as Ideias de Teste Antes da Execução dos
+    Testes</a>
+</h3>
+<p>
+    Uma Lista de Ideias de Teste é útil para revisões e inspeções nos artefatos de design. Por exemplo, considere esta
+    parte de um modelo de design que mostra a associação entre as classes Departamento e Empregado.
+</p>
+<p align="center">
+    <img height="45" alt="" src="./../../../xp/guidances/concepts/resources/tstidslst-img1.gif" width="223" />
+</p>
+<p class="picturetext">
+    Figura 1: Associação entre as Classes Departamento e Empregado
+</p>
+<p>
+    As regras para a criação de ideias de teste a partir de um modelo desse tipo iriam lembrar-lhe de considerar o caso de
+    um departamento ter muitos empregados. Ao percorrer um design perguntando "e se, neste ponto, o departamento tiver
+    muitos empregados?", você poderá descobrir erros de design ou análise. Por exemplo, você pode perceber que só um
+    empregado pode ser transferido entre departamentos por vez. Isto pode ser um problema se a corporação está propensa a
+    executar reorganizações onde muitos trabalhadores necessitem ser transferidos.
+</p>
+<p>
+    Tais falhas, casos em que uma possibilidade foi esquecida, são chamadas de <i>falhas de omissão</i>. Tal como as
+    próprias falhas, você provavelmente omitiu os testes que detectam estas falhas, do seu esforço de testes. Por exemplo,
+    veja <a class="elementLinkWithUserText" href="./../../../xp/guidances/supportingmaterials/referencias_sobre_xp_e_processo_agil_BA6A741C.html" guid="6.191633934532389E-306">[GLA81]</a>, <a class="elementLinkWithUserText" href="./../../../xp/customcategories/referencias_7226794B.html#OST84" guid="_mtcqtmE-EdqnIZeW8YpHcA">[OST84]</a>, <a href="./../../../xp/customcategories/referencias_7226794B.html#BAS87" guid="_mtcqtmE-EdqnIZeW8YpHcA">[BAS87]</a>, <a href="./../../../xp/customcategories/referencias_7226794B.html#MAR00" guid="_mtcqtmE-EdqnIZeW8YpHcA">[MAR00]</a> e
+    outros estudos que mostram a frequência em que falhas e omissões só aparecem na implantação.
+</p>
+<p>
+    O papel dos testes nas atividades de design é mais discutido em <a class="elementLinkWithType" href="./../../../xp/guidances/concepts/design_teste-primeiro_73AA5ED9.html" guid="6.556259235358794E-306">Concept: Design Teste-Primeiro</a>.
+</p>
+<h3>
+    <a id="TestIdeasTraceability" name="TestIdeasTraceability">Ideias de Teste e Rastreabilidade</a>
+</h3>
+<p>
+    A rastreabilidade é uma questão de análise. O seu benefício vale mais que o custo de mantê-la? Esta questão tem que ser
+    considerada durante a Atividade: Definir as Necessidades de Avaliação e Rastreabilidade.
+</p>
+<p>
+    Quando a rastreabilidade vale a pena, é convencional rastrear os testes com os artefatos que os inspiraram. Por
+    exemplo, você poderia ter uma rastreabilidade entre uma API e seus testes. Se a API mudar, você saberá quais testes
+    terão que ser alterados. Se o código (que implementa a API) mudar, você saberá quais testes deverão ser executados. Se
+    um teste lhe confundir, você poderá encontrar a API a que ele se destina.
+</p>
+<p>
+    A Lista de Ideias de Teste acrescenta outro nível de rastreabilidade. Você pode rastrear um teste à ideia de teste que
+    ele satisfaz e, então, ao artefato original.
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

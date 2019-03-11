@@ -34,6 +34,7 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_mhU6SGE-EdqnIZeW8YpHcA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_mhU6R2E-EdqnIZeW8YpHcA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_mhU6SWE-EdqnIZeW8YpHcA"/>
+  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_hwuQEEOZEemEOvVpXztn1g"/>
   <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_um0n8GdjEdqlnYmIxoiUEQ"/>
   <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_8NSdoGdjEdqlnYmIxoiUEQ"/>
   <defaultView xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://{35DCB3E1-2766-423E-A849-57ECD4F41A40}#_um0n8GdjEdqlnYmIxoiUEQ"/>

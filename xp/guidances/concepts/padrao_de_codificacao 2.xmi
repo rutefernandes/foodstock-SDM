@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-a5Dm5TNLud3fZgUm4ZO9Pg" name="coding_standard,8.8116853923311E-307" guid="-a5Dm5TNLud3fZgUm4ZO9Pg" changeDate="2006-11-09T21:13:06.585-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__coding_standard&quot; name=&quot;XE_xp__coding_standard&quot;>&lt;/a>&lt;a id=&quot;XE_coding_standard__practice_of&quot; name=&quot;XE_coding_standard__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__coding_standard&quot; name=&quot;XE_engineering_practices__coding_standard&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>O uso de um padrão de codificação é uma prática de desenvolvimento de software que tem sido extensamente aceita na indústria. A necessidade desta prática tem grande importância na XP devido ao aumento do nível de comunicação exigido pela propriedade coletiva, pela programação em pares e pela constante refatoração do código. A equipe deve ter uma forma padrão para nomear e formatar o código para que possam compreendê-lo rapidamente e saber onde procurar o que precisam.&lt;/p>&#xD;
+&lt;p>Idealmente, o padrão de codificação deve ser o resultado do consenso da equipe. Em alguns casos, as decisões serão arbitrárias (colocação de colchetes). Cada item no padrão deve suportar uma ou mais metas, a melhoria da comunicação é uma das metas mais críticas. Uma vez que a equipe concorde com um padrão, espera-se que todos os membros das equipes sigam-no. A programação em pares e a propriedade coletiva de código são suficientes para reforçar o uso do padrão por toda a equipe. Com o tempo, a equipe usará e modificará o padrão até desenvolver um estilo que fique bem adaptado ao ambiente.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Melhoria na Comunicação&lt;/b>: aumenta a capacidade de uma pessoa ler o código gerado por outra.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Suporte a refatoração&lt;/b>: fornece um código formatado consistentemente.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt" xml:lang="pt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: An&aacute;lise de Classe de Equival&ecirc;ncia</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="analise_de_classe_de_equivalencia">
+<meta name="uma.presentationName" content="An&aacute;lise de Classe de Equival&ecirc;ncia">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="1.8491691792142673E-308"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: An&aacute;lise de Classe de Equival&ecirc;ncia</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../xp/tasks/definir_teste_de_cliente_DC820DDE.html" guid="{DCDB57BE-4233-4CF8-90CE-70D6808F92B0}">Definir Teste de Cliente</a>
+</li>
+<li>
+<a href="./../../../xp/workproducts/teste_de_unidade_xp_5497C933.html" guid="{D156652E-7C52-4EBD-8F23-F38169877A57}">Teste de Unidade XP</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_runtime_observation_amp;_analysis__concept" name="XE_runtime_observation_&_analysis__concept"></a> 
+<h3>
+    <a id="Introduction" name="Introduction">Introdução</a>
+</h3>
+<p>
+    Exceto para as mais triviais aplicações de software, normalmente é considerado impossível testar todas as combinações
+    de entradas logicamente viáveis para um sistema de software. Por conseguinte, a seleção de um bom subconjunto que tenha
+    a maior probabilidade de encontrar a maioria dos erros, é uma tarefa importante e útil para os testadores executarem.
+</p>
+<p>
+    Os testes baseados na análise de classes de equivalência (sinônimos: <i>decomposição de equivalência</i>, <i>análise de
+    domínio</i>) são uma forma de análise de teste de caixa-escura que tenta reduzir a quantidade total de testes
+    potenciais a um conjunto mínimo que irá descobrir a maioria dos erros possíveis <a class="elementLinkWithUserText" href="./../../../xp/customcategories/referencias_7226794B.html#MYE79" guid="_mtcqtmE-EdqnIZeW8YpHcA">[MYE79]</a>.
+    Trata-se de um método que decompõe o conjunto de entradas e saídas em uma quantidade finita de <i>Classes de
+    Equivalência</i>, que permitem a escolha de um valor de teste representativo para cada classe. O teste que resulta do
+    valor representativo para uma classe é chamado de "equivalente" para os outros valores na mesma classe. Se nenhum erro
+    for encontrado no teste de valor representativo, conclui-se que todos os outros valores "equivalentes" também não
+    identificarão nenhum erro.
+</p>
+<p>
+    O poder das Classes de Equivalência reside na sua capacidade de orientar o testador a usar de uma estratégia de
+    amostragem para reduzir a explosão combinatória dos testes potencialmente necessários. A técnica fornece uma base
+    lógica através da qual um subconjunto do total concebível de testes possa ser selecionado. Aqui estão algumas
+    categorias de áreas problemáticas para uma grande gama de testes que podem se beneficiar da consideração das classes de
+    equivalência:
+</p>
+<ol>
+    <li>
+        Combinação de variáveis independentes
+    </li>
+    <li>
+        Variáveis dependentes baseadas em relacionamentos hierárquicos
+    </li>
+    <li>
+        Variáveis dependentes baseadas em relacionamentos temporais
+    </li>
+    <li>
+        Relacionamentos agregados baseados em exemplares de mercado
+    </li>
+    <li>
+        Relacionamentos complexos que podem ser modelados
+    </li>
+</ol>
+<h3>
+    <a id="Strategies" name="Strategies">Estratégias</a>
+</h3>
+<p>
+    Existem diferentes estratégias e técnicas que podem ser usadas nos testes de decomposição por equivalência. Aqui estão
+    alguns exemplos:
+</p>
+<h4>
+    <a id="EquivalenceClassPartition" name="EquivalenceClassPartition">Decomposição de Classe de Equivalência</a>
+</h4>
+<p>
+    A teoria da decomposição de equivalência como proposto por Glenford Myers <a class="elementLinkWithUserText" href="./../../../xp/customcategories/referencias_7226794B.html" guid="_mtcqtmE-EdqnIZeW8YpHcA">[MYE79]</a>. Tenta
+    reduzir a quantidade total de casos de teste necessários pela decomposição das condições de entrada em uma quantidade
+    finita de classes de equivalência. Dois tipos de classe de equivalência estão classificados: o conjunto de entradas
+    válidas para o programa é considerado como <i>classe de equivalência válida</i>, e todas as outras entradas são
+    incluídas na <i>classe de equivalência inválida</i>.
+</p>
+<p>
+    Aqui esta um conjunto de diretrizes para identificar classes de equivalência:
+</p>
+<ol>
+    <li>
+        Se uma condição de entrada especifica um conjunto de valores (tal como, o programa "aceita valores entre 10 e
+        100"), então uma classe de equivalência válida (entre 10 e 100) e duas classes de equivalência inválidas (inferior
+        a 10 e superior a 100) são identificadas.
+    </li>
+    <li>
+        Se uma condição de entrada especifica um conjunto de valores (tais como, "o pano pode ser de várias cores:
+        VERMELHO, BRANCO, PRETO, VERDE e MARROM"), então uma classe de equivalência válida (os valores válidos) e uma
+        classe de equivalência inválida (todos os outros valores inválidos) são identificadas. Cada valor de classe de
+        equivalência válida deve ser tratado distintamente.
+    </li>
+    <li>
+        Se a condição de entrada for especificada como uma situação "dever ser" (tal como, "o texto de entrada deve estar
+        em caixa alta"), então uma classe de equivalência válida (caracteres maiúsculos) e uma classe de equivalência
+        inválida (todas as outras entradas, exceto caracteres maiúsculos) são identificadas.
+    </li>
+    <li>
+        Tudo que acabou "com longa duração" antes da tarefa ser feita é uma classe de equivalência. Tudo que foi feito em
+        um curto intervalo de tempo antes do programa terminar é outra classe. Tudo que foi feito exatamente antes do
+        programa começar outra operação é outra classe.
+    </li>
+    <li>
+        Se for especificado que um programa deve trabalhar com tamanho de memória entre 64M e 256M. Então esta dimensão de
+        tamanho é uma classe de equivalência. Qualquer outro tamanho de memória, que seja maior que 256M ou menor que 64M,
+        não pode ser aceito.
+    </li>
+    <li>
+        A decomposição do evento de saída depende das entradas do programa. Mesmo que diferentes classes de equivalência de
+        entrada possam ter o mesmo tipo do evento de saída, você deverá tratar distintamente as classes de equivalência de
+        entrada.
+    </li>
+</ol>
+<h4>
+    <a id="BoundaryValueAnalysis" name="BoundaryValueAnalysis">Análise de Valor Limítrofe</a>
+</h4>
+<p>
+    Em cada uma das classes de equivalência, considera-se que as condições limítrofes tenham uma maior taxa de sucesso na
+    identificação de resultados com falhas do que as condições não limítrofes. As condições limítrofes são os valores,
+    imediatamente acima ou abaixo dos limites de cada classe de equivalência.
+</p>
+<p>
+    Os testes que resultam das condições limítrofes fazem uso dos valores, mínimo (min), logo acima do mínimo (min+), logo
+    abaixo do máximo (max-), e máximo (max) do intervalo que precisa ser testado. Ao testar valores limítrofes, os
+    testadores escolhem alguns casos de teste para cada classe de equivalência. Para a amostra de testes relativamente
+    pequena, a probabilidade de descoberta de falha é elevada. É dado ao testador algum alívio no ônus de testar uma enorme
+    quantidade de casos em uma classe de equivalência de valores que não são susceptíveis de produzir grandes diferenças
+    nos resultados dos testes.
+</p>
+<p>
+    Algumas recomendações ao escolher valores limítrofes:
+</p>
+<ol>
+    <li>
+        Para uma variável de ponto flutuante, se a sua condição válida for entre <code>-1,0</code> e <code>1,0</code>,
+        teste <code>-1,0</code>, <code>1,0</code>, <code>-1,001</code> e <code>1,001</code>.
+    </li>
+    <li>
+        Para um inteiro, se a gama de entrada válida for entre <code>10</code> e <code>100</code>, teste <code>9</code>,
+        <code>10</code>, <code>100</code> e <code>101</code>.
+    </li>
+    <li>
+        Se um programa espera uma letra maiúscula, teste os limites A e Z. Teste <code>@</code> e <code>[</code> também,
+        porque no código ASCII, <code>@</code> está logo abaixo de A e <code>[</code> está logo depois de Z.
+    </li>
+    <li>
+        Se a entrada ou saída de um programa é um conjunto ordenado, preste atenção no primeiro e no último elemento do
+        conjunto.
+    </li>
+    <li>
+        Se a soma das entradas tiver que ser um número específico (<code>n</code>), teste o programa onde a soma seja
+        <code>n-1</code>, <code>n</code> e <code>n+1</code>.
+    </li>
+    <li>
+        Se o programa aceita uma lista, teste os valores da lista. Todos os outros valores são inválidos.
+    </li>
+    <li>
+        Ao ler ou escrever em um arquivo, verifique o primeiro e o último caractere do arquivo.
+    </li>
+    <li>
+        O menor valor nominal do dinheiro é um centavo ou o equivalente. Se o programa aceita um determinado intervalo,
+        entre a e b, teste a <code>-0,01</code> e b <code>+0,01</code>.
+    </li>
+    <li>
+        Para uma variável com vários conjuntos de valores, cada conjunto de valores é uma classe de equivalência. Se os
+        subintervalos não estiverem sobrepostos, teste os valores dos limites, logo acima do limite superior e logo abaixo
+        do limite inferior.
+    </li>
+</ol>
+<h4>
+    <a id="SpecialValues" name="SpecialValues">Valores Especiais</a>
+</h4>
+<p>
+    Após a tentativa das duas últimas estratégias de análise de valor limítrofe, um testador experiente irá observar as
+    entradas do programa para descobrir qualquer caso de "valor especial", que possa ser outra fonte potencialmente rica
+    para descobrir falhas do software. Aqui estão alguns exemplos:
+</p>
+<ol>
+    <li>
+        Para um tipo inteiro, o zero deve sempre ser testado se está na classe de equivalência válida.
+    </li>
+    <li>
+        Ao testar tempo (hora, minuto e segundo), 59 e 0 devem sempre ser testados como limites superior e inferior para
+        cada campo, independente das restrições das variáveis de entrada. Sendo assim, com exceção dos valores de limite de
+        entrada, -1, 0, 59 e 60 devem ser sempre casos de teste.
+    </li>
+    <li>
+        Ao testar datas (ano, mês e dia), vários casos de teste, tais como a quantidade de dias em um determinado mês, a
+        quantidade de dias do mês de fevereiro em ano bissexto, a quantidade de dias em ano não bissexto, devem ser
+        envolvidos.
+    </li>
+</ol>
+<h4>
+    <a id="CategoryPartition" name="CategoryPartition">Método de "Decomposição de Categoria"</a>
+</h4>
+<p>
+    <a href="#OstrandBalcer">Ostrand e Balcer</a> [16] desenvolveram um método de decomposição que ajuda os testadores a
+    analisar a especificação do sistema, escrever scripts de teste, e gerenciá-los. Diferente das estratégias comuns que
+    normalmente focam no código, o seu método também se baseia nas informações de especificação e design.
+</p>
+<p>
+    O principal benefício deste método é a sua capacidade de expor erros antes do código ser escrito porque a fonte de
+    entrada é a especificação e os resultados dos testes da análise da especificação. As falhas na especificação serão
+    descobertas cedo, muitas vezes, bem antes que elas sejam implementadas no código.
+</p>
+<p>
+    A estratégia para o método de "decomposição de categoria" é a seguinte:
+</p>
+<ol>
+    <li>
+        Analise a especificação: decomponha a funcionalidade do sistema em unidades funcionais que possam ser testadas
+        independentemente, tanto pela especificação como pela implementação.<br />
+        Então;<br />
+        <br />
+        <ol>
+            <li>
+                Identifique os parâmetros e as condições ambientais que irão influenciar na execução da função. Os
+                parâmetros são as entradas da unidade funcional. As condições ambientais são os estados do sistema, que
+                afetarão a execução da unidade funcional.
+            </li>
+            <li>
+                Identifique as características dos parâmetros e das condições ambientais.
+            </li>
+            <li>
+                Classifique as características em categorias, que afetarão o comportamento do sistema.<br />
+                <br />
+            </li>
+        </ol>As descrições de comportamento ambíguas, contraditórias e esquecidas serão descobertas nesta fase.<br />
+        <br />
+    </li>
+    <li>
+        Decomponha as categorias em opções: As opções são as diferentes situações possíveis que podem ocorrer e não são
+        esperadas. Elas representam o mesmo tipo de informação em uma categoria.<br />
+        <br />
+    </li>
+    <li>
+        Determine as relações entre as restrições das escolhas. As escolhas em diferentes categorias influenciam umas as
+        outras, que também têm uma influência na construção da suíte de testes. As restrições são adicionadas para eliminar
+        a contradição entre a escolha de diferentes parâmetros e ambientes.<br />
+        <br />
+    </li>
+    <li>
+        Projete os casos de teste de acordo com as informações das categorias, escolhas e restrições. Se uma opção provocar
+        um erro, não a combine com outras opções para criar o caso de teste. Se uma opção puder ser "adequadamente" testada
+        por um único teste, ela também é a representante da escolha ou de um valor especial.
+    </li>
+</ol>
+<h3>
+    <a id="FurtherReading" name="FurtherReading">Outras Leituras e Referências</a>
+</h3>
+<ol>
+    <li>
+        Glenford J. Myers, The Art of Software Testing, John Wiley & Sons, Inc., New York, 1979.
+    </li>
+    <li>
+        White L. J. and Cohen E. I., A domain strategy for computer program testing, IEEE Transaction on Software
+        Engineering, Vol. SE-6, No. 3, 1980.
+    </li>
+    <li>
+        Lori A. Clarke, Johnhette Hassell, and Debra J Richardson, A Close Look at Domain Testing, IEEE Transaction on
+        Software Engineering, 8-4, 1992.
+    </li>
+    <li>
+        Steven J. Zeil, Faten H. Afifi and Lee J. White, Detection of Linear Detection via Domain Testing, ACM Transaction
+        on Software Engineering and Methodology, 1-4, 1992.
+    </li>
+    <li>
+        BingHiang Jeng, Elaine J. Weyuker, A Simplified Domain-Testing Strategy, ACM Transaction on Software Engineering
+        and Methodology, 3-3, 1994.
+    </li>
+    <li>
+        Paul C. Jorgensen, Software Testing - A Craftsman's Approach, CRC Press LLC, 1995.
+    </li>
+    <li>
+        Martin R. Woodward and Zuhoor A. Al-khanjari, Testability, fault, and the domain-to-range ratio: An eternal
+        triangle, ACM Press New York, NY, 2000.
+    </li>
+    <li>
+        Dick Hamlet, On subdomains: Testing, profiles, and components, SIGSOFT: ACM Special Interest Group on Software
+        Engineering, 71-16, 2000.
+    </li>
+    <li>
+        Cem Kaner, James Bach, and Bret Pettichord, Lessons learned in Software Testing, John Wiley & Sons, Inc., New
+        York, 2002.
+    </li>
+    <li>
+        Andy Podgurski and Charles Yang, Partition Testing, Stratified Sampling, and Cluster Analysis, SIGSOFT: ACM Special
+        Interest Group on Software Engineering, 18-5, 1993.
+    </li>
+    <li>
+        Debra J. Richardson and Lori A. Clarke, A partition analysis method to increase program reliability, SIGSOFT: ACM
+        Special Interest Group on Software Engineering, 1981.
+    </li>
+    <li>
+        Lori A. Clarke, Johnette Hassell, and Debra J Richardson, A system to generate test data and symbolically execute
+        programs, IEEE Transaction on Software Engineering, SE-2, 1976.
+    </li>
+    <li>
+        Boris Beizer, Black-Box Testing - Techniques for Functional testing of Software and System, John Wiley & Sons,
+        Inc., 1995.
+    </li>
+    <li>
+        Steven J. Zeil, Faten H. Afifi and Lee J. White, Testing for Liner Errors in Nonlinear computer programs, ACM
+        Transaction on Software Engineering and Methodology, 1-4, 1992.
+    </li>
+    <li>
+        William E. Howden, Functional Program Testing, IEEE Transactions on Software Engineering, Vol. SE-6, No. 2, 1980.
+    </li>
+    <li>
+        <a id="OstrandBalcer" name="OstrandBalcer">Thomas J. Ostrand and Marc J. Balcer</a>, The Category-Partition method
+        for specifying and generating functional tests, Communications of ACM 31, 1988.
+    </li>
+    <li>
+        Cem Kaner, Jack Falk and Hung Quoc Nguyen, Testing Computer Software, John Wiley & Sons, Inc., 1999.
+    </li>
+</ol><br />
+<br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright">Copyright (c) 2002, 2006 IBM Corporation e Object Mentor. Todos os Direitos Reservados. <br /> Este programa e o material que o acompanha são disponibilizados sob os termos da Eclipse Public License v1.0, que acompanha esta distribuição e está disponível em <a href="http://www.eclipse.org/legal/epl-v10.html" target="_blank">http://www.eclipse.org/legal/epl-v10.html.</a> <br /> Colaboradores: IBM Corporation e Object Mentor - implementação inicial<br /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

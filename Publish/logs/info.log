@@ -1,130 +1,167 @@
-Info: DeliveryProcess:Ciclo de vida: 678 mini-seconds referencing external URL: http://www.eclipse.org/legal/epl-v10.html
-Info: : 5125 mini-second(s) publishing element DeliveryProcess:Ciclo de vida[xp\deliveryprocesses\Ciclo de vida_F555E26E.html]
-Info: DeliveryProcess:Ciclo de vida: 5127 mini seconds publishing element
-Info: DeliveryProcess:Ciclo de vida: 789 mini seconds publishing process specific layout data
-Info: Phase:Planejamento: 247 mini seconds publishing element
-Info: Task:explicar_processo: 249 mini seconds publishing element
-Info: TaskDescriptor:explicar_processo: 8 mini seconds publishing element
-Info: : 1226 mini-second(s) publishing element Role:treinador_xp[xp\roles\treinador_xp_60023190.html]
-Info: Role:treinador_xp: 1228 mini seconds publishing element
-Info: RoleDescriptor:treinador_xp: 89 mini seconds publishing element
-Info: Task:melhorar_habilidades_da_equipe: 27 mini seconds publishing element
-Info: TaskDescriptor:melhorar_habilidades_da_equipe: 16 mini seconds publishing element
-Info: Task:Revisar requisitos e casos de uso: 24 mini seconds publishing element
-Info: TaskDescriptor:Revisar requisitos e casos de uso: 7 mini seconds publishing element
-Info: Role:programador_xp: 128 mini seconds publishing element
-Info: RoleDescriptor:programador_xp: 11 mini seconds publishing element
-Info: Task:Validação de sistema corporativo: 35 mini seconds publishing element
-Info: TaskDescriptor:Validação de sistema corporativo: 14 mini seconds publishing element
-Info: Task:adaptar_e_melhorar_o_processo: 19 mini seconds publishing element
-Info: TaskDescriptor:adaptar_e_melhorar_o_processo: 8 mini seconds publishing element
-Info: Task:definir_plano_de_iteracao: 36 mini seconds publishing element
-Info: TaskDescriptor:definir_plano_de_iteracao: 24 mini seconds publishing element
-Info: Role:cliente_xp: 67 mini seconds publishing element
-Info: RoleDescriptor:cliente_xp: 10 mini seconds publishing element
-Info: Artifact:plano_de_liberacao_xp: 294 mini seconds publishing element
-Info: WorkProductDescriptor:plano_de_liberacao_xp: 28 mini seconds publishing element
-Info: Artifact:plano_de_iteracao_xp: 43 mini seconds publishing element
-Info: WorkProductDescriptor:plano_de_iteracao_xp: 25 mini seconds publishing element
-Info: Phase:Elaboração: 294 mini seconds publishing element
-Info: Task:implantar_ambiente_de_testes: 13 mini seconds publishing element
-Info: TaskDescriptor:implantar_ambiente_de_testes: 4 mini seconds publishing element
-Info: Role:testador_xp: 50 mini seconds publishing element
-Info: RoleDescriptor:testador_xp: 4 mini seconds publishing element
-Info: Task:Realizar testes de unidade no sistema: 19 mini seconds publishing element
-Info: TaskDescriptor:Realizar testes de unidade no sistema: 7 mini seconds publishing element
-Info: RoleDescriptor:programador_xp: 9 mini seconds publishing element
-Info: Artifact:codigo_de_producao_xp: 19 mini seconds publishing element
-Info: WorkProductDescriptor:codigo_de_producao_xp: 6 mini seconds publishing element
-Info: Artifact:construcao_xp: 21 mini seconds publishing element
-Info: WorkProductDescriptor:construcao_xp: 8 mini seconds publishing element
-Info: Task:atualizar_plano_de_implementao: 12 mini seconds publishing element
-Info: TaskDescriptor:atualizar_plano_de_implementao: 3 mini seconds publishing element
-Info: Task:acompanhar_progresso_da_iteracao: 12 mini seconds publishing element
-Info: TaskDescriptor:acompanhar_progresso_da_iteracao: 5 mini seconds publishing element
-Info: Role:rastreador_xp: 28 mini seconds publishing element
-Info: RoleDescriptor:rastreador_xp: 4 mini seconds publishing element
-Info: Phase:Implementação: 208 mini seconds publishing element
-Info: Task:Correção de erros: 15 mini seconds publishing element
-Info: TaskDescriptor:Correção de erros: 5 mini seconds publishing element
-Info: Task:implementar_requisitos_planejados: 10 mini seconds publishing element
-Info: TaskDescriptor:implementar_requisitos_planejados: 5 mini seconds publishing element
-Info: Task:Realizar testes de unidade no sistema: 20 mini seconds publishing element
-Info: TaskDescriptor:Realizar testes de unidade no sistema: 6 mini seconds publishing element
-Info: RoleDescriptor:programador_xp: 9 mini seconds publishing element
-Info: WorkProductDescriptor:codigo_de_producao_xp: 5 mini seconds publishing element
-Info: WorkProductDescriptor:construcao_xp: 7 mini seconds publishing element
-Info: Task:realizar_testes_de_integrao_das_novas_funcionalidades: 12 mini seconds publishing element
-Info: TaskDescriptor:realizar_testes_de_integrao_das_novas_funcionalidades: 4 mini seconds publishing element
-Info: Task:realizar_testes_de_aceitao_das_novas_funcionalidades_: 12 mini seconds publishing element
-Info: TaskDescriptor:realizar_testes_de_aceitao_das_novas_funcionalidades_: 4 mini seconds publishing element
-Info: Phase:Testes: 56 mini seconds publishing element
-Info: Task:Teste de aceitação: 10 mini seconds publishing element
-Info: TaskDescriptor:Teste de aceitação: 3 mini seconds publishing element
-Info: Concept:praticas_xp: 516 mini-seconds referencing external URL: http://www.xprogramming.com
-Info: Concept:praticas_xp: 682 mini seconds publishing element
-Info: Concept:toda_a_equipe: 11 mini seconds publishing element
-Info: RoleSet:papeis_xp: 194 mini seconds publishing element
-Info: Concept:ritmo_sustentavel_xp: 37 mini seconds publishing element
-Info: SupportingMaterial:referencias_sobre_xp_e_processo_agil: 101 mini seconds publishing element
-Info: Concept:catalogo_de_ideias_de_teste: 282 mini-seconds referencing external URL: http://www.adobe.com/products/acrobat/alternate.html
-Info: Concept:catalogo_de_ideias_de_teste: 351 mini seconds publishing element
-Info: Concept:desenvolvimento_dirigido_por_testes: 14 mini seconds publishing element
-Info: Concept:design_simples: 13 mini seconds publishing element
-Info: Concept:design_teste-primeiro: 52 mini seconds publishing element
-Info: Concept:integracao_continua: 123 mini seconds publishing element
-Info: Concept:lista_de_ideias_de_teste: 63 mini seconds publishing element
-Info: Concept:metafora_sistema_de_nomes: 15 mini seconds publishing element
-Info: Concept:padrao_de_codificacao: 21 mini seconds publishing element
-Info: Concept:programacao_em_pares: 16 mini seconds publishing element
-Info: Concept:propriedade_coletiva: 11 mini seconds publishing element
-Info: Concept:refatoracao_da_programacao_xp: 15 mini seconds publishing element
-Info: Concept:testes_de_desenvolvedor: 78 mini seconds publishing element
-Info: Whitepaper:diretrizes_xp_design_teste-primeiro_e_refatoracao: 606 mini-seconds referencing external URL: http://www.objectmentor.com
-Info: Whitepaper:diretrizes_xp_design_teste-primeiro_e_refatoracao: 789 mini seconds publishing element
-Info: Whitepaper:diretrizes_xp_programacao_em_pares: 37 mini seconds publishing element
-Info: Whitepaper:refatoracao: 34 mini seconds publishing element
-Info: Concept:valores_xp: 13 mini seconds publishing element
+Info: CustomCategory:overview: 7 mini seconds publishing element
+Info: CustomCategory:inicio: 13 mini seconds publishing element
+Info: SupportingMaterial:iniciando_com_xp: 11 mini seconds publishing element
+Info: CustomCategory:principais_conceitos_xp: 11 mini seconds publishing element
+Info: Concept:o_que_e_xp: 11 mini seconds publishing element
+Info: Concept:motivacao: 6 mini seconds publishing element
+Info: Concept:desenvolvimento_agil_de_software: 9 mini seconds publishing element
+Info: Concept:valores_xp: 5 mini seconds publishing element
+Info: Concept:praticas_xp: 12 mini seconds publishing element
+Info: Concept:direitos_xp: 5 mini seconds publishing element
+Info: CustomCategory:melhores_praticas_xp: 10 mini seconds publishing element
+Info: Concept:ritmo_sustentavel_xp: 6 mini seconds publishing element
+Info: Concept:pequenas_liberacoes: 8 mini seconds publishing element
+Info: Concept:propriedade_coletiva: 7 mini seconds publishing element
+Info: Concept:planejamento_do_jogo: 8 mini seconds publishing element
+Info: Concept:programacao_em_pares: 10 mini seconds publishing element
+Info: Concept:refatoracao_da_programacao_xp: 8 mini seconds publishing element
+Info: Concept:desenvolvimento_dirigido_por_testes: 7 mini seconds publishing element
+Info: Concept:testes_de_cliente: 8 mini seconds publishing element
+Info: Concept:integracao_continua: 8 mini seconds publishing element
+Info: Concept:design_simples: 9 mini seconds publishing element
+Info: Concept:metafora_sistema_de_nomes: 8 mini seconds publishing element
+Info: Concept:padrao_de_codificacao: 8 mini seconds publishing element
+Info: Concept:toda_a_equipe: 10 mini seconds publishing element
+Info: CustomCategory:visao_geral_das_diretrizes: 6 mini seconds publishing element
+Info: Guideline:ambiente_xp: 12 mini seconds publishing element
+Info: Guideline:espaco_de_trabalho_aberto: 5 mini seconds publishing element
+Info: Guideline:programacao_em_pares: 11 mini seconds publishing element
+Info: Guideline:refatoracao: 11 mini seconds publishing element
+Info: Guideline:desenvolvimento_dirigido_por_testes_tdd: 14 mini seconds publishing element
 Info: Guideline:planejamento_do_jogo: 16 mini seconds publishing element
-Info: Concept:pequenas_liberacoes: 14 mini seconds publishing element
-Info: Concept:planejamento_do_jogo: 10 mini seconds publishing element
-Info: Concept:qualidade_do_produto: 14 mini seconds publishing element
-Info: Concept:testes_de_cliente: 10 mini seconds publishing element
-Info: CustomCategory:overview: 8 mini seconds publishing element
-Info: CustomCategory:inicio: 298 mini-seconds referencing external URL: http://www.objectmentor.com/
-Info: CustomCategory:inicio: 318 mini-seconds referencing external URL: http://www.ibm.com/
-Info: CustomCategory:inicio: 650 mini seconds publishing element
-Info: SupportingMaterial:iniciando_com_xp: 335 mini-seconds referencing external URL: http://www.eclipse.org/epf
-Info: SupportingMaterial:iniciando_com_xp: 344 mini seconds publishing element
-Info: CustomCategory:principais_conceitos_xp: 9 mini seconds publishing element
-Info: CustomCategory:melhores_praticas_xp: 14 mini seconds publishing element
-Info: CustomCategory:visao_geral_das_diretrizes: 9 mini seconds publishing element
-Info: CustomCategory:white_papers_xp: 288 mini-seconds referencing external URL: http://www.objectmentor.com/processImprovement/xpRupResourceCenter/index
-Info: CustomCategory:white_papers_xp: 301 mini-seconds referencing external URL: http://www.objectmentor.com/resources
-Info: CustomCategory:white_papers_xp: 600 mini seconds publishing element
-Info: CustomCategory:equipe_xp: 6 mini seconds publishing element
-Info: CustomCategory:papeis_e_artefatos_xp: 7 mini seconds publishing element
-Info: CustomCategory:papeis_e_tarefas_xp: 9 mini seconds publishing element
-Info: SupportingMaterial:organizacao_xp: 9 mini seconds publishing element
-Info: SupportingMaterial:artefatos_xp: 9 mini seconds publishing element
-Info: CustomCategory:referencias: 262 mini-seconds referencing external URL: http://www.gao.gov
-Info: CustomCategory:referencias: 808 mini-seconds referencing external URL: http://www.redbooks.ibm.com/abstracts/sg245949.html
-Info: CustomCategory:referencias: 519 mini-seconds referencing external URL: http://www.redbooks.ibm.com/abstracts/sg245503.html
-Info: CustomCategory:referencias: 534 mini-seconds referencing external URL: http://www.redbooks.ibm.com/abstracts/sg245488.html
-Info: CustomCategory:referencias: 1495 mini-seconds referencing external URL: http://www.redbooks.ibm.com
-Info: CustomCategory:referencias: 1504 mini-seconds referencing external URL: http://www.ibm.com/e-business/
-Info: CustomCategory:referencias: 551 mini-seconds referencing external URL: http://www.ibm.com/software
-Info: CustomCategory:referencias: 735 mini-seconds referencing external URL: http://www.ibm.com/developer/
-Info: CustomCategory:referencias: 195 mini-seconds referencing external URL: http://www.ibm.com/services/
-Info: CustomCategory:referencias: 599 mini-seconds referencing external URL: http://www.pmforum.org/library/glossary/
-Info: CustomCategory:referencias: 413 mini-seconds referencing external URL: http://www.omg.org/mda/specs.htm
-Info: CustomCategory:referencias: 437 mini-seconds referencing external URL: http://www.rational.com/uml
-Info: CustomCategory:referencias: 583 mini-seconds referencing external URL: http://www.stickyminds.com/sitewide.asp?sid=582697&sqry=*J(MIXED)*R(createdate)*K(simplesite)*F(what is exploratory testing)*&sidx=0&sopp=10&ObjectId=2255&Function=DETAILBROWSE&ObjectType=COL
-Info: CustomCategory:referencias: 1558 mini-seconds referencing external URL: http://www.testing.com/writings/omissions.pdf
-Info: : 10247 mini-second(s) publishing element CustomCategory:referencias[xp\customcategories\referencias_7226794B.html]
-Info: CustomCategory:referencias: 10248 mini seconds publishing element
+Info: CustomCategory:white_papers_xp: 6 mini seconds publishing element
+Info: Whitepaper:diretrizes_xp_programacao_em_pares: 13 mini seconds publishing element
+Info: Whitepaper:diretrizes_xp_design_teste-primeiro_e_refatoracao: 9 mini seconds publishing element
+Info: Whitepaper:refatoracao: 10 mini seconds publishing element
+Info: CustomCategory:equipe_xp: 5 mini seconds publishing element
+Info: RoleSet:papeis_xp: 9 mini seconds publishing element
+Info: Role:treinador_xp: 61 mini seconds publishing element
+Info: Task:adaptar_e_melhorar_o_processo: 10 mini seconds publishing element
+Info: Task:adaptar_e_melhorar_o_processo: 12 mini seconds publishing element
+Info: Task:explicar_processo: 9 mini seconds publishing element
+Info: Task:explicar_processo: 10 mini seconds publishing element
+Info: Task:manter_processo_no_rumo: 13 mini seconds publishing element
+Info: Task:melhorar_habilidades_da_equipe: 8 mini seconds publishing element
+Info: Task:melhorar_habilidades_da_equipe: 12 mini seconds publishing element
+Info: Task:resolver_conflitos: 10 mini seconds publishing element
+Info: Role:cliente_xp: 91 mini seconds publishing element
+Info: Task:atualizar_plano_de_iteracao: 13 mini seconds publishing element
+Info: Task:definir_plano_de_iteracao: 21 mini seconds publishing element
+Info: Task:definir_plano_de_iteracao: 15 mini seconds publishing element
+Info: Task:definir_plano_de_liberacao: 12 mini seconds publishing element
+Info: Task:definir_teste_de_cliente: 13 mini seconds publishing element
+Info: Task:definir_visao_xp: 11 mini seconds publishing element
+Info: Task:escrever_historia_de_usuario: 9 mini seconds publishing element
+Info: Task:informar_resultado_do_teste_de_cliente: 11 mini seconds publishing element
+Info: Task:informar_status_do_projeto: 8 mini seconds publishing element
+Info: Task:realizar_testes_de_aceitao_das_novas_funcionalidades_: 13 mini seconds publishing element
+Info: Task:realizar_testes_de_integrao_das_novas_funcionalidades: 8 mini seconds publishing element
+Info: Task:revisar_plano_de_liberacao: 10 mini seconds publishing element
+Info: Artifact:historia_de_usuario_xp: 13 mini seconds publishing element
+Info: Artifact:plano_de_iteracao_xp: 12 mini seconds publishing element
+Info: Artifact:plano_de_liberacao_xp: 13 mini seconds publishing element
+Info: Artifact:teste_de_cliente_xp: 10 mini seconds publishing element
+Info: Artifact:visao_xp: 11 mini seconds publishing element
+Info: Concept:lista_de_ideias_de_teste: 18 mini seconds publishing element
+Info: Concept:qualidade_do_produto: 12 mini seconds publishing element
+Info: Role:programador_xp: 86 mini seconds publishing element
+Info: Task:decompor_historia: 8 mini seconds publishing element
+Info: Task:definir_padrao_de_codificacao: 8 mini seconds publishing element
+Info: Task:escrever_codigo: 15 mini seconds publishing element
+Info: Task:estimar_historia_de_usuario: 10 mini seconds publishing element
+Info: Task:estimar_tarefa: 8 mini seconds publishing element
+Info: Task:implementar_experimento: 8 mini seconds publishing element
+Info: Task:implementar_requisitos_planejados: 9 mini seconds publishing element
+Info: Task:integrar_o_sistema: 8 mini seconds publishing element
+Info: Task:Realizar testes de unidade no sistema: 11 mini seconds publishing element
+Info: Task:Realizar testes de unidade no sistema: 12 mini seconds publishing element
+Info: Task:refatorar_codigo: 10 mini seconds publishing element
+Info: Task:Revisar requisitos e casos de uso: 8 mini seconds publishing element
+Info: Artifact:codigo_de_producao_xp: 15 mini seconds publishing element
+Info: Artifact:construcao_xp: 19 mini seconds publishing element
+Info: Artifact:metafora_xp: 9 mini seconds publishing element
+Info: Artifact:padrao_de_codificacao_xp: 10 mini seconds publishing element
+Info: Artifact:teste_de_unidade_xp: 12 mini seconds publishing element
+Info: Example:exemplos_de_catalogos_de_ideias_de_teste: 8 mini seconds publishing element
+Info: Concept:testes_de_desenvolvedor: 20 mini seconds publishing element
+Info: Concept:design_teste-primeiro: 21 mini seconds publishing element
+Info: Guideline:ideias_de_teste_para_chamadas_de_metodos: 10 mini seconds publishing element
+Info: Guideline:ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo: 15 mini seconds publishing element
+Info: Guideline:ideias_de_teste_para_valores_limitrofes_e_booleanos: 22 mini seconds publishing element
+Info: Guideline:analise_de_classe_de_equivalencia: 10 mini seconds publishing element
+Info: Concept:catalogo_de_ideias_de_teste: 19 mini seconds publishing element
+Info: Role:administrador_de_sistemas_xp: 25 mini seconds publishing element
+Info: Task:implantar_ambiente_de_programacao: 13 mini seconds publishing element
+Info: Role:rastreador_xp: 27 mini seconds publishing element
+Info: Task:acompanhar_progresso_da_iteracao: 7 mini seconds publishing element
+Info: Task:acompanhar_progresso_da_iteracao: 8 mini seconds publishing element
+Info: Task:acompanhar_progresso_da_liberacao: 7 mini seconds publishing element
+Info: Role:testador_xp: 202 mini seconds publishing element
+Info: Task:automatizar_teste_de_aceitacao: 36 mini seconds publishing element
+Info: Task:Correção de erros: 21 mini seconds publishing element
+Info: Task:executar_teste_de_aceitacao: 16 mini seconds publishing element
+Info: Task:implantar_ambiente_de_testes: 13 mini seconds publishing element
+Info: Task:implantar_ambiente_de_testes: 44 mini seconds publishing element
+Info: Task:realizar_testes_de_sistema: 6 mini seconds publishing element
+Info: Task:Teste de aceitação: 15 mini seconds publishing element
+Info: CustomCategory:papeis_e_artefatos_xp: 5 mini seconds publishing element
+Info: CustomCategory:papeis_e_tarefas_xp: 12 mini seconds publishing element
+Info: SupportingMaterial:organizacao_xp: 6 mini seconds publishing element
+Info: SupportingMaterial:artefatos_xp: 16 mini seconds publishing element
+Info: CustomCategory:roteiro_conceitual: 9 mini seconds publishing element
+Info: Concept:programacao_extrema: 12 mini seconds publishing element
+Info: CustomCategory:referencias: 58 mini seconds publishing element
+Info: SupportingMaterial:referencias_sobre_xp_e_processo_agil: 8 mini seconds publishing element
+Info: DeliveryProcess:Ciclo de vida: 167 mini seconds publishing element
+Info: DeliveryProcess:Ciclo de vida: 403 mini seconds publishing process specific layout data
+Info: Phase:Planejamento: 176 mini seconds publishing element
+Info: TaskDescriptor:explicar_processo: 17 mini seconds publishing element
+Info: TaskDescriptor:melhorar_habilidades_da_equipe: 13 mini seconds publishing element
+Info: TaskDescriptor:Revisar requisitos e casos de uso: 11 mini seconds publishing element
+Info: TaskDescriptor:Validação de sistema corporativo: 16 mini seconds publishing element
+Info: TaskDescriptor:adaptar_e_melhorar_o_processo: 14 mini seconds publishing element
+Info: TaskDescriptor:definir_plano_de_iteracao: 18 mini seconds publishing element
+Info: Phase:Elaboração: 342 mini seconds publishing element
+Info: TaskDescriptor:implantar_ambiente_de_testes: 9 mini seconds publishing element
+Info: TaskDescriptor:Realizar testes de unidade no sistema: 9 mini seconds publishing element
+Info: TaskDescriptor:atualizar_plano_de_implementao: 6 mini seconds publishing element
+Info: TaskDescriptor:acompanhar_progresso_da_iteracao: 8 mini seconds publishing element
+Info: Phase:Implementação: 86 mini seconds publishing element
+Info: TaskDescriptor:Correção de erros: 5 mini seconds publishing element
+Info: TaskDescriptor:implementar_requisitos_planejados: 10 mini seconds publishing element
+Info: TaskDescriptor:Realizar testes de unidade no sistema: 22 mini seconds publishing element
+Info: TaskDescriptor:realizar_testes_de_integrao_das_novas_funcionalidades: 8 mini seconds publishing element
+Info: TaskDescriptor:realizar_testes_de_aceitao_das_novas_funcionalidades_: 14 mini seconds publishing element
+Info: Phase:Testes: 85 mini seconds publishing element
+Info: TaskDescriptor:Teste de aceitação: 7 mini seconds publishing element
+Info: CustomCategory:Foodstock (Adaptações do XP): 23 mini seconds publishing element
+Info: Guideline:desenvolvimento_dirigido_por_testes_tdd: 16 mini seconds publishing element
+Info: Concept:integracao_continua: 6 mini seconds publishing element
+Info: Practice:Integração Contínua: 13 mini seconds publishing element
+Info: Concept:lista_de_ideias_de_teste: 13 mini seconds publishing element
+Info: Concept:padrao_de_codificacao: 9 mini seconds publishing element
+Info: Practice:Propriedade Coletiva: 9 mini seconds publishing element
+Info: Guideline:refatoracao: 15 mini seconds publishing element
+Info: Whitepaper:refatoracao: 9 mini seconds publishing element
+Info: Practice:Refatoração: 19 mini seconds publishing element
+Info: Concept:refatoracao_da_programacao_xp: 13 mini seconds publishing element
+Info: Practice:Reunião semanal: 8 mini seconds publishing element
+Info: Practice:Reuniões esporádicas: 10 mini seconds publishing element
+Info: Practice:ritmo_sustentavel: 36 mini seconds publishing element
+Info: Practice:Teste: 7 mini seconds publishing element
 Info: SupportingMaterial:equipe_cliente_xp: 6 mini seconds publishing element
-Info: SupportingMaterial:equipe_desenvolvedora_xp: 8 mini seconds publishing element
-Info: CustomCategory:roteiro_conceitual: 6 mini seconds publishing element
-Info: : 13 seconds validating external links
-Info: : Publishing time: 0 minutes 27 seconds
+Info: SupportingMaterial:equipe_desenvolvedora_xp: 6 mini seconds publishing element
+Info: RoleDescriptor:treinador_xp: 21 mini seconds publishing element
+Info: RoleDescriptor:cliente_xp: 13 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_iteracao_xp: 13 mini seconds publishing element
+Info: WorkProductDescriptor:plano_de_liberacao_xp: 11 mini seconds publishing element
+Info: RoleDescriptor:programador_xp: 15 mini seconds publishing element
+Info: RoleDescriptor:programador_xp: 23 mini seconds publishing element
+Info: RoleDescriptor:programador_xp: 16 mini seconds publishing element
+Info: WorkProductDescriptor:codigo_de_producao_xp: 10 mini seconds publishing element
+Info: WorkProductDescriptor:codigo_de_producao_xp: 15 mini seconds publishing element
+Info: WorkProductDescriptor:construcao_xp: 23 mini seconds publishing element
+Info: WorkProductDescriptor:construcao_xp: 13 mini seconds publishing element
+Info: RoleDescriptor:rastreador_xp: 9 mini seconds publishing element
+Info: RoleDescriptor:testador_xp: 9 mini seconds publishing element
+Info: : Publishing time: 0 minutes 5 seconds

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VfENRFTghyjDLKpA82IkBw" name="new_practice,_UVehAEObEemEOvVpXztn1g" guid="-VfENRFTghyjDLKpA82IkBw" changeDate="2019-03-10T22:30:04.191-0300">
+  <mainDescription>&lt;p&#xD;
+style='FONT-SIZE: 18px; FONT-FAMILY: &quot;Source Serif Pro&quot;, serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(37,58,68); OUTLINE-WIDTH: medium; FONT-STYLE: normal; OUTLINE-STYLE: none; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; OUTLINE-COLOR: invert; TEXT-INDENT: 0px; -webkit-tap-highlight-color: transparent; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&#xD;
+    A refatoração significa melhorar o código sem alterar sua funcionalidade. Antes de uma mudança sempre refatoramos o&#xD;
+    código para facilitar a realização de mudanças. Ou seja, se após a refatoração o código continua funcionando como&#xD;
+    anteriormente, incluímos as novas mudanças. A refatoração contínua possibilita manter um bom projeto, apesar das&#xD;
+    mudanças frequentes. O Projeto é uma atividade diária, de responsabilidade de todos.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style='FONT-SIZE: 18px; FONT-FAMILY: &quot;Source Serif Pro&quot;, serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(37,58,68); OUTLINE-WIDTH: medium; FONT-STYLE: normal; OUTLINE-STYLE: none; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; OUTLINE-COLOR: invert; TEXT-INDENT: 0px; -webkit-tap-highlight-color: transparent; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>&#xD;
+    A refatoração provê um aumento contínuo de qualidade do código.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:PracticeDescription>

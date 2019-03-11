@@ -1,79 +1,31 @@
-Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
-Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
-Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Role:programador_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Task:realizar_testes_de_aceitao_das_novas_funcionalidades_: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
+Warning: Task:realizar_testes_de_integrao_das_novas_funcionalidades: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
 Warning: Role:programador_xp: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Phase:Elaboração: missing resource file './../../xp/deliveryprocesses/resources/Elabora&ccedil;&atilde;o_6333A21C_ActivityDetail.jpeg'
-Warning: Phase:Elaboração: missing resource file './../../xp/deliveryprocesses/resources/Elabora&ccedil;&atilde;o_6333A21C_ActivityDetail.jpeg'
-Warning: Task:implantar_ambiente_de_testes: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
-Warning: Role:testador_xp: missing resource file './../../xp/tasks/Corre&ccedil;&atilde;o de erros_99F5ABF6.html'
-Warning: Role:testador_xp: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
-Warning: Role:testador_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Role:programador_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Task:implementar_requisitos_planejados: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
 Warning: Task:Realizar testes de unidade no sistema: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
-Warning: Artifact:codigo_de_producao_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Task:Realizar testes de unidade no sistema: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
 Warning: Artifact:codigo_de_producao_xp: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
+Warning: Artifact:codigo_de_producao_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
 Warning: Artifact:construcao_xp: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
 Warning: Artifact:construcao_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
 Warning: Artifact:construcao_xp: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Task:acompanhar_progresso_da_iteracao: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
 Warning: Role:rastreador_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
-Warning: Phase:Implementação: missing resource file './../../xp/deliveryprocesses/resources/Implementa&ccedil;&atilde;o_37FA12FD_ActivityDetail.jpeg'
-Warning: Phase:Implementação: missing resource file './../../xp/deliveryprocesses/resources/Implementa&ccedil;&atilde;o_37FA12FD_ActivityDetail.jpeg'
+Warning: Task:acompanhar_progresso_da_iteracao: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Role:testador_xp: missing resource file './../../xp/tasks/Corre&ccedil;&atilde;o de erros_99F5ABF6.html'
+Warning: Role:testador_xp: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
+Warning: Role:testador_xp: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
 Warning: Task:Correção de erros: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Task:Correção de erros: missing resource file './../../xp/tasks/Corre&ccedil;&atilde;o de erros_99F5ABF6.html'
-Warning: Task:implementar_requisitos_planejados: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Task:Realizar testes de unidade no sistema: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Task:realizar_testes_de_integrao_das_novas_funcionalidades: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Task:realizar_testes_de_aceitao_das_novas_funcionalidades_: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
-Warning: Phase:Testes: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
-Warning: Phase:Testes: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
-Warning: Task:Teste de aceitação: missing resource file './../../xp/tasks/Teste de aceita&ccedil;&atilde;o_F1FBF57F.html'
-Warning: CustomCategory:roteiro_conceitual: Empty content category element not published.
-Warning: Concept:toda_a_equipe: Missing referenced element Concept:direitos_xp
-Warning: Concept:toda_a_equipe: Missing referenced element Concept:direitos_xp
-Warning: Concept:desenvolvimento_dirigido_por_testes: Missing referenced element Guideline:desenvolvimento_dirigido_por_testes_tdd
-Warning: Concept:desenvolvimento_dirigido_por_testes: Missing referenced element Guideline:desenvolvimento_dirigido_por_testes_tdd
-Warning: Concept:design_teste-primeiro: Missing referenced element Guideline:ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo
-Warning: Concept:design_teste-primeiro: Missing referenced element Guideline:ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_valores_limitrofes_e_booleanos
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_valores_limitrofes_e_booleanos
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_chamadas_de_metodos
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_chamadas_de_metodos
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo
-Warning: Concept:lista_de_ideias_de_teste: Missing referenced element Guideline:ideias_de_teste_para_graficos_de_estado_e_diagramas_de_fluxo
-Warning: Concept:programacao_em_pares: Missing referenced element Guideline:programacao_em_pares
-Warning: Concept:programacao_em_pares: Missing referenced element Guideline:programacao_em_pares
-Warning: Concept:refatoracao_da_programacao_xp: Missing referenced element Guideline:refatoracao
-Warning: Concept:refatoracao_da_programacao_xp: Missing referenced element Guideline:refatoracao
-Warning: CustomCategory:inicio: Missing referenced element Concept:o_que_e_xp
-Warning: CustomCategory:inicio: Missing referenced element Concept:o_que_e_xp
-Warning: CustomCategory:inicio: Missing referenced element Concept:motivacao
-Warning: CustomCategory:inicio: Missing referenced element Concept:motivacao
-Warning: CustomCategory:inicio: Missing referenced element Concept:desenvolvimento_agil_de_software
-Warning: CustomCategory:inicio: Missing referenced element Concept:desenvolvimento_agil_de_software
-Warning: CustomCategory:inicio: Missing referenced element Concept:programacao_extrema
-Warning: CustomCategory:inicio: Missing referenced element Concept:programacao_extrema
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:o_que_e_xp
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:o_que_e_xp
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:motivacao
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:motivacao
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:desenvolvimento_agil_de_software
-Warning: SupportingMaterial:iniciando_com_xp: Missing referenced element Concept:desenvolvimento_agil_de_software
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:visao_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:visao_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:historia_de_usuario_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:historia_de_usuario_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:teste_de_cliente_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:teste_de_cliente_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:metafora_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:metafora_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:padrao_de_codificacao_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:padrao_de_codificacao_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:teste_de_unidade_xp
-Warning: SupportingMaterial:artefatos_xp: Missing referenced element Artifact:teste_de_unidade_xp
-Warning: CustomCategory:referencias: Unable to connect to URL 'http://www.redbooks.ibm.com/abstracts/sg245949.html': http://www.redbooks.ibm.com/abstracts/sg245949.html
-Warning: CustomCategory:referencias: Unable to connect to URL 'http://www.redbooks.ibm.com/abstracts/sg245503.html': http://www.redbooks.ibm.com/abstracts/sg245503.html
-Warning: CustomCategory:referencias: Unable to connect to URL 'http://www.redbooks.ibm.com/abstracts/sg245488.html': http://www.redbooks.ibm.com/abstracts/sg245488.html
-Warning: CustomCategory:referencias: Unable to connect to URL 'http://www.stickyminds.com/sitewide.asp?sid=582697&sqry=*J(MIXED)*R(createdate)*K(simplesite)*F(what is exploratory testing)*&sidx=0&sopp=10&ObjectId=2255&Function=DETAILBROWSE&ObjectType=COL': Server returned HTTP response code: 403 for URL: http://www.stickyminds.com/sitewide.asp?sid=582697&sqry=*J(MIXED)*R(createdate)*K(simplesite)*F(what is exploratory testing)*&sidx=0&sopp=10&ObjectId=2255&Function=DETAILBROWSE&ObjectType=COL
-Warning: CustomCategory:referencias: Unable to connect to URL 'http://www.testing.com/writings/omissions.pdf': Connection refused: connect
+Warning: Task:Correção de erros: missing resource file './../../xp/deliveryprocesses/Corre&ccedil;&atilde;o de erros_73DEC60C.html'
+Warning: Task:implantar_ambiente_de_testes: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: Task:Teste de aceitação: missing resource file './../../xp/deliveryprocesses/Teste de aceita&ccedil;&atilde;o_9D8AFFDE.html'
+Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
+Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Elabora&ccedil;&atilde;o_6333A21C.html'
+Warning: DeliveryProcess:Ciclo de vida: missing resource file './../../xp/deliveryprocesses/Implementa&ccedil;&atilde;o_37FA12FD.html'
+Warning: Phase:Elaboração: missing resource file './../../xp/deliveryprocesses/resources/Elabora&ccedil;&atilde;o_6333A21C_ActivityDetail.jpeg'
+Warning: Phase:Elaboração: missing resource file './../../xp/deliveryprocesses/resources/Elabora&ccedil;&atilde;o_6333A21C_ActivityDetail.jpeg'
+Warning: Phase:Implementação: missing resource file './../../xp/deliveryprocesses/resources/Implementa&ccedil;&atilde;o_37FA12FD_ActivityDetail.jpeg'
+Warning: Phase:Implementação: missing resource file './../../xp/deliveryprocesses/resources/Implementa&ccedil;&atilde;o_37FA12FD_ActivityDetail.jpeg'
+Warning: Phase:Testes: missing resource file './../../xp/deliveryprocesses/Teste de aceita&ccedil;&atilde;o_9D8AFFDE.html'
+Warning: Phase:Testes: missing resource file './../../xp/deliveryprocesses/Teste de aceita&ccedil;&atilde;o_9D8AFFDE.html'

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ARz_S4m7CfqKTK2FdoQrHA" name="continuous_integration,3.193414568279561E-305" guid="-ARz_S4m7CfqKTK2FdoQrHA" changeDate="2006-11-08T21:55:42.002-0300" version="1.0.0">
+  <mainDescription>&lt;a id=&quot;XE_xp__continuous_integration&quot; name=&quot;XE_xp__continuous_integration&quot;>&lt;/a>&lt;a id=&quot;XE_continuous_integration__practice_of&quot; name=&quot;XE_continuous_integration__practice_of&quot;>&lt;/a>&lt;a id=&quot;XE_engineering_practices__continuous_integration&quot; name=&quot;XE_engineering_practices__continuous_integration&quot;>&lt;/a> &#xD;
+&lt;h3>Descrição&lt;/h3>&#xD;
+&lt;p>Uma das metas da XP é assegurar que o cliente possa tocar e sentir o progresso real, que reflete o investimento realizado até o momento. À medida que a equipe constrói o software gradativamente de acordo com as prioridades do cliente, as novas funcionalidades são continuamente integradas e demonstradas ao cliente.&lt;/p>&#xD;
+&lt;p>A integração na XP pode acontecer várias vezes ao dia. À medida que os desenvolvedores terminam suas tarefas, eles integram o que construíram. Normalmente a integração é feita em uma máquina dedicada à integração, a fim de serializar o processo. A integração é suportada por testes de unidade e testes de aceitação. Quando um par de programadores senta-se pela primeira vez na máquina de integração, o código base existente passa por todos os testes. Então eles começam a integrar as suas alterações no código e verificar os conflitos. Então, eles executam todos os testes. Se qualquer teste falhar, o par é responsável por corrigir o código até que passe pelos testes. Visto que os testes executavam com sucesso anteriormente, os erros estão de alguma forma relacionados às alterações que foram feitas no código. Quando todos os testes tiverem sido executados com sucesso, será considerado que a integração obteve sucesso e outro par poderá então integrar as suas mudanças. A construção integrada poderá então ser entregue ao cliente, que verá as novas funcionalidades em um sistema executável.&lt;/p>&#xD;
+&lt;p>Obviamente, esta prática exige a utilização de ferramentas e um ambiente que suporte ciclos rápidos de integração, construção e teste.&lt;/p>&#xD;
+&lt;h3>Benefícios&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Integrações simples e rápidas:&lt;/b> reduzem importantes conflitos associados a grandes integrações e garantem que as pessoas estejam trabalhando com a versão mais recente do código.&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Aumento de Feedback&lt;/b>: exibe progresso constante e demonstrável (o sistema executável passa nos testes de aceitação do cliente).&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Sistema sempre despachável&lt;/b>: a versão mais recente do sistema, que passou por todos os testes, estará sempre disponível.&lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

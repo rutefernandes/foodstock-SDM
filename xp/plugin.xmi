@@ -119,8 +119,22 @@
     <resourceDescriptors xmi:id="_Utf4MDhSEem99Ok3IXHQYg" id="-Jw4xAQOMhHgpzxfZPzRMgQ" uri="tasks/implementar_requisitos_planejados.xmi"/>
     <resourceDescriptors xmi:id="_UuCqwDhSEem99Ok3IXHQYg" id="-OrUIWkTX9Fr9GHsm2xuA1Q" uri="tasks/realizar_testes_de_aceitao_das_novas_funcionalidades_.xmi"/>
     <resourceDescriptors xmi:id="_fYdpcDh7EemflZUgfzwjrA" id="-VJQSWJYanUMBhHeINO6vXw" uri="tasks/realizar_testes_de_integrao_das_novas_funcionalidades.xmi"/>
+    <resourceDescriptors xmi:id="_UWOu8EObEemEOvVpXztn1g" id="--mfSlXK1-6fNvrGyv8C2Eg" uri="guidances/guidelines/desenvolvimento_dirigido_por_testes_tdd%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWRyQEObEemEOvVpXztn1g" id="-EVEGcbJYXiPGrFSMzUCanQ" uri="guidances/practices/ritmo_sustentavel%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWUOgEObEemEOvVpXztn1g" id="-a5Dm5TNLud3fZgUm4ZO9Pg" uri="guidances/concepts/padrao_de_codificacao%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWYf8EObEemEOvVpXztn1g" id="-SccAPGvHGWNL5WoKP-BsDA" uri="guidances/concepts/refatoracao_da_programacao_xp%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWa8MEObEemEOvVpXztn1g" id="-TBjyFDo7ZPV6jaXdr0JwFg" uri="guidances/guidelines/refatoracao%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWd_gEObEemEOvVpXztn1g" id="-wQR9j05bbdl8eQR8RoauiQ" uri="guidances/whitepapers/refatoracao%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWf0sEObEemEOvVpXztn1g" id="-ARz_S4m7CfqKTK2FdoQrHA" uri="guidances/concepts/integracao_continua%202.xmi"/>
+    <resourceDescriptors xmi:id="_UWktMEObEemEOvVpXztn1g" id="-S5hMFvvt4rKI1zSQHduA5A" uri="guidances/concepts/lista_de_ideias_de_teste%202.xmi"/>
+    <resourceDescriptors xmi:id="_j0iakEOcEemEOvVpXztn1g" id="-qqpQi_IryWGHEOrFlsIOqg" uri="guidances/practices/Teste.xmi"/>
+    <resourceDescriptors xmi:id="_2A75kEOcEemEOvVpXztn1g" id="-oTjcwoa22IjqS4el9JoCEA" uri="guidances/practices/Integração%20Contínua.xmi"/>
+    <resourceDescriptors xmi:id="_FnYC8EOdEemEOvVpXztn1g" id="-PKsQxhbiCr8QCPqi2H-lVg" uri="guidances/practices/Propriedade%20Coletiva.xmi"/>
+    <resourceDescriptors xmi:id="_M6nnEEOdEemEOvVpXztn1g" id="-VfENRFTghyjDLKpA82IkBw" uri="guidances/practices/Refatoração.xmi"/>
+    <resourceDescriptors xmi:id="_dL75cEOdEemEOvVpXztn1g" id="-F8qnPh-6aXre_E18K5Vzhw" uri="guidances/practices/Reuniões%20esporádicas.xmi"/>
+    <resourceDescriptors xmi:id="_j2CZ8EOdEemEOvVpXztn1g" id="-QdnRG9-uvHwGOAT_QK8X9Q" uri="guidances/practices/Reunião%20semanal.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" name="xp" guid="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" changeDate="2006-11-08T20:45:47.271-0200" copyrightStatement="_XI5PQHEPEdug-a-RuUM3Hg">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" name="xp" guid="{35DCB3E1-2766-423E-A849-57ECD4F41A40}" changeDate="2006-11-08T19:45:47.271-0300" copyrightStatement="_XI5PQHEPEdug-a-RuUM3Hg">
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QGE-EdqnIZeW8YpHcA" name="Content" guid="_mhU6QGE-EdqnIZeW8YpHcA">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QWE-EdqnIZeW8YpHcA" name="Categories" guid="_mhU6QWE-EdqnIZeW8YpHcA">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6QmE-EdqnIZeW8YpHcA" name="Domains" guid="_mhU6QmE-EdqnIZeW8YpHcA"/>
@@ -166,8 +180,13 @@
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_mtDpJGE-EdqnIZeW8YpHcA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_mtcqtmE-EdqnIZeW8YpHcA"/>
             <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_6EZlADfVEemwn90hXFEE7g#_6EZlATfVEemwn90hXFEE7g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_YB2o8EOXEemEOvVpXztn1g"/>
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_8NSdoGdjEdqlnYmIxoiUEQ" name="equipe_xp" guid="_8NSdoGdjEdqlnYmIxoiUEQ" presentationName="Equipe XP" categorizedElements="_13azwGNdEdqsrK7eslBiiA _mtcquWE-EdqnIZeW8YpHcA"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_YB2o8EOXEemEOvVpXztn1g" name="Foodstock (Adaptações do XP)" guid="_YB2o8EOXEemEOvVpXztn1g" presentationName="Foodstock (Adaptações do XP)" categorizedElements="_xJoeUEOaEemEOvVpXztn1g _E-VX4EObEemEOvVpXztn1g _rELtkEObEemEOvVpXztn1g _L1LT4EObEemEOvVpXztn1g _9-Vf4EOaEemEOvVpXztn1g _ZF6KIEObEemEOvVpXztn1g _AjHw0EObEemEOvVpXztn1g _B8ZQ4EObEemEOvVpXztn1g _UVehAEObEemEOvVpXztn1g __PMq0EOaEemEOvVpXztn1g _iCJFUEObEemEOvVpXztn1g _k7c0wEObEemEOvVpXztn1g _yd3GUEOaEemEOvVpXztn1g _6L0bEEObEemEOvVpXztn1g">
+            <methodElementProperty xmi:id="_ifS4MEOXEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <methodElementProperty xmi:id="_zglO8EOXEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="false"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mhU6S2E-EdqnIZeW8YpHcA" name="CoreContent" guid="_mhU6S2E-EdqnIZeW8YpHcA">
@@ -546,6 +565,64 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_se6n8DfvEemUQtxHzDLDiA" name="realizar_testes_de_sistema" guid="_se6n8DfvEemUQtxHzDLDiA" presentationName="Realizar testes de sistema" performedBy="{FB65D00B-8304-4CF7-9969-52CE82F503DC}">
             <methodElementProperty xmi:id="_-rEPUDfvEemUQtxHzDLDiA" name="me_edited" value="true"/>
             <presentation xmi:id="-DD4kfvrxk4wkMtFCIlDwpw" href="uma://-DD4kfvrxk4wkMtFCIlDwpw#-DD4kfvrxk4wkMtFCIlDwpw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_hwuQEEOZEemEOvVpXztn1g" name="práticas_xp_foodstock" guid="_hwuQEEOZEemEOvVpXztn1g" presentationName="práticas xp (foodstock)">
+          <methodElementProperty xmi:id="_hwuQEUOZEemEOvVpXztn1g" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_P1u0sEOaEemEOvVpXztn1g" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_xJoeUEOaEemEOvVpXztn1g" name="desenvolvimento_dirigido_por_testes_tdd" guid="_xJoeUEOaEemEOvVpXztn1g" presentationName="Desenvolvimento Dirigido por Testes (TDD)">
+            <presentation xmi:id="--mfSlXK1-6fNvrGyv8C2Eg" href="uma://--mfSlXK1-6fNvrGyv8C2Eg#--mfSlXK1-6fNvrGyv8C2Eg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_yd3GUEOaEemEOvVpXztn1g" name="ritmo_sustentavel" guid="_yd3GUEOaEemEOvVpXztn1g" presentationName="Ritmo Sustentável" contentReferences="3.133529870649493E-306">
+            <presentation xmi:id="-EVEGcbJYXiPGrFSMzUCanQ" href="uma://-EVEGcbJYXiPGrFSMzUCanQ#-EVEGcbJYXiPGrFSMzUCanQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_9-Vf4EOaEemEOvVpXztn1g" name="padrao_de_codificacao" guid="_9-Vf4EOaEemEOvVpXztn1g" presentationName="Padrão de Codificação">
+            <presentation xmi:id="-a5Dm5TNLud3fZgUm4ZO9Pg" href="uma://-a5Dm5TNLud3fZgUm4ZO9Pg#-a5Dm5TNLud3fZgUm4ZO9Pg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="__PMq0EOaEemEOvVpXztn1g" name="refatoracao_da_programacao_xp" guid="__PMq0EOaEemEOvVpXztn1g" presentationName="Refatoração">
+            <presentation xmi:id="-SccAPGvHGWNL5WoKP-BsDA" href="uma://-SccAPGvHGWNL5WoKP-BsDA#-SccAPGvHGWNL5WoKP-BsDA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_AjHw0EObEemEOvVpXztn1g" name="refatoracao" guid="_AjHw0EObEemEOvVpXztn1g" presentationName="Refatoração">
+            <presentation xmi:id="-TBjyFDo7ZPV6jaXdr0JwFg" href="uma://-TBjyFDo7ZPV6jaXdr0JwFg#-TBjyFDo7ZPV6jaXdr0JwFg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Whitepaper" xmi:id="_B8ZQ4EObEemEOvVpXztn1g" name="refatoracao" guid="_B8ZQ4EObEemEOvVpXztn1g" presentationName="Refatoração">
+            <presentation xmi:id="-wQR9j05bbdl8eQR8RoauiQ" href="uma://-wQR9j05bbdl8eQR8RoauiQ#-wQR9j05bbdl8eQR8RoauiQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_E-VX4EObEemEOvVpXztn1g" name="integracao_continua" guid="_E-VX4EObEemEOvVpXztn1g" presentationName="Integração Contínua">
+            <presentation xmi:id="-ARz_S4m7CfqKTK2FdoQrHA" href="uma://-ARz_S4m7CfqKTK2FdoQrHA#-ARz_S4m7CfqKTK2FdoQrHA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_L1LT4EObEemEOvVpXztn1g" name="lista_de_ideias_de_teste" guid="_L1LT4EObEemEOvVpXztn1g" presentationName="Lista de Ideias de Teste">
+            <presentation xmi:id="-S5hMFvvt4rKI1zSQHduA5A" href="uma://-S5hMFvvt4rKI1zSQHduA5A#-S5hMFvvt4rKI1zSQHduA5A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_UVehAEObEemEOvVpXztn1g" name="Refatoração" guid="_UVehAEObEemEOvVpXztn1g" presentationName="Refatoração">
+            <methodElementProperty xmi:id="_UV7M8EObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_Yi15UEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-VfENRFTghyjDLKpA82IkBw" href="uma://-VfENRFTghyjDLKpA82IkBw#-VfENRFTghyjDLKpA82IkBw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_ZF6KIEObEemEOvVpXztn1g" name="Propriedade Coletiva" guid="_ZF6KIEObEemEOvVpXztn1g" presentationName="Propriedade Coletiva">
+            <methodElementProperty xmi:id="_ZGR9kEObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_Z8i3MEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-PKsQxhbiCr8QCPqi2H-lVg" href="uma://-PKsQxhbiCr8QCPqi2H-lVg#-PKsQxhbiCr8QCPqi2H-lVg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_iCJFUEObEemEOvVpXztn1g" name="Reunião semanal" guid="_iCJFUEObEemEOvVpXztn1g" presentationName="Reunião semanal">
+            <methodElementProperty xmi:id="_iCg4wEObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_jED1UEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-QdnRG9-uvHwGOAT_QK8X9Q" href="uma://-QdnRG9-uvHwGOAT_QK8X9Q#-QdnRG9-uvHwGOAT_QK8X9Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_k7c0wEObEemEOvVpXztn1g" name="Reuniões esporádicas" guid="_k7c0wEObEemEOvVpXztn1g" presentationName="Reuniões esporádicas">
+            <methodElementProperty xmi:id="_k712UEObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_na89EEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-F8qnPh-6aXre_E18K5Vzhw" href="uma://-F8qnPh-6aXre_E18K5Vzhw#-F8qnPh-6aXre_E18K5Vzhw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rELtkEObEemEOvVpXztn1g" name="Integração Contínua" guid="_rELtkEObEemEOvVpXztn1g" presentationName="Integração Contínua">
+            <methodElementProperty xmi:id="_rEnycEObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_sYhDQEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-oTjcwoa22IjqS4el9JoCEA" href="uma://-oTjcwoa22IjqS4el9JoCEA#-oTjcwoa22IjqS4el9JoCEA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_6L0bEEObEemEOvVpXztn1g" name="Teste" guid="_6L0bEEObEemEOvVpXztn1g" presentationName="Teste" briefDescription="asasaas">
+            <methodElementProperty xmi:id="_6MXNoEObEemEOvVpXztn1g" name="PUBLISH_CATEGORY" value="true"/>
+            <methodElementProperty xmi:id="_8rTVQEObEemEOvVpXztn1g" name="me_edited" value="true"/>
+            <presentation xmi:id="-qqpQi_IryWGHEOrFlsIOqg" href="uma://-qqpQi_IryWGHEOrFlsIOqg#-qqpQi_IryWGHEOrFlsIOqg"/>
           </contentElements>
         </childPackages>
       </childPackages>
